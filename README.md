@@ -93,3 +93,8 @@ python deeper_optimizer_ui/deeper_optimizer.py
 - The API surface may vary across hardware revisions and firmware versions.
 - Some endpoints require authentication, wallet unlock state, or specific router features to be enabled.
 - Frontend extraction identifies likely behavior, but a few payload shapes may still need manual verification on-device.
+
+## License
+
+- Original code and documentation in this repository are released under the MIT license.
+- Downloaded vendor/frontend assets kept for research in `raw_router/assets_full/` and `raw_router/index.*` are excluded from that grant and remain under their original terms.
