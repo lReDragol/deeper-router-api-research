@@ -1,0 +1,712 @@
+[
+  {
+    "path": "/api/accessControl/list",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "size": 412,
+    "json_type": "dict",
+    "keys": [
+      "online",
+      "offline"
+    ]
+  },
+  {
+    "path": "/api/accessControl/switch",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "size": 15,
+    "json_type": "dict",
+    "keys": [
+      "value"
+    ]
+  },
+  {
+    "path": "/api/admin/getDeviceId",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "size": 59,
+    "json_type": "dict",
+    "keys": [
+      "deviceId"
+    ]
+  },
+  {
+    "path": "/api/admin/getMyCountry",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "size": 18,
+    "json_type": "dict",
+    "keys": [
+      "myCountry"
+    ]
+  },
+  {
+    "path": "/api/admin/remoteWeb",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "size": 17,
+    "json_type": "dict",
+    "keys": [
+      "running"
+    ]
+  },
+  {
+    "path": "/api/appRelocator/apps",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "size": 73449,
+    "json_type": "list",
+    "list_len": 7,
+    "item_keys": [
+      "category",
+      "appsBySubcategory"
+    ]
+  },
+  {
+    "path": "/api/autoReboot/config",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "size": 49,
+    "json_type": "dict",
+    "keys": [
+      "on",
+      "freq",
+      "day",
+      "hour",
+      "minute"
+    ]
+  },
+  {
+    "path": "/api/betanet/getBalanceAndCredit",
+    "status": 403,
+    "content_type": "application/json; charset=utf-8",
+    "size": 21,
+    "json_type": "dict",
+    "keys": [
+      "walletLocked"
+    ]
+  },
+  {
+    "path": "/api/betanet/getBalanceHistory",
+    "status": 403,
+    "content_type": "application/json; charset=utf-8",
+    "size": 21,
+    "json_type": "dict",
+    "keys": [
+      "walletLocked"
+    ]
+  },
+  {
+    "path": "/api/betanet/getOnChainStatus",
+    "status": 403,
+    "content_type": "application/json; charset=utf-8",
+    "size": 21,
+    "json_type": "dict",
+    "keys": [
+      "walletLocked"
+    ]
+  },
+  {
+    "path": "/api/betanet/getTransactionList",
+    "status": 403,
+    "content_type": "application/json; charset=utf-8",
+    "size": 21,
+    "json_type": "dict",
+    "keys": [
+      "walletLocked"
+    ]
+  },
+  {
+    "path": "/api/betanet/getTransactionSum",
+    "status": 403,
+    "content_type": "application/json; charset=utf-8",
+    "size": 21,
+    "json_type": "dict",
+    "keys": [
+      "walletLocked"
+    ]
+  },
+  {
+    "path": "/api/betanet/walletData",
+    "status": 403,
+    "content_type": "application/json; charset=utf-8",
+    "size": 21,
+    "json_type": "dict",
+    "keys": [
+      "walletLocked"
+    ]
+  },
+  {
+    "path": "/api/dynamic-data",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "size": 1869,
+    "json_type": "dict",
+    "keys": [
+      "upLoadData",
+      "downLoadData",
+      "xData"
+    ]
+  },
+  {
+    "path": "/api/info",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "size": 60,
+    "json_type": "list",
+    "list_len": 5
+  },
+  {
+    "path": "/api/inform",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "size": 5358,
+    "json_type": "dict",
+    "keys": [
+      "app",
+      "rgn",
+      "dns",
+      "https"
+    ]
+  },
+  {
+    "path": "/api/liquid",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "size": 14,
+    "json_type": "dict",
+    "keys": [
+      "scale"
+    ]
+  },
+  {
+    "path": "/api/microPayment/getDailyTraffic",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "size": 49,
+    "json_type": "dict",
+    "keys": [
+      "success",
+      "consumed",
+      "shared"
+    ]
+  },
+  {
+    "path": "/api/rustdesk/config",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "size": 72,
+    "json_type": "dict",
+    "keys": [
+      "on",
+      "forced",
+      "port",
+      "pubKey",
+      "vpnSupport"
+    ]
+  },
+  {
+    "path": "/api/rustdesk/hbbrLog",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "size": 2,
+    "json_type": "list",
+    "list_len": 0
+  },
+  {
+    "path": "/api/rustdesk/version",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "size": 31,
+    "json_type": "dict",
+    "keys": [
+      "hbbr",
+      "hbbs"
+    ]
+  },
+  {
+    "path": "/api/rustdesk/vpnConfig",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "size": 12,
+    "json_type": "dict",
+    "keys": [
+      "on"
+    ]
+  },
+  {
+    "path": "/api/security/blockedCounts",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "size": 90,
+    "json_type": "dict",
+    "keys": [
+      "ads",
+      "tracker",
+      "malicious",
+      "porn",
+      "social",
+      "game",
+      "black",
+      "total"
+    ]
+  },
+  {
+    "path": "/api/security/getUrlFilterData",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "size": 3051,
+    "json_type": "dict",
+    "keys": [
+      "timeline",
+      "totalSeries",
+      "blockedSeries",
+      "queries",
+      "categoryStates",
+      "shortInterval"
+    ]
+  },
+  {
+    "path": "/api/security/wanIpAccess",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "size": 12,
+    "json_type": "dict",
+    "keys": [
+      "val"
+    ]
+  },
+  {
+    "path": "/api/sharing/blacklist",
+    "status": 400,
+    "content_type": "",
+    "size": 0,
+    "json_parse_error": "Expecting value: line 1 column 1 (char 0)",
+    "body_sample": ""
+  },
+  {
+    "path": "/api/sharing/getSharingConfig",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "size": 127,
+    "json_type": "dict",
+    "keys": [
+      "success",
+      "sharingEnabled",
+      "btEnabled",
+      "smtpEnabled",
+      "maxBandwidth",
+      "dnsBlacklistForSharing"
+    ]
+  },
+  {
+    "path": "/api/sharing/getTrafficLimit",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "size": 46,
+    "json_type": "dict",
+    "keys": [
+      "limit",
+      "monthly"
+    ]
+  },
+  {
+    "path": "/api/sharingSecurity/getList/1000",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "size": 2,
+    "json_type": "list",
+    "list_len": 0
+  },
+  {
+    "path": "/api/sharingSecurity/getMode",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "size": 19,
+    "json_type": "dict",
+    "keys": [
+      "mode"
+    ]
+  },
+  {
+    "path": "/api/smartRoute/getDpnMode",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "size": 91,
+    "json_type": "dict",
+    "keys": [
+      "dpnMode",
+      "tunnelCode",
+      "killSwitch",
+      "smartTunnel",
+      "fullTunnel"
+    ]
+  },
+  {
+    "path": "/api/smartRoute/getRoutingBlacklist/domain",
+    "status": 400,
+    "content_type": "application/json; charset=utf-8",
+    "size": 35,
+    "json_type": "dict",
+    "keys": [
+      "paramError"
+    ]
+  },
+  {
+    "path": "/api/smartRoute/getRoutingBlacklist/ip",
+    "status": 400,
+    "content_type": "application/json; charset=utf-8",
+    "size": 35,
+    "json_type": "dict",
+    "keys": [
+      "paramError"
+    ]
+  },
+  {
+    "path": "/api/smartRoute/getRoutingWhitelist/domain",
+    "status": 400,
+    "content_type": "application/json; charset=utf-8",
+    "size": 35,
+    "json_type": "dict",
+    "keys": [
+      "paramError"
+    ]
+  },
+  {
+    "path": "/api/smartRoute/getRoutingWhitelist/ip",
+    "status": 400,
+    "content_type": "application/json; charset=utf-8",
+    "size": 35,
+    "json_type": "dict",
+    "keys": [
+      "paramError"
+    ]
+  },
+  {
+    "path": "/api/smartRoute/listTunnelOptions",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "size": 694,
+    "json_type": "list",
+    "list_len": 9,
+    "item_keys": [
+      "tunnelCode",
+      "regionCode",
+      "countryCode",
+      "addedByUser"
+    ]
+  },
+  {
+    "path": "/api/smartRoute/listTunnels",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "size": 1047,
+    "json_type": "list",
+    "list_len": 9,
+    "item_keys": [
+      "tunnelCode",
+      "regionCode",
+      "countryCode",
+      "addedByUser",
+      "activeNum",
+      "activeIp"
+    ]
+  },
+  {
+    "path": "/api/smartRoute/nodeLbMode",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "size": 15,
+    "json_type": "dict",
+    "keys": [
+      "mode"
+    ]
+  },
+  {
+    "path": "/api/speedometer",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "size": 14,
+    "json_type": "dict",
+    "keys": [
+      "guage"
+    ]
+  },
+  {
+    "path": "/api/system-info/get-autoupdate",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "size": 16,
+    "json_type": "dict",
+    "keys": [
+      "autoUpdate"
+    ]
+  },
+  {
+    "path": "/api/system-info/get-latestversion",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "size": 58,
+    "json_type": "dict",
+    "keys": [
+      "latestVersion",
+      "currentVersion"
+    ]
+  },
+  {
+    "path": "/api/system-info/hardware-info",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "size": 176,
+    "json_type": "dict",
+    "keys": [
+      "SN",
+      "deviceId",
+      "cpuCount",
+      "cpuModel",
+      "totalMem",
+      "tempInCelsius"
+    ]
+  },
+  {
+    "path": "/api/system-info/network-address",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "size": 111,
+    "json_type": "dict",
+    "keys": [
+      "ip",
+      "pubIp",
+      "routerMac",
+      "gatewayMac"
+    ]
+  },
+  {
+    "path": "/api/system-info/session-info",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "size": 139,
+    "json_type": "dict",
+    "keys": [
+      "maxSessionNum",
+      "currSessionNum",
+      "tcpSessionNum",
+      "udpSessionNum",
+      "icmpSessionNum",
+      "tunnelSessionNum"
+    ]
+  },
+  {
+    "path": "/api/system-info/set-autoupdate",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "size": 42,
+    "json_type": "dict",
+    "keys": [
+      "code",
+      "desc"
+    ]
+  },
+  {
+    "path": "/api/system-info/software-info",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "size": 117,
+    "json_type": "dict",
+    "keys": [
+      "softwareVersion",
+      "appSigVersion",
+      "builtinRuleVersion",
+      "urlSigVersion"
+    ]
+  },
+  {
+    "path": "/api/system-info/update-latestversion",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "size": 42,
+    "json_type": "dict",
+    "keys": [
+      "success",
+      "reason"
+    ]
+  },
+  {
+    "path": "/api/system-info/usage",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "size": 6695,
+    "json_type": "dict",
+    "keys": [
+      "xData",
+      "cpuUsageData",
+      "memUsageData"
+    ]
+  },
+  {
+    "path": "/api/tproxy/adsFilter",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "size": 31,
+    "json_type": "dict",
+    "keys": [
+      "success",
+      "enable"
+    ]
+  },
+  {
+    "path": "/api/tproxy/rule",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "size": 26,
+    "json_type": "dict",
+    "keys": [
+      "success",
+      "list"
+    ]
+  },
+  {
+    "path": "/api/tproxy/sslBypass",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "size": 31,
+    "json_type": "dict",
+    "keys": [
+      "success",
+      "enable"
+    ]
+  },
+  {
+    "path": "/api/traffic/routedInfo",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "size": 38,
+    "json_type": "dict",
+    "keys": [
+      "count",
+      "traffic"
+    ]
+  },
+  {
+    "path": "/api/traffic/savedTraffic",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "size": 39,
+    "json_type": "dict",
+    "keys": [
+      "total",
+      "saved"
+    ]
+  },
+  {
+    "path": "/api/traffic/session-speed",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "size": 965,
+    "json_type": "dict",
+    "keys": [
+      "timeline",
+      "traffic"
+    ]
+  },
+  {
+    "path": "/api/traffic/total-traffic",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "size": 168,
+    "json_type": "dict",
+    "keys": [
+      "localTraffic",
+      "clientTraffic",
+      "serverTraffic"
+    ]
+  },
+  {
+    "path": "/api/wallet/publicKey",
+    "status": 403,
+    "content_type": "application/json; charset=utf-8",
+    "size": 21,
+    "json_type": "dict",
+    "keys": [
+      "walletLocked"
+    ]
+  },
+  {
+    "path": "/api/wallet/unstaking",
+    "status": 403,
+    "content_type": "application/json; charset=utf-8",
+    "size": 21,
+    "json_type": "dict",
+    "keys": [
+      "walletLocked"
+    ]
+  },
+  {
+    "path": "/api/wifi/enable",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "size": 30,
+    "json_type": "dict",
+    "keys": [
+      "success",
+      "enable"
+    ]
+  },
+  {
+    "path": "/api/wifi/getAPConfig",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "size": 17,
+    "json_type": "dict",
+    "keys": [
+      "success"
+    ]
+  },
+  {
+    "path": "/api/wifi/hostapdLog",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "size": 4991,
+    "json_type": "list",
+    "list_len": 50,
+    "item_keys": [
+      "key",
+      "line"
+    ]
+  },
+  {
+    "path": "/api/wifi/upstreamList",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "size": 26,
+    "json_type": "dict",
+    "keys": [
+      "success",
+      "list"
+    ]
+  },
+  {
+    "path": "/api/wifi/workingInfo",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "size": 122,
+    "json_type": "dict",
+    "keys": [
+      "success",
+      "workingInfo"
+    ]
+  },
+  {
+    "path": "/api/worldmap-data",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "size": 1316,
+    "json_type": "dict",
+    "keys": [
+      "self",
+      "peerList",
+      "routedList",
+      "ngn"
+    ]
+  }
+]

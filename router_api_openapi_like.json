@@ -1,0 +1,3672 @@
+{
+  "openapi": "3.0.3",
+  "info": {
+    "title": "Deeper Router Local API (reverse-engineered)",
+    "version": "0.1.0",
+    "description": "Generated from frontend bundle + authenticated probes at runtime."
+  },
+  "servers": [
+    {
+      "url": "http://34.34.34.34"
+    }
+  ],
+  "paths": {
+    "/api/accessControl/delete": {
+      "post": {
+        "operationId": "post_api_accessControl_delete",
+        "tags": [
+          "accessControl"
+        ],
+        "summary": "POST /api/accessControl/delete",
+        "x-risk": "write",
+        "x-sources": [
+          "assets__actions.CDXTKKH4.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        },
+        "requestBody": {
+          "required": false,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "macList": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/accessControl/list": {
+      "get": {
+        "operationId": "get_api_accessControl_list",
+        "tags": [
+          "accessControl"
+        ],
+        "summary": "GET /api/accessControl/list",
+        "x-risk": "read",
+        "x-sources": [
+          "assets__actions.CDXTKKH4.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        },
+        "x-probe": {
+          "status": 200,
+          "keys": [
+            "online",
+            "offline"
+          ],
+          "data_keys": null,
+          "json_type": "dict",
+          "list_len": null,
+          "size": 412
+        }
+      }
+    },
+    "/api/accessControl/setOne": {
+      "post": {
+        "operationId": "post_api_accessControl_setOne",
+        "tags": [
+          "accessControl"
+        ],
+        "summary": "POST /api/accessControl/setOne",
+        "x-risk": "write",
+        "x-sources": [
+          "assets__actions.CDXTKKH4.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        },
+        "requestBody": {
+          "required": false,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "bwLimit": {
+                    "type": "string"
+                  },
+                  "bypass": {
+                    "type": "string"
+                  },
+                  "regionCode": {
+                    "type": "string"
+                  },
+                  "remark": {
+                    "type": "string"
+                  },
+                  "routeMode": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/accessControl/switch": {
+      "get": {
+        "operationId": "get_api_accessControl_switch",
+        "tags": [
+          "accessControl"
+        ],
+        "summary": "GET /api/accessControl/switch",
+        "x-risk": "write",
+        "x-sources": [
+          "assets__actions.CDXTKKH4.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        },
+        "x-probe": {
+          "status": 200,
+          "keys": [
+            "value"
+          ],
+          "data_keys": null,
+          "json_type": "dict",
+          "list_len": null,
+          "size": 15
+        }
+      },
+      "post": {
+        "operationId": "post_api_accessControl_switch",
+        "tags": [
+          "accessControl"
+        ],
+        "summary": "POST /api/accessControl/switch",
+        "x-risk": "write",
+        "x-sources": [
+          "assets__actions.CDXTKKH4.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        },
+        "requestBody": {
+          "required": false,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "value": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "x-probe": {
+          "status": 200,
+          "keys": [
+            "value"
+          ],
+          "data_keys": null,
+          "json_type": "dict",
+          "list_len": null,
+          "size": 15
+        }
+      }
+    },
+    "/api/admin/changePassword": {
+      "post": {
+        "operationId": "post_api_admin_changePassword",
+        "tags": [
+          "admin"
+        ],
+        "summary": "POST /api/admin/changePassword",
+        "x-risk": "write",
+        "x-sources": [
+          "assets__index.BsQdlffd.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        }
+      }
+    },
+    "/api/admin/connect": {
+      "post": {
+        "operationId": "post_api_admin_connect",
+        "tags": [
+          "admin"
+        ],
+        "summary": "POST /api/admin/connect",
+        "x-risk": "write",
+        "x-sources": [
+          "assets__index.SMSNCy-w.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        }
+      }
+    },
+    "/api/admin/consent": {
+      "post": {
+        "operationId": "post_api_admin_consent",
+        "tags": [
+          "admin"
+        ],
+        "summary": "POST /api/admin/consent",
+        "x-risk": "write",
+        "x-sources": [
+          "assets__index.Cn0M_pb9.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        },
+        "requestBody": {
+          "required": false,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "privacyPolicy": {
+                    "type": "string"
+                  },
+                  "termsOfUse": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/admin/deeperLog": {
+      "post": {
+        "operationId": "post_api_admin_deeperLog",
+        "tags": [
+          "admin"
+        ],
+        "summary": "POST /api/admin/deeperLog",
+        "x-risk": "write",
+        "x-sources": [
+          "assets__index.j1L27DJZ.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        },
+        "requestBody": {
+          "required": false,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "level": {
+                    "type": "string"
+                  },
+                  "message": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/admin/getDeviceId": {
+      "get": {
+        "operationId": "get_api_admin_getDeviceId",
+        "tags": [
+          "admin"
+        ],
+        "summary": "GET /api/admin/getDeviceId",
+        "x-risk": "read",
+        "x-sources": [
+          "assets__actions.BcRzSJ0R.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        },
+        "x-probe": {
+          "status": 200,
+          "keys": [
+            "deviceId"
+          ],
+          "data_keys": null,
+          "json_type": "dict",
+          "list_len": null,
+          "size": 59
+        }
+      }
+    },
+    "/api/admin/getMyCountry": {
+      "get": {
+        "operationId": "get_api_admin_getMyCountry",
+        "tags": [
+          "admin"
+        ],
+        "summary": "GET /api/admin/getMyCountry",
+        "x-risk": "read",
+        "x-sources": [
+          "assets__actions.BcRzSJ0R.js",
+          "assets__state.DWtk4kGo.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        },
+        "x-probe": {
+          "status": 200,
+          "keys": [
+            "myCountry"
+          ],
+          "data_keys": null,
+          "json_type": "dict",
+          "list_len": null,
+          "size": 18
+        }
+      }
+    },
+    "/api/admin/logOut": {
+      "post": {
+        "operationId": "post_api_admin_logOut",
+        "tags": [
+          "admin"
+        ],
+        "summary": "POST /api/admin/logOut",
+        "x-risk": "write",
+        "x-sources": [
+          "assets__Layout.corvXxLa.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        }
+      }
+    },
+    "/api/admin/login": {
+      "post": {
+        "operationId": "post_api_admin_login",
+        "tags": [
+          "admin"
+        ],
+        "summary": "POST /api/admin/login",
+        "x-risk": "write",
+        "x-sources": [
+          "assets__index.j1L27DJZ.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        },
+        "requestBody": {
+          "required": false,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "password": {
+                    "type": "string"
+                  },
+                  "username": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "description": "password must be RSA encrypted (frontend uses crypto.publicEncrypt + OAEP, base64)"
+      }
+    },
+    "/api/admin/reboot": {
+      "post": {
+        "operationId": "post_api_admin_reboot",
+        "tags": [
+          "admin"
+        ],
+        "summary": "POST /api/admin/reboot",
+        "x-risk": "critical-write",
+        "x-sources": [
+          "assets__index.CljWzoTA.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        }
+      }
+    },
+    "/api/admin/remoteWeb": {
+      "get": {
+        "operationId": "get_api_admin_remoteWeb",
+        "tags": [
+          "admin"
+        ],
+        "summary": "GET /api/admin/remoteWeb",
+        "x-risk": "read",
+        "x-sources": [
+          "assets__index.SMSNCy-w.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        },
+        "x-probe": {
+          "status": 200,
+          "keys": [
+            "running"
+          ],
+          "data_keys": null,
+          "json_type": "dict",
+          "list_len": null,
+          "size": 17
+        }
+      }
+    },
+    "/api/admin/remoteWeb/start": {
+      "post": {
+        "operationId": "post_api_admin_remoteWeb_start",
+        "tags": [
+          "admin"
+        ],
+        "summary": "POST /api/admin/remoteWeb/start",
+        "x-risk": "write",
+        "x-sources": [
+          "assets__index.SMSNCy-w.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        }
+      }
+    },
+    "/api/admin/remoteWeb/stop": {
+      "post": {
+        "operationId": "post_api_admin_remoteWeb_stop",
+        "tags": [
+          "admin"
+        ],
+        "summary": "POST /api/admin/remoteWeb/stop",
+        "x-risk": "write",
+        "x-sources": [
+          "assets__index.SMSNCy-w.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        }
+      }
+    },
+    "/api/admin/reset": {
+      "post": {
+        "operationId": "post_api_admin_reset",
+        "tags": [
+          "admin"
+        ],
+        "summary": "POST /api/admin/reset",
+        "x-risk": "critical-write",
+        "x-sources": [
+          "assets__index.ddX4Lx1L.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        }
+      }
+    },
+    "/api/admin/validateToken": {
+      "post": {
+        "operationId": "post_api_admin_validateToken",
+        "tags": [
+          "admin"
+        ],
+        "summary": "POST /api/admin/validateToken",
+        "x-risk": "write",
+        "x-sources": [
+          "assets__actions.BcRzSJ0R.js",
+          "assets__index.gHG1NCGy.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        },
+        "description": "requires auth cookie; returns success or wallet flags"
+      }
+    },
+    "/api/appRelocator/addApp": {
+      "post": {
+        "operationId": "post_api_appRelocator_addApp",
+        "tags": [
+          "appRelocator"
+        ],
+        "summary": "POST /api/appRelocator/addApp",
+        "x-risk": "write",
+        "x-sources": [
+          "assets__state.BMZevs80.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        }
+      }
+    },
+    "/api/appRelocator/apps": {
+      "get": {
+        "operationId": "get_api_appRelocator_apps",
+        "tags": [
+          "appRelocator"
+        ],
+        "summary": "GET /api/appRelocator/apps",
+        "x-risk": "read",
+        "x-sources": [
+          "assets__state.BMZevs80.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        },
+        "x-probe": {
+          "status": 200,
+          "keys": null,
+          "data_keys": null,
+          "json_type": "list",
+          "list_len": 7,
+          "size": 73449
+        }
+      }
+    },
+    "/api/appRelocator/delApp": {
+      "post": {
+        "operationId": "post_api_appRelocator_delApp",
+        "tags": [
+          "appRelocator"
+        ],
+        "summary": "POST /api/appRelocator/delApp",
+        "x-risk": "write",
+        "x-sources": [
+          "assets__state.BMZevs80.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        },
+        "requestBody": {
+          "required": false,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "appName": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/autoReboot/config": {
+      "get": {
+        "operationId": "get_api_autoReboot_config",
+        "tags": [
+          "autoReboot"
+        ],
+        "summary": "GET /api/autoReboot/config",
+        "x-risk": "critical-write",
+        "x-sources": [
+          "assets__index.CljWzoTA.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        },
+        "x-probe": {
+          "status": 200,
+          "keys": [
+            "on",
+            "freq",
+            "day",
+            "hour",
+            "minute"
+          ],
+          "data_keys": null,
+          "json_type": "dict",
+          "list_len": null,
+          "size": 49
+        }
+      },
+      "post": {
+        "operationId": "post_api_autoReboot_config",
+        "tags": [
+          "autoReboot"
+        ],
+        "summary": "POST /api/autoReboot/config",
+        "x-risk": "critical-write",
+        "x-sources": [
+          "assets__index.CljWzoTA.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        },
+        "x-probe": {
+          "status": 200,
+          "keys": [
+            "on",
+            "freq",
+            "day",
+            "hour",
+            "minute"
+          ],
+          "data_keys": null,
+          "json_type": "dict",
+          "list_len": null,
+          "size": 49
+        }
+      }
+    },
+    "/api/betanet/getBalanceAndCredit": {
+      "get": {
+        "operationId": "get_api_betanet_getBalanceAndCredit",
+        "tags": [
+          "betanet"
+        ],
+        "summary": "GET /api/betanet/getBalanceAndCredit",
+        "x-risk": "read",
+        "x-sources": [
+          "assets__index.C09gRyaU.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        },
+        "x-probe": {
+          "status": 403,
+          "keys": [
+            "walletLocked"
+          ],
+          "data_keys": null,
+          "json_type": "dict",
+          "list_len": null,
+          "size": 21
+        }
+      }
+    },
+    "/api/betanet/getBalanceHistory": {
+      "get": {
+        "operationId": "get_api_betanet_getBalanceHistory",
+        "tags": [
+          "betanet"
+        ],
+        "summary": "GET /api/betanet/getBalanceHistory",
+        "x-risk": "read",
+        "x-sources": [
+          "assets__index.C09gRyaU.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        },
+        "x-probe": {
+          "status": 403,
+          "keys": [
+            "walletLocked"
+          ],
+          "data_keys": null,
+          "json_type": "dict",
+          "list_len": null,
+          "size": 21
+        }
+      }
+    },
+    "/api/betanet/getOnChainStatus": {
+      "get": {
+        "operationId": "get_api_betanet_getOnChainStatus",
+        "tags": [
+          "betanet"
+        ],
+        "summary": "GET /api/betanet/getOnChainStatus",
+        "x-risk": "read",
+        "x-sources": [
+          "assets__index.C09gRyaU.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        },
+        "x-probe": {
+          "status": 403,
+          "keys": [
+            "walletLocked"
+          ],
+          "data_keys": null,
+          "json_type": "dict",
+          "list_len": null,
+          "size": 21
+        }
+      }
+    },
+    "/api/betanet/getTransactionList": {
+      "get": {
+        "operationId": "get_api_betanet_getTransactionList",
+        "tags": [
+          "betanet"
+        ],
+        "summary": "GET /api/betanet/getTransactionList",
+        "x-risk": "read",
+        "x-sources": [
+          "assets__index.DOE0vzot.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        },
+        "requestBody": {
+          "required": false,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "params": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "x-probe": {
+          "status": 403,
+          "keys": [
+            "walletLocked"
+          ],
+          "data_keys": null,
+          "json_type": "dict",
+          "list_len": null,
+          "size": 21
+        }
+      }
+    },
+    "/api/betanet/getTransactionSum": {
+      "get": {
+        "operationId": "get_api_betanet_getTransactionSum",
+        "tags": [
+          "betanet"
+        ],
+        "summary": "GET /api/betanet/getTransactionSum",
+        "x-risk": "read",
+        "x-sources": [
+          "assets__index.9KobG3oN.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        },
+        "requestBody": {
+          "required": false,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "params": {
+                    "type": "string"
+                  },
+                  "position": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "x-probe": {
+          "status": 403,
+          "keys": [
+            "walletLocked"
+          ],
+          "data_keys": null,
+          "json_type": "dict",
+          "list_len": null,
+          "size": 21
+        }
+      }
+    },
+    "/api/betanet/redeemCredit": {
+      "post": {
+        "operationId": "post_api_betanet_redeemCredit",
+        "tags": [
+          "betanet"
+        ],
+        "summary": "POST /api/betanet/redeemCredit",
+        "x-risk": "write",
+        "x-sources": [
+          "assets__index.DnlURU1K.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        }
+      }
+    },
+    "/api/betanet/setCreditLevel": {
+      "post": {
+        "operationId": "post_api_betanet_setCreditLevel",
+        "tags": [
+          "betanet"
+        ],
+        "summary": "POST /api/betanet/setCreditLevel",
+        "x-risk": "write",
+        "x-sources": [
+          "assets__index.DnlURU1K.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        }
+      }
+    },
+    "/api/betanet/transfer": {
+      "post": {
+        "operationId": "post_api_betanet_transfer",
+        "tags": [
+          "betanet"
+        ],
+        "summary": "POST /api/betanet/transfer",
+        "x-risk": "critical-write",
+        "x-sources": [
+          "assets__index.DnlURU1K.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        }
+      }
+    },
+    "/api/betanet/walletData": {
+      "get": {
+        "operationId": "get_api_betanet_walletData",
+        "tags": [
+          "betanet"
+        ],
+        "summary": "GET /api/betanet/walletData",
+        "x-risk": "read",
+        "x-sources": [
+          "assets__index.DnlURU1K.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        },
+        "x-probe": {
+          "status": 403,
+          "keys": [
+            "walletLocked"
+          ],
+          "data_keys": null,
+          "json_type": "dict",
+          "list_len": null,
+          "size": 21
+        }
+      }
+    },
+    "/api/dynamic-data": {
+      "get": {
+        "operationId": "get_api_dynamic_data",
+        "tags": [
+          "dynamic-data"
+        ],
+        "summary": "GET /api/dynamic-data",
+        "x-risk": "read",
+        "x-sources": [
+          "assets__index.Dr-ktp7K.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        },
+        "x-probe": {
+          "status": 200,
+          "keys": [
+            "upLoadData",
+            "downLoadData",
+            "xData"
+          ],
+          "data_keys": null,
+          "json_type": "dict",
+          "list_len": null,
+          "size": 1869
+        }
+      }
+    },
+    "/api/info": {
+      "get": {
+        "operationId": "get_api_info",
+        "tags": [
+          "info"
+        ],
+        "summary": "GET /api/info",
+        "x-risk": "read",
+        "x-sources": [
+          "assets__index.Dr-ktp7K.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        },
+        "x-probe": {
+          "status": 200,
+          "keys": null,
+          "data_keys": null,
+          "json_type": "list",
+          "list_len": 5,
+          "size": 60
+        }
+      }
+    },
+    "/api/inform": {
+      "get": {
+        "operationId": "get_api_inform",
+        "tags": [
+          "inform"
+        ],
+        "summary": "GET /api/inform",
+        "x-risk": "read",
+        "x-sources": [
+          "assets__index.Dr-ktp7K.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        },
+        "x-probe": {
+          "status": 200,
+          "keys": [
+            "app",
+            "rgn",
+            "dns",
+            "https"
+          ],
+          "data_keys": null,
+          "json_type": "dict",
+          "list_len": null,
+          "size": 5358
+        }
+      }
+    },
+    "/api/liquid": {
+      "get": {
+        "operationId": "get_api_liquid",
+        "tags": [
+          "liquid"
+        ],
+        "summary": "GET /api/liquid",
+        "x-risk": "read",
+        "x-sources": [
+          "assets__index.Bagt5HqK.js",
+          "assets__index.Dr-ktp7K.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        },
+        "x-probe": {
+          "status": 200,
+          "keys": [
+            "scale"
+          ],
+          "data_keys": null,
+          "json_type": "dict",
+          "list_len": null,
+          "size": 14
+        }
+      }
+    },
+    "/api/microPayment/getDailyTraffic": {
+      "get": {
+        "operationId": "get_api_microPayment_getDailyTraffic",
+        "tags": [
+          "microPayment"
+        ],
+        "summary": "GET /api/microPayment/getDailyTraffic",
+        "x-risk": "read",
+        "x-sources": [
+          "assets__index.C09gRyaU.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        },
+        "x-probe": {
+          "status": 200,
+          "keys": [
+            "success",
+            "consumed",
+            "shared"
+          ],
+          "data_keys": null,
+          "json_type": "dict",
+          "list_len": null,
+          "size": 49
+        }
+      }
+    },
+    "/api/rustdesk/config": {
+      "get": {
+        "operationId": "get_api_rustdesk_config",
+        "tags": [
+          "rustdesk"
+        ],
+        "summary": "GET /api/rustdesk/config",
+        "x-risk": "read",
+        "x-sources": [
+          "assets__index.MnKnF552.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        },
+        "x-probe": {
+          "status": 200,
+          "keys": [
+            "on",
+            "forced",
+            "port",
+            "pubKey",
+            "vpnSupport"
+          ],
+          "data_keys": null,
+          "json_type": "dict",
+          "list_len": null,
+          "size": 72
+        }
+      }
+    },
+    "/api/rustdesk/forced": {
+      "post": {
+        "operationId": "post_api_rustdesk_forced",
+        "tags": [
+          "rustdesk"
+        ],
+        "summary": "POST /api/rustdesk/forced",
+        "x-risk": "write",
+        "x-sources": [
+          "assets__index.MnKnF552.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        }
+      }
+    },
+    "/api/rustdesk/hbbrLog": {
+      "get": {
+        "operationId": "get_api_rustdesk_hbbrLog",
+        "tags": [
+          "rustdesk"
+        ],
+        "summary": "GET /api/rustdesk/hbbrLog",
+        "x-risk": "read",
+        "x-sources": [
+          "assets__index.BGtX8-ae.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        },
+        "x-probe": {
+          "status": 200,
+          "keys": null,
+          "data_keys": null,
+          "json_type": "list",
+          "list_len": 0,
+          "size": 2
+        }
+      }
+    },
+    "/api/rustdesk/keys": {
+      "delete": {
+        "operationId": "delete_api_rustdesk_keys",
+        "tags": [
+          "rustdesk"
+        ],
+        "summary": "DELETE /api/rustdesk/keys",
+        "x-risk": "write",
+        "x-sources": [
+          "assets__index.MnKnF552.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        }
+      }
+    },
+    "/api/rustdesk/port": {
+      "post": {
+        "operationId": "post_api_rustdesk_port",
+        "tags": [
+          "rustdesk"
+        ],
+        "summary": "POST /api/rustdesk/port",
+        "x-risk": "write",
+        "x-sources": [
+          "assets__index.MnKnF552.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        }
+      }
+    },
+    "/api/rustdesk/switch": {
+      "post": {
+        "operationId": "post_api_rustdesk_switch",
+        "tags": [
+          "rustdesk"
+        ],
+        "summary": "POST /api/rustdesk/switch",
+        "x-risk": "write",
+        "x-sources": [
+          "assets__index.MnKnF552.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        }
+      }
+    },
+    "/api/rustdesk/version": {
+      "get": {
+        "operationId": "get_api_rustdesk_version",
+        "tags": [
+          "rustdesk"
+        ],
+        "summary": "GET /api/rustdesk/version",
+        "x-risk": "read",
+        "x-sources": [
+          "assets__index.BGtX8-ae.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        },
+        "x-probe": {
+          "status": 200,
+          "keys": [
+            "hbbr",
+            "hbbs"
+          ],
+          "data_keys": null,
+          "json_type": "dict",
+          "list_len": null,
+          "size": 31
+        }
+      }
+    },
+    "/api/rustdesk/vpnConfig": {
+      "get": {
+        "operationId": "get_api_rustdesk_vpnConfig",
+        "tags": [
+          "rustdesk"
+        ],
+        "summary": "GET /api/rustdesk/vpnConfig",
+        "x-risk": "read",
+        "x-sources": [
+          "assets__index.MnKnF552.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        },
+        "x-probe": {
+          "status": 200,
+          "keys": [
+            "on"
+          ],
+          "data_keys": null,
+          "json_type": "dict",
+          "list_len": null,
+          "size": 12
+        }
+      }
+    },
+    "/api/rustdesk/vpnSwitch": {
+      "post": {
+        "operationId": "post_api_rustdesk_vpnSwitch",
+        "tags": [
+          "rustdesk"
+        ],
+        "summary": "POST /api/rustdesk/vpnSwitch",
+        "x-risk": "write",
+        "x-sources": [
+          "assets__index.MnKnF552.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        }
+      }
+    },
+    "/api/security/blockedCounts": {
+      "get": {
+        "operationId": "get_api_security_blockedCounts",
+        "tags": [
+          "security"
+        ],
+        "summary": "GET /api/security/blockedCounts",
+        "x-risk": "read",
+        "x-sources": [
+          "assets__index.Dr-ktp7K.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        },
+        "x-probe": {
+          "status": 200,
+          "keys": [
+            "ads",
+            "tracker",
+            "malicious",
+            "porn",
+            "social",
+            "game",
+            "black",
+            "total"
+          ],
+          "data_keys": null,
+          "json_type": "dict",
+          "list_len": null,
+          "size": 90
+        }
+      }
+    },
+    "/api/security/getUrlFilterData": {
+      "get": {
+        "operationId": "get_api_security_getUrlFilterData",
+        "tags": [
+          "security"
+        ],
+        "summary": "GET /api/security/getUrlFilterData",
+        "x-risk": "read",
+        "x-sources": [
+          "assets__index.BWB2vwqs.js",
+          "assets__index.Dr-ktp7K.js",
+          "assets__index.WXnVqVp2.js",
+          "assets__state.CCN6UJfP.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        },
+        "x-probe": {
+          "status": 200,
+          "keys": [
+            "timeline",
+            "totalSeries",
+            "blockedSeries",
+            "queries",
+            "categoryStates",
+            "shortInterval"
+          ],
+          "data_keys": null,
+          "json_type": "dict",
+          "list_len": null,
+          "size": 3051
+        }
+      }
+    },
+    "/api/security/setCategoryStates": {
+      "post": {
+        "operationId": "post_api_security_setCategoryStates",
+        "tags": [
+          "security"
+        ],
+        "summary": "POST /api/security/setCategoryStates",
+        "x-risk": "write",
+        "x-sources": [
+          "assets__index.BWB2vwqs.js",
+          "assets__index.WXnVqVp2.js",
+          "assets__state.CCN6UJfP.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        }
+      }
+    },
+    "/api/security/wanIpAccess": {
+      "get": {
+        "operationId": "get_api_security_wanIpAccess",
+        "tags": [
+          "security"
+        ],
+        "summary": "GET /api/security/wanIpAccess",
+        "x-risk": "write",
+        "x-sources": [
+          "assets__state.DWtk4kGo.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        },
+        "x-probe": {
+          "status": 200,
+          "keys": [
+            "val"
+          ],
+          "data_keys": null,
+          "json_type": "dict",
+          "list_len": null,
+          "size": 12
+        }
+      },
+      "post": {
+        "operationId": "post_api_security_wanIpAccess",
+        "tags": [
+          "security"
+        ],
+        "summary": "POST /api/security/wanIpAccess",
+        "x-risk": "write",
+        "x-sources": [
+          "assets__state.DWtk4kGo.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        },
+        "x-probe": {
+          "status": 200,
+          "keys": [
+            "val"
+          ],
+          "data_keys": null,
+          "json_type": "dict",
+          "list_len": null,
+          "size": 12
+        }
+      }
+    },
+    "/api/sharing/blacklist": {
+      "delete": {
+        "operationId": "delete_api_sharing_blacklist",
+        "tags": [
+          "sharing"
+        ],
+        "summary": "DELETE /api/sharing/blacklist",
+        "x-risk": "write",
+        "x-sources": [
+          "assets__index.CbvcFa62.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        },
+        "requestBody": {
+          "required": false,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "data": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "x-probe": {
+          "status": 400,
+          "keys": null,
+          "data_keys": null,
+          "json_type": null,
+          "list_len": null,
+          "size": 0
+        }
+      },
+      "get": {
+        "operationId": "get_api_sharing_blacklist",
+        "tags": [
+          "sharing"
+        ],
+        "summary": "GET /api/sharing/blacklist",
+        "x-risk": "write",
+        "x-sources": [
+          "assets__index.CbvcFa62.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        },
+        "requestBody": {
+          "required": false,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "pageNo": {
+                    "type": "string"
+                  },
+                  "pageSize": {
+                    "type": "string"
+                  },
+                  "params": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "x-probe": {
+          "status": 400,
+          "keys": null,
+          "data_keys": null,
+          "json_type": null,
+          "list_len": null,
+          "size": 0
+        }
+      },
+      "post": {
+        "operationId": "post_api_sharing_blacklist",
+        "tags": [
+          "sharing"
+        ],
+        "summary": "POST /api/sharing/blacklist",
+        "x-risk": "write",
+        "x-sources": [
+          "assets__index.CbvcFa62.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        },
+        "requestBody": {
+          "required": false,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "domain": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "x-probe": {
+          "status": 400,
+          "keys": null,
+          "data_keys": null,
+          "json_type": null,
+          "list_len": null,
+          "size": 0
+        }
+      }
+    },
+    "/api/sharing/clearBlacklist": {
+      "post": {
+        "operationId": "post_api_sharing_clearBlacklist",
+        "tags": [
+          "sharing"
+        ],
+        "summary": "POST /api/sharing/clearBlacklist",
+        "x-risk": "write",
+        "x-sources": [
+          "assets__index.CbvcFa62.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        }
+      }
+    },
+    "/api/sharing/getSharingConfig": {
+      "get": {
+        "operationId": "get_api_sharing_getSharingConfig",
+        "tags": [
+          "sharing"
+        ],
+        "summary": "GET /api/sharing/getSharingConfig",
+        "x-risk": "read",
+        "x-sources": [
+          "assets__actions.CC343xZA.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        },
+        "x-probe": {
+          "status": 200,
+          "keys": [
+            "success",
+            "sharingEnabled",
+            "btEnabled",
+            "smtpEnabled",
+            "maxBandwidth",
+            "dnsBlacklistForSharing"
+          ],
+          "data_keys": null,
+          "json_type": "dict",
+          "list_len": null,
+          "size": 127
+        }
+      }
+    },
+    "/api/sharing/getTrafficLimit": {
+      "get": {
+        "operationId": "get_api_sharing_getTrafficLimit",
+        "tags": [
+          "sharing"
+        ],
+        "summary": "GET /api/sharing/getTrafficLimit",
+        "x-risk": "read",
+        "x-sources": [
+          "assets__index.3PvT7rsi.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        },
+        "x-probe": {
+          "status": 200,
+          "keys": [
+            "limit",
+            "monthly"
+          ],
+          "data_keys": null,
+          "json_type": "dict",
+          "list_len": null,
+          "size": 46
+        }
+      }
+    },
+    "/api/sharing/setBandwidthLimit": {
+      "post": {
+        "operationId": "post_api_sharing_setBandwidthLimit",
+        "tags": [
+          "sharing"
+        ],
+        "summary": "POST /api/sharing/setBandwidthLimit",
+        "x-risk": "write",
+        "x-sources": [
+          "assets__index.3PvT7rsi.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        },
+        "requestBody": {
+          "required": false,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "number": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/sharing/setBtSharing": {
+      "post": {
+        "operationId": "post_api_sharing_setBtSharing",
+        "tags": [
+          "sharing"
+        ],
+        "summary": "POST /api/sharing/setBtSharing",
+        "x-risk": "write",
+        "x-sources": [
+          "assets__index.3PvT7rsi.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        },
+        "requestBody": {
+          "required": false,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "btEnabled": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/sharing/setDnsBlacklistForSharing": {
+      "post": {
+        "operationId": "post_api_sharing_setDnsBlacklistForSharing",
+        "tags": [
+          "sharing"
+        ],
+        "summary": "POST /api/sharing/setDnsBlacklistForSharing",
+        "x-risk": "write",
+        "x-sources": [
+          "assets__index.CbvcFa62.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        },
+        "requestBody": {
+          "required": false,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "dnsBlacklistForSharing": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/sharing/setSharingState": {
+      "post": {
+        "operationId": "post_api_sharing_setSharingState",
+        "tags": [
+          "sharing"
+        ],
+        "summary": "POST /api/sharing/setSharingState",
+        "x-risk": "write",
+        "x-sources": [
+          "assets__index.3PvT7rsi.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        }
+      }
+    },
+    "/api/sharing/setSmtpSharing": {
+      "post": {
+        "operationId": "post_api_sharing_setSmtpSharing",
+        "tags": [
+          "sharing"
+        ],
+        "summary": "POST /api/sharing/setSmtpSharing",
+        "x-risk": "write",
+        "x-sources": [
+          "assets__index.3PvT7rsi.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        },
+        "requestBody": {
+          "required": false,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "smtpEnabled": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/sharing/setTrafficLimit": {
+      "post": {
+        "operationId": "post_api_sharing_setTrafficLimit",
+        "tags": [
+          "sharing"
+        ],
+        "summary": "POST /api/sharing/setTrafficLimit",
+        "x-risk": "write",
+        "x-sources": [
+          "assets__index.3PvT7rsi.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        },
+        "requestBody": {
+          "required": false,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "number": {
+                    "type": "string"
+                  },
+                  "unit": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/sharingSecurity/getList/1000": {
+      "get": {
+        "operationId": "get_api_sharingSecurity_getList_1000",
+        "tags": [
+          "sharingSecurity"
+        ],
+        "summary": "GET /api/sharingSecurity/getList/1000",
+        "x-risk": "read",
+        "x-sources": [
+          "assets__index.DqIyz8Vy.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        },
+        "x-probe": {
+          "status": 200,
+          "keys": null,
+          "data_keys": null,
+          "json_type": "list",
+          "list_len": 0,
+          "size": 2
+        }
+      }
+    },
+    "/api/sharingSecurity/getMode": {
+      "get": {
+        "operationId": "get_api_sharingSecurity_getMode",
+        "tags": [
+          "sharingSecurity"
+        ],
+        "summary": "GET /api/sharingSecurity/getMode",
+        "x-risk": "read",
+        "x-sources": [
+          "assets__index.DqIyz8Vy.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        },
+        "x-probe": {
+          "status": 200,
+          "keys": [
+            "mode"
+          ],
+          "data_keys": null,
+          "json_type": "dict",
+          "list_len": null,
+          "size": 19
+        }
+      }
+    },
+    "/api/smartRoute/addToBlacklist/domain": {
+      "post": {
+        "operationId": "post_api_smartRoute_addToBlacklist_domain",
+        "tags": [
+          "smartRoute"
+        ],
+        "summary": "POST /api/smartRoute/addToBlacklist/domain",
+        "x-risk": "write",
+        "x-sources": [
+          "assets__index.BhYV-5Mr.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        }
+      }
+    },
+    "/api/smartRoute/addToBlacklist/ip": {
+      "post": {
+        "operationId": "post_api_smartRoute_addToBlacklist_ip",
+        "tags": [
+          "smartRoute"
+        ],
+        "summary": "POST /api/smartRoute/addToBlacklist/ip",
+        "x-risk": "write",
+        "x-sources": [
+          "assets__index.B0IPt6Tx.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        }
+      }
+    },
+    "/api/smartRoute/addToWhitelist/domain": {
+      "post": {
+        "operationId": "post_api_smartRoute_addToWhitelist_domain",
+        "tags": [
+          "smartRoute"
+        ],
+        "summary": "POST /api/smartRoute/addToWhitelist/domain",
+        "x-risk": "write",
+        "x-sources": [
+          "assets__index.BhYV-5Mr.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        }
+      }
+    },
+    "/api/smartRoute/addToWhitelist/ip": {
+      "post": {
+        "operationId": "post_api_smartRoute_addToWhitelist_ip",
+        "tags": [
+          "smartRoute"
+        ],
+        "summary": "POST /api/smartRoute/addToWhitelist/ip",
+        "x-risk": "write",
+        "x-sources": [
+          "assets__index.B0IPt6Tx.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        }
+      }
+    },
+    "/api/smartRoute/addTunnel": {
+      "post": {
+        "operationId": "post_api_smartRoute_addTunnel",
+        "tags": [
+          "smartRoute"
+        ],
+        "summary": "POST /api/smartRoute/addTunnel",
+        "x-risk": "write",
+        "x-sources": [
+          "assets__state.Bl-YjL3W.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        }
+      }
+    },
+    "/api/smartRoute/deleteFromBlacklist/domain": {
+      "post": {
+        "operationId": "post_api_smartRoute_deleteFromBlacklist_domain",
+        "tags": [
+          "smartRoute"
+        ],
+        "summary": "POST /api/smartRoute/deleteFromBlacklist/domain",
+        "x-risk": "write",
+        "x-sources": [
+          "assets__index.BhYV-5Mr.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        }
+      }
+    },
+    "/api/smartRoute/deleteFromBlacklist/ip": {
+      "post": {
+        "operationId": "post_api_smartRoute_deleteFromBlacklist_ip",
+        "tags": [
+          "smartRoute"
+        ],
+        "summary": "POST /api/smartRoute/deleteFromBlacklist/ip",
+        "x-risk": "write",
+        "x-sources": [
+          "assets__index.B0IPt6Tx.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        }
+      }
+    },
+    "/api/smartRoute/deleteFromWhitelist/domain": {
+      "post": {
+        "operationId": "post_api_smartRoute_deleteFromWhitelist_domain",
+        "tags": [
+          "smartRoute"
+        ],
+        "summary": "POST /api/smartRoute/deleteFromWhitelist/domain",
+        "x-risk": "write",
+        "x-sources": [
+          "assets__index.BhYV-5Mr.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        }
+      }
+    },
+    "/api/smartRoute/deleteFromWhitelist/ip": {
+      "post": {
+        "operationId": "post_api_smartRoute_deleteFromWhitelist_ip",
+        "tags": [
+          "smartRoute"
+        ],
+        "summary": "POST /api/smartRoute/deleteFromWhitelist/ip",
+        "x-risk": "write",
+        "x-sources": [
+          "assets__index.B0IPt6Tx.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        }
+      }
+    },
+    "/api/smartRoute/deleteTunnels": {
+      "post": {
+        "operationId": "post_api_smartRoute_deleteTunnels",
+        "tags": [
+          "smartRoute"
+        ],
+        "summary": "POST /api/smartRoute/deleteTunnels",
+        "x-risk": "write",
+        "x-sources": [
+          "assets__state.Bl-YjL3W.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        }
+      }
+    },
+    "/api/smartRoute/editWhiteEntry/domain": {
+      "post": {
+        "operationId": "post_api_smartRoute_editWhiteEntry_domain",
+        "tags": [
+          "smartRoute"
+        ],
+        "summary": "POST /api/smartRoute/editWhiteEntry/domain",
+        "x-risk": "write",
+        "x-sources": [
+          "assets__index.BhYV-5Mr.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        }
+      }
+    },
+    "/api/smartRoute/editWhiteEntry/ip": {
+      "post": {
+        "operationId": "post_api_smartRoute_editWhiteEntry_ip",
+        "tags": [
+          "smartRoute"
+        ],
+        "summary": "POST /api/smartRoute/editWhiteEntry/ip",
+        "x-risk": "write",
+        "x-sources": [
+          "assets__index.B0IPt6Tx.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        }
+      }
+    },
+    "/api/smartRoute/getDpnMode": {
+      "get": {
+        "operationId": "get_api_smartRoute_getDpnMode",
+        "tags": [
+          "smartRoute"
+        ],
+        "summary": "GET /api/smartRoute/getDpnMode",
+        "x-risk": "read",
+        "x-sources": [
+          "assets__state.eF2SevIn.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        },
+        "x-probe": {
+          "status": 200,
+          "keys": [
+            "dpnMode",
+            "tunnelCode",
+            "killSwitch",
+            "smartTunnel",
+            "fullTunnel"
+          ],
+          "data_keys": null,
+          "json_type": "dict",
+          "list_len": null,
+          "size": 91
+        }
+      }
+    },
+    "/api/smartRoute/getRoutingBlacklist/domain": {
+      "get": {
+        "operationId": "get_api_smartRoute_getRoutingBlacklist_domain",
+        "tags": [
+          "smartRoute"
+        ],
+        "summary": "GET /api/smartRoute/getRoutingBlacklist/domain",
+        "x-risk": "read",
+        "x-sources": [
+          "assets__index.BhYV-5Mr.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        },
+        "requestBody": {
+          "required": false,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "pageNo": {
+                    "type": "string"
+                  },
+                  "pageSize": {
+                    "type": "string"
+                  },
+                  "params": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "x-probe": {
+          "status": 400,
+          "keys": [
+            "paramError"
+          ],
+          "data_keys": null,
+          "json_type": "dict",
+          "list_len": null,
+          "size": 35
+        }
+      }
+    },
+    "/api/smartRoute/getRoutingBlacklist/ip": {
+      "get": {
+        "operationId": "get_api_smartRoute_getRoutingBlacklist_ip",
+        "tags": [
+          "smartRoute"
+        ],
+        "summary": "GET /api/smartRoute/getRoutingBlacklist/ip",
+        "x-risk": "read",
+        "x-sources": [
+          "assets__index.B0IPt6Tx.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        },
+        "requestBody": {
+          "required": false,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "pageNo": {
+                    "type": "string"
+                  },
+                  "pageSize": {
+                    "type": "string"
+                  },
+                  "params": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "x-probe": {
+          "status": 400,
+          "keys": [
+            "paramError"
+          ],
+          "data_keys": null,
+          "json_type": "dict",
+          "list_len": null,
+          "size": 35
+        }
+      }
+    },
+    "/api/smartRoute/getRoutingWhitelist/domain": {
+      "get": {
+        "operationId": "get_api_smartRoute_getRoutingWhitelist_domain",
+        "tags": [
+          "smartRoute"
+        ],
+        "summary": "GET /api/smartRoute/getRoutingWhitelist/domain",
+        "x-risk": "read",
+        "x-sources": [
+          "assets__index.BhYV-5Mr.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        },
+        "requestBody": {
+          "required": false,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "pageNo": {
+                    "type": "string"
+                  },
+                  "pageSize": {
+                    "type": "string"
+                  },
+                  "params": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "x-probe": {
+          "status": 400,
+          "keys": [
+            "paramError"
+          ],
+          "data_keys": null,
+          "json_type": "dict",
+          "list_len": null,
+          "size": 35
+        }
+      }
+    },
+    "/api/smartRoute/getRoutingWhitelist/ip": {
+      "get": {
+        "operationId": "get_api_smartRoute_getRoutingWhitelist_ip",
+        "tags": [
+          "smartRoute"
+        ],
+        "summary": "GET /api/smartRoute/getRoutingWhitelist/ip",
+        "x-risk": "read",
+        "x-sources": [
+          "assets__index.B0IPt6Tx.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        },
+        "requestBody": {
+          "required": false,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "pageNo": {
+                    "type": "string"
+                  },
+                  "pageSize": {
+                    "type": "string"
+                  },
+                  "params": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "x-probe": {
+          "status": 400,
+          "keys": [
+            "paramError"
+          ],
+          "data_keys": null,
+          "json_type": "dict",
+          "list_len": null,
+          "size": 35
+        }
+      }
+    },
+    "/api/smartRoute/importDirect/domain": {
+      "post": {
+        "operationId": "post_api_smartRoute_importDirect_domain",
+        "tags": [
+          "smartRoute"
+        ],
+        "summary": "POST /api/smartRoute/importDirect/domain",
+        "x-risk": "write",
+        "x-sources": [
+          "assets__index.BhYV-5Mr.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        }
+      }
+    },
+    "/api/smartRoute/importDirect/ip": {
+      "post": {
+        "operationId": "post_api_smartRoute_importDirect_ip",
+        "tags": [
+          "smartRoute"
+        ],
+        "summary": "POST /api/smartRoute/importDirect/ip",
+        "x-risk": "write",
+        "x-sources": [
+          "assets__index.B0IPt6Tx.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        }
+      }
+    },
+    "/api/smartRoute/importSmart/domain": {
+      "post": {
+        "operationId": "post_api_smartRoute_importSmart_domain",
+        "tags": [
+          "smartRoute"
+        ],
+        "summary": "POST /api/smartRoute/importSmart/domain",
+        "x-risk": "write",
+        "x-sources": [
+          "assets__index.BhYV-5Mr.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        }
+      }
+    },
+    "/api/smartRoute/importSmart/ip": {
+      "post": {
+        "operationId": "post_api_smartRoute_importSmart_ip",
+        "tags": [
+          "smartRoute"
+        ],
+        "summary": "POST /api/smartRoute/importSmart/ip",
+        "x-risk": "write",
+        "x-sources": [
+          "assets__index.B0IPt6Tx.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        }
+      }
+    },
+    "/api/smartRoute/listTunnelOptions": {
+      "get": {
+        "operationId": "get_api_smartRoute_listTunnelOptions",
+        "tags": [
+          "smartRoute"
+        ],
+        "summary": "GET /api/smartRoute/listTunnelOptions",
+        "x-risk": "read",
+        "x-sources": [
+          "assets__actions.BGOOFw72.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        },
+        "x-probe": {
+          "status": 200,
+          "keys": null,
+          "data_keys": null,
+          "json_type": "list",
+          "list_len": 9,
+          "size": 694
+        }
+      }
+    },
+    "/api/smartRoute/listTunnels": {
+      "get": {
+        "operationId": "get_api_smartRoute_listTunnels",
+        "tags": [
+          "smartRoute"
+        ],
+        "summary": "GET /api/smartRoute/listTunnels",
+        "x-risk": "read",
+        "x-sources": [
+          "assets__state.CSlyoAGu.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        },
+        "x-probe": {
+          "status": 200,
+          "keys": null,
+          "data_keys": null,
+          "json_type": "list",
+          "list_len": 9,
+          "size": 1047
+        }
+      }
+    },
+    "/api/smartRoute/nodeLbMode": {
+      "get": {
+        "operationId": "get_api_smartRoute_nodeLbMode",
+        "tags": [
+          "smartRoute"
+        ],
+        "summary": "GET /api/smartRoute/nodeLbMode",
+        "x-risk": "write",
+        "x-sources": [
+          "assets__state.Bl-YjL3W.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        },
+        "x-probe": {
+          "status": 200,
+          "keys": [
+            "mode"
+          ],
+          "data_keys": null,
+          "json_type": "dict",
+          "list_len": null,
+          "size": 15
+        }
+      },
+      "post": {
+        "operationId": "post_api_smartRoute_nodeLbMode",
+        "tags": [
+          "smartRoute"
+        ],
+        "summary": "POST /api/smartRoute/nodeLbMode",
+        "x-risk": "write",
+        "x-sources": [
+          "assets__state.Bl-YjL3W.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        },
+        "x-probe": {
+          "status": 200,
+          "keys": [
+            "mode"
+          ],
+          "data_keys": null,
+          "json_type": "dict",
+          "list_len": null,
+          "size": 15
+        }
+      }
+    },
+    "/api/smartRoute/refreshTunnel": {
+      "post": {
+        "operationId": "post_api_smartRoute_refreshTunnel",
+        "tags": [
+          "smartRoute"
+        ],
+        "summary": "POST /api/smartRoute/refreshTunnel",
+        "x-risk": "write",
+        "x-sources": [
+          "assets__state.Bl-YjL3W.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        }
+      }
+    },
+    "/api/smartRoute/setDpnMode": {
+      "post": {
+        "operationId": "post_api_smartRoute_setDpnMode",
+        "tags": [
+          "smartRoute"
+        ],
+        "summary": "POST /api/smartRoute/setDpnMode",
+        "x-risk": "write",
+        "x-sources": [
+          "assets__state.eF2SevIn.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        }
+      }
+    },
+    "/api/smartRoute/switchNode": {
+      "post": {
+        "operationId": "post_api_smartRoute_switchNode",
+        "tags": [
+          "smartRoute"
+        ],
+        "summary": "POST /api/smartRoute/switchNode",
+        "x-risk": "write",
+        "x-sources": [
+          "assets__state.Bl-YjL3W.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        }
+      }
+    },
+    "/api/speedometer": {
+      "get": {
+        "operationId": "get_api_speedometer",
+        "tags": [
+          "speedometer"
+        ],
+        "summary": "GET /api/speedometer",
+        "x-risk": "read",
+        "x-sources": [
+          "assets__index.Bagt5HqK.js",
+          "assets__index.Dr-ktp7K.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        },
+        "x-probe": {
+          "status": 200,
+          "keys": [
+            "guage"
+          ],
+          "data_keys": null,
+          "json_type": "dict",
+          "list_len": null,
+          "size": 14
+        }
+      }
+    },
+    "/api/system-info/get-autoupdate": {
+      "get": {
+        "operationId": "get_api_system_info_get_autoupdate",
+        "tags": [
+          "system-info"
+        ],
+        "summary": "GET /api/system-info/get-autoupdate",
+        "x-risk": "read",
+        "x-sources": [
+          "assets__index.Bagt5HqK.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        },
+        "x-probe": {
+          "status": 200,
+          "keys": [
+            "autoUpdate"
+          ],
+          "data_keys": null,
+          "json_type": "dict",
+          "list_len": null,
+          "size": 16
+        }
+      }
+    },
+    "/api/system-info/get-latestversion": {
+      "get": {
+        "operationId": "get_api_system_info_get_latestversion",
+        "tags": [
+          "system-info"
+        ],
+        "summary": "GET /api/system-info/get-latestversion",
+        "x-risk": "read",
+        "x-sources": [
+          "assets__index.Bagt5HqK.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        },
+        "x-probe": {
+          "status": 200,
+          "keys": [
+            "latestVersion",
+            "currentVersion"
+          ],
+          "data_keys": null,
+          "json_type": "dict",
+          "list_len": null,
+          "size": 58
+        }
+      }
+    },
+    "/api/system-info/hardware-info": {
+      "get": {
+        "operationId": "get_api_system_info_hardware_info",
+        "tags": [
+          "system-info"
+        ],
+        "summary": "GET /api/system-info/hardware-info",
+        "x-risk": "read",
+        "x-sources": [
+          "assets__index.Bagt5HqK.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        },
+        "x-probe": {
+          "status": 200,
+          "keys": [
+            "SN",
+            "deviceId",
+            "cpuCount",
+            "cpuModel",
+            "totalMem",
+            "tempInCelsius"
+          ],
+          "data_keys": null,
+          "json_type": "dict",
+          "list_len": null,
+          "size": 176
+        }
+      }
+    },
+    "/api/system-info/network-address": {
+      "get": {
+        "operationId": "get_api_system_info_network_address",
+        "tags": [
+          "system-info"
+        ],
+        "summary": "GET /api/system-info/network-address",
+        "x-risk": "read",
+        "x-sources": [
+          "assets__index.Bagt5HqK.js",
+          "assets__index.MnKnF552.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        },
+        "x-probe": {
+          "status": 200,
+          "keys": [
+            "ip",
+            "pubIp",
+            "routerMac",
+            "gatewayMac"
+          ],
+          "data_keys": null,
+          "json_type": "dict",
+          "list_len": null,
+          "size": 111
+        }
+      }
+    },
+    "/api/system-info/session-info": {
+      "get": {
+        "operationId": "get_api_system_info_session_info",
+        "tags": [
+          "system-info"
+        ],
+        "summary": "GET /api/system-info/session-info",
+        "x-risk": "read",
+        "x-sources": [
+          "assets__index.Bagt5HqK.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        },
+        "x-probe": {
+          "status": 200,
+          "keys": [
+            "maxSessionNum",
+            "currSessionNum",
+            "tcpSessionNum",
+            "udpSessionNum",
+            "icmpSessionNum",
+            "tunnelSessionNum"
+          ],
+          "data_keys": null,
+          "json_type": "dict",
+          "list_len": null,
+          "size": 139
+        }
+      }
+    },
+    "/api/system-info/set-autoupdate": {
+      "get": {
+        "operationId": "get_api_system_info_set_autoupdate",
+        "tags": [
+          "system-info"
+        ],
+        "summary": "GET /api/system-info/set-autoupdate",
+        "x-risk": "read",
+        "x-sources": [
+          "assets__index.Bagt5HqK.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        },
+        "requestBody": {
+          "required": false,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "params": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "x-probe": {
+          "status": 200,
+          "keys": [
+            "code",
+            "desc"
+          ],
+          "data_keys": null,
+          "json_type": "dict",
+          "list_len": null,
+          "size": 42
+        }
+      }
+    },
+    "/api/system-info/software-info": {
+      "get": {
+        "operationId": "get_api_system_info_software_info",
+        "tags": [
+          "system-info"
+        ],
+        "summary": "GET /api/system-info/software-info",
+        "x-risk": "read",
+        "x-sources": [
+          "assets__index.Bagt5HqK.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        },
+        "x-probe": {
+          "status": 200,
+          "keys": [
+            "softwareVersion",
+            "appSigVersion",
+            "builtinRuleVersion",
+            "urlSigVersion"
+          ],
+          "data_keys": null,
+          "json_type": "dict",
+          "list_len": null,
+          "size": 117
+        }
+      }
+    },
+    "/api/system-info/update-latestversion": {
+      "get": {
+        "operationId": "get_api_system_info_update_latestversion",
+        "tags": [
+          "system-info"
+        ],
+        "summary": "GET /api/system-info/update-latestversion",
+        "x-risk": "read",
+        "x-sources": [
+          "assets__index.Bagt5HqK.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        },
+        "x-probe": {
+          "status": 200,
+          "keys": [
+            "success",
+            "reason"
+          ],
+          "data_keys": null,
+          "json_type": "dict",
+          "list_len": null,
+          "size": 42
+        }
+      }
+    },
+    "/api/system-info/usage": {
+      "get": {
+        "operationId": "get_api_system_info_usage",
+        "tags": [
+          "system-info"
+        ],
+        "summary": "GET /api/system-info/usage",
+        "x-risk": "read",
+        "x-sources": [
+          "assets__index.Bagt5HqK.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        },
+        "x-probe": {
+          "status": 200,
+          "keys": [
+            "xData",
+            "cpuUsageData",
+            "memUsageData"
+          ],
+          "data_keys": null,
+          "json_type": "dict",
+          "list_len": null,
+          "size": 6695
+        }
+      }
+    },
+    "/api/tproxy/adsFilter": {
+      "get": {
+        "operationId": "get_api_tproxy_adsFilter",
+        "tags": [
+          "tproxy"
+        ],
+        "summary": "GET /api/tproxy/adsFilter",
+        "x-risk": "write",
+        "x-sources": [
+          "assets__actions.BSDc0uML.js",
+          "assets__index.C07NpMhh.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        },
+        "x-probe": {
+          "status": 200,
+          "keys": [
+            "success",
+            "enable"
+          ],
+          "data_keys": null,
+          "json_type": "dict",
+          "list_len": null,
+          "size": 31
+        }
+      },
+      "post": {
+        "operationId": "post_api_tproxy_adsFilter",
+        "tags": [
+          "tproxy"
+        ],
+        "summary": "POST /api/tproxy/adsFilter",
+        "x-risk": "write",
+        "x-sources": [
+          "assets__actions.BSDc0uML.js",
+          "assets__index.C07NpMhh.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        },
+        "x-probe": {
+          "status": 200,
+          "keys": [
+            "success",
+            "enable"
+          ],
+          "data_keys": null,
+          "json_type": "dict",
+          "list_len": null,
+          "size": 31
+        }
+      }
+    },
+    "/api/tproxy/rule": {
+      "get": {
+        "operationId": "get_api_tproxy_rule",
+        "tags": [
+          "tproxy"
+        ],
+        "summary": "GET /api/tproxy/rule",
+        "x-risk": "write",
+        "x-sources": [
+          "assets__index.C07NpMhh.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        },
+        "x-probe": {
+          "status": 200,
+          "keys": [
+            "success",
+            "list"
+          ],
+          "data_keys": null,
+          "json_type": "dict",
+          "list_len": null,
+          "size": 26
+        }
+      },
+      "post": {
+        "operationId": "post_api_tproxy_rule",
+        "tags": [
+          "tproxy"
+        ],
+        "summary": "POST /api/tproxy/rule",
+        "x-risk": "write",
+        "x-sources": [
+          "assets__index.C07NpMhh.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        },
+        "x-probe": {
+          "status": 200,
+          "keys": [
+            "success",
+            "list"
+          ],
+          "data_keys": null,
+          "json_type": "dict",
+          "list_len": null,
+          "size": 26
+        }
+      }
+    },
+    "/api/tproxy/sslBypass": {
+      "get": {
+        "operationId": "get_api_tproxy_sslBypass",
+        "tags": [
+          "tproxy"
+        ],
+        "summary": "GET /api/tproxy/sslBypass",
+        "x-risk": "write",
+        "x-sources": [
+          "assets__actions.BSDc0uML.js",
+          "assets__index.C07NpMhh.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        },
+        "x-probe": {
+          "status": 200,
+          "keys": [
+            "success",
+            "enable"
+          ],
+          "data_keys": null,
+          "json_type": "dict",
+          "list_len": null,
+          "size": 31
+        }
+      },
+      "post": {
+        "operationId": "post_api_tproxy_sslBypass",
+        "tags": [
+          "tproxy"
+        ],
+        "summary": "POST /api/tproxy/sslBypass",
+        "x-risk": "write",
+        "x-sources": [
+          "assets__actions.BSDc0uML.js",
+          "assets__index.C07NpMhh.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        },
+        "x-probe": {
+          "status": 200,
+          "keys": [
+            "success",
+            "enable"
+          ],
+          "data_keys": null,
+          "json_type": "dict",
+          "list_len": null,
+          "size": 31
+        }
+      }
+    },
+    "/api/traffic/routedInfo": {
+      "get": {
+        "operationId": "get_api_traffic_routedInfo",
+        "tags": [
+          "traffic"
+        ],
+        "summary": "GET /api/traffic/routedInfo",
+        "x-risk": "read",
+        "x-sources": [
+          "assets__index.Dr-ktp7K.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        },
+        "x-probe": {
+          "status": 200,
+          "keys": [
+            "count",
+            "traffic"
+          ],
+          "data_keys": null,
+          "json_type": "dict",
+          "list_len": null,
+          "size": 38
+        }
+      }
+    },
+    "/api/traffic/savedTraffic": {
+      "get": {
+        "operationId": "get_api_traffic_savedTraffic",
+        "tags": [
+          "traffic"
+        ],
+        "summary": "GET /api/traffic/savedTraffic",
+        "x-risk": "read",
+        "x-sources": [
+          "assets__index.Dr-ktp7K.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        },
+        "x-probe": {
+          "status": 200,
+          "keys": [
+            "total",
+            "saved"
+          ],
+          "data_keys": null,
+          "json_type": "dict",
+          "list_len": null,
+          "size": 39
+        }
+      }
+    },
+    "/api/traffic/session-speed": {
+      "get": {
+        "operationId": "get_api_traffic_session_speed",
+        "tags": [
+          "traffic"
+        ],
+        "summary": "GET /api/traffic/session-speed",
+        "x-risk": "read",
+        "x-sources": [
+          "assets__index.CaZRWQuY.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        },
+        "x-probe": {
+          "status": 200,
+          "keys": [
+            "timeline",
+            "traffic"
+          ],
+          "data_keys": null,
+          "json_type": "dict",
+          "list_len": null,
+          "size": 965
+        }
+      }
+    },
+    "/api/traffic/total-traffic": {
+      "get": {
+        "operationId": "get_api_traffic_total_traffic",
+        "tags": [
+          "traffic"
+        ],
+        "summary": "GET /api/traffic/total-traffic",
+        "x-risk": "read",
+        "x-sources": [
+          "assets__index.CaZRWQuY.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        },
+        "x-probe": {
+          "status": 200,
+          "keys": [
+            "localTraffic",
+            "clientTraffic",
+            "serverTraffic"
+          ],
+          "data_keys": null,
+          "json_type": "dict",
+          "list_len": null,
+          "size": 168
+        }
+      }
+    },
+    "/api/wallet/bindWallet": {
+      "post": {
+        "operationId": "post_api_wallet_bindWallet",
+        "tags": [
+          "wallet"
+        ],
+        "summary": "POST /api/wallet/bindWallet",
+        "x-risk": "write",
+        "x-sources": [
+          "assets__index.DnlURU1K.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        },
+        "description": "many endpoints return 403 walletLocked until wallet is unlocked"
+      }
+    },
+    "/api/wallet/downloadKeystore": {
+      "post": {
+        "operationId": "post_api_wallet_downloadKeystore",
+        "tags": [
+          "wallet"
+        ],
+        "summary": "POST /api/wallet/downloadKeystore",
+        "x-risk": "write",
+        "x-sources": [
+          "assets__index.DnlURU1K.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        },
+        "description": "many endpoints return 403 walletLocked until wallet is unlocked"
+      }
+    },
+    "/api/wallet/generateWallet": {
+      "post": {
+        "operationId": "post_api_wallet_generateWallet",
+        "tags": [
+          "wallet"
+        ],
+        "summary": "POST /api/wallet/generateWallet",
+        "x-risk": "write",
+        "x-sources": [
+          "assets__index.DnlURU1K.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        },
+        "requestBody": {
+          "required": false,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "password": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "description": "many endpoints return 403 walletLocked until wallet is unlocked"
+      }
+    },
+    "/api/wallet/publicKey": {
+      "get": {
+        "operationId": "get_api_wallet_publicKey",
+        "tags": [
+          "wallet"
+        ],
+        "summary": "GET /api/wallet/publicKey",
+        "x-risk": "read",
+        "x-sources": [
+          "assets__state.CmWONeJ1.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        },
+        "x-probe": {
+          "status": 403,
+          "keys": [
+            "walletLocked"
+          ],
+          "data_keys": null,
+          "json_type": "dict",
+          "list_len": null,
+          "size": 21
+        },
+        "description": "many endpoints return 403 walletLocked until wallet is unlocked"
+      }
+    },
+    "/api/wallet/resetPassword": {
+      "post": {
+        "operationId": "post_api_wallet_resetPassword",
+        "tags": [
+          "wallet"
+        ],
+        "summary": "POST /api/wallet/resetPassword",
+        "x-risk": "critical-write",
+        "x-sources": [
+          "assets__actions.B3aE-YOO.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        },
+        "description": "many endpoints return 403 walletLocked until wallet is unlocked"
+      }
+    },
+    "/api/wallet/setPassword": {
+      "post": {
+        "operationId": "post_api_wallet_setPassword",
+        "tags": [
+          "wallet"
+        ],
+        "summary": "POST /api/wallet/setPassword",
+        "x-risk": "write",
+        "x-sources": [
+          "assets__Layout.corvXxLa.js",
+          "assets__actions.B3aE-YOO.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        },
+        "requestBody": {
+          "required": false,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "password": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "description": "many endpoints return 403 walletLocked until wallet is unlocked"
+      }
+    },
+    "/api/wallet/unbindWallet": {
+      "post": {
+        "operationId": "post_api_wallet_unbindWallet",
+        "tags": [
+          "wallet"
+        ],
+        "summary": "POST /api/wallet/unbindWallet",
+        "x-risk": "critical-write",
+        "x-sources": [
+          "assets__index.DnlURU1K.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        },
+        "description": "many endpoints return 403 walletLocked until wallet is unlocked"
+      }
+    },
+    "/api/wallet/unlock": {
+      "post": {
+        "operationId": "post_api_wallet_unlock",
+        "tags": [
+          "wallet"
+        ],
+        "summary": "POST /api/wallet/unlock",
+        "x-risk": "write",
+        "x-sources": [
+          "assets__Layout.corvXxLa.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        },
+        "requestBody": {
+          "required": false,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "password": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "description": "many endpoints return 403 walletLocked until wallet is unlocked"
+      }
+    },
+    "/api/wallet/unstaking": {
+      "get": {
+        "operationId": "get_api_wallet_unstaking",
+        "tags": [
+          "wallet"
+        ],
+        "summary": "GET /api/wallet/unstaking",
+        "x-risk": "write",
+        "x-sources": [
+          "assets__index.DnlURU1K.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        },
+        "x-probe": {
+          "status": 403,
+          "keys": [
+            "walletLocked"
+          ],
+          "data_keys": null,
+          "json_type": "dict",
+          "list_len": null,
+          "size": 21
+        },
+        "description": "many endpoints return 403 walletLocked until wallet is unlocked"
+      },
+      "post": {
+        "operationId": "post_api_wallet_unstaking",
+        "tags": [
+          "wallet"
+        ],
+        "summary": "POST /api/wallet/unstaking",
+        "x-risk": "write",
+        "x-sources": [
+          "assets__index.DnlURU1K.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        },
+        "requestBody": {
+          "required": false,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "choice": {
+                    "type": "string"
+                  },
+                  "password": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "x-probe": {
+          "status": 403,
+          "keys": [
+            "walletLocked"
+          ],
+          "data_keys": null,
+          "json_type": "dict",
+          "list_len": null,
+          "size": 21
+        },
+        "description": "many endpoints return 403 walletLocked until wallet is unlocked"
+      }
+    },
+    "/api/wifi/connect": {
+      "post": {
+        "operationId": "post_api_wifi_connect",
+        "tags": [
+          "wifi"
+        ],
+        "summary": "POST /api/wifi/connect",
+        "x-risk": "write",
+        "x-sources": [
+          "assets__state.DWtk4kGo.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        }
+      }
+    },
+    "/api/wifi/enable": {
+      "get": {
+        "operationId": "get_api_wifi_enable",
+        "tags": [
+          "wifi"
+        ],
+        "summary": "GET /api/wifi/enable",
+        "x-risk": "read",
+        "x-sources": [
+          "assets__state.CSlyoAGu.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        },
+        "x-probe": {
+          "status": 200,
+          "keys": [
+            "success",
+            "enable"
+          ],
+          "data_keys": null,
+          "json_type": "dict",
+          "list_len": null,
+          "size": 30
+        }
+      }
+    },
+    "/api/wifi/forget": {
+      "post": {
+        "operationId": "post_api_wifi_forget",
+        "tags": [
+          "wifi"
+        ],
+        "summary": "POST /api/wifi/forget",
+        "x-risk": "write",
+        "x-sources": [
+          "assets__state.DWtk4kGo.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        },
+        "requestBody": {
+          "required": false,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "ssid": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/wifi/getAPConfig": {
+      "get": {
+        "operationId": "get_api_wifi_getAPConfig",
+        "tags": [
+          "wifi"
+        ],
+        "summary": "GET /api/wifi/getAPConfig",
+        "x-risk": "read",
+        "x-sources": [
+          "assets__state.DWtk4kGo.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        },
+        "x-probe": {
+          "status": 200,
+          "keys": [
+            "success"
+          ],
+          "data_keys": null,
+          "json_type": "dict",
+          "list_len": null,
+          "size": 17
+        }
+      }
+    },
+    "/api/wifi/hostapdLog": {
+      "get": {
+        "operationId": "get_api_wifi_hostapdLog",
+        "tags": [
+          "wifi"
+        ],
+        "summary": "GET /api/wifi/hostapdLog",
+        "x-risk": "read",
+        "x-sources": [
+          "assets__index.BCbjQJ8i.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        },
+        "x-probe": {
+          "status": 200,
+          "keys": null,
+          "data_keys": null,
+          "json_type": "list",
+          "list_len": 50,
+          "size": 4991
+        }
+      }
+    },
+    "/api/wifi/setDownstream": {
+      "post": {
+        "operationId": "post_api_wifi_setDownstream",
+        "tags": [
+          "wifi"
+        ],
+        "summary": "POST /api/wifi/setDownstream",
+        "x-risk": "write",
+        "x-sources": [
+          "assets__state.DWtk4kGo.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        }
+      }
+    },
+    "/api/wifi/upstreamList": {
+      "get": {
+        "operationId": "get_api_wifi_upstreamList",
+        "tags": [
+          "wifi"
+        ],
+        "summary": "GET /api/wifi/upstreamList",
+        "x-risk": "read",
+        "x-sources": [
+          "assets__ConnectWifiModal.DKbjEQ-3.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        },
+        "x-probe": {
+          "status": 200,
+          "keys": [
+            "success",
+            "list"
+          ],
+          "data_keys": null,
+          "json_type": "dict",
+          "list_len": null,
+          "size": 26
+        }
+      }
+    },
+    "/api/wifi/workingInfo": {
+      "get": {
+        "operationId": "get_api_wifi_workingInfo",
+        "tags": [
+          "wifi"
+        ],
+        "summary": "GET /api/wifi/workingInfo",
+        "x-risk": "read",
+        "x-sources": [
+          "assets__state.DWtk4kGo.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        },
+        "x-probe": {
+          "status": 200,
+          "keys": [
+            "success",
+            "workingInfo"
+          ],
+          "data_keys": null,
+          "json_type": "dict",
+          "list_len": null,
+          "size": 122
+        }
+      }
+    },
+    "/api/worldmap-data": {
+      "get": {
+        "operationId": "get_api_worldmap_data",
+        "tags": [
+          "worldmap-data"
+        ],
+        "summary": "GET /api/worldmap-data",
+        "x-risk": "read",
+        "x-sources": [
+          "assets__index.Dr-ktp7K.js"
+        ],
+        "responses": {
+          "default": {
+            "description": "Router response"
+          }
+        },
+        "x-probe": {
+          "status": 200,
+          "keys": [
+            "self",
+            "peerList",
+            "routedList",
+            "ngn"
+          ],
+          "data_keys": null,
+          "json_type": "dict",
+          "list_len": null,
+          "size": 1316
+        }
+      }
+    }
+  }
+}

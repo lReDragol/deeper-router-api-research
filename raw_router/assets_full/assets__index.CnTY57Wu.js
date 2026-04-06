@@ -1,0 +1,1 @@
+import{r as l,j as t}from"./index.gHG1NCGy.js";const x=i=>{const{prefix:e="icon",name:o,color:r,size:s,className:n=""}=i,c=l.useMemo(()=>`#${e}-${o}`,[e,o]),a=s?{width:`${s}`,height:`${s}`}:{};return t.jsx("svg",{"aria-hidden":"true",...a,fill:r,className:n,children:t.jsx("use",{href:c,fill:r})})};export{x as S};

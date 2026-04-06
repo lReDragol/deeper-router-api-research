@@ -1,0 +1,7 @@
+{
+  "on": false,
+  "forced": false,
+  "port": 21116,
+  "pubKey": null,
+  "vpnSupport": true
+}

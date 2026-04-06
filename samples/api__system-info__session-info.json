@@ -1,0 +1,8 @@
+{
+  "maxSessionNum": "16384",
+  "currSessionNum": "2555",
+  "tcpSessionNum": "1825",
+  "udpSessionNum": "730",
+  "icmpSessionNum": "0",
+  "tunnelSessionNum": "12"
+}

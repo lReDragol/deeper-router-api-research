@@ -1,0 +1,32 @@
+{
+  "app": [],
+  "rgn": [
+    {
+      "key": "sample-1",
+      "msg": "IP 198.51.100.10(example-routing.test), rgn UB, was routed to UB"
+    },
+    {
+      "key": "sample-2",
+      "msg": "IP 203.0.113.20(example-app.test), app [chatGpt], rgn UB, was routed to UB"
+    },
+    {
+      "key": "sample-3",
+      "msg": "IP 192.0.2.30(example-direct.test), rgn UB, was routed to local direct link"
+    },
+    {
+      "key": "sample-4",
+      "msg": "IP 203.0.113.40(example-service.test), app [youtube], rgn UB, was routed to UB"
+    }
+  ],
+  "dns": [
+    {
+      "key": "dns-sample-1",
+      "msg": "block ads by DNS: ads.example.test"
+    },
+    {
+      "key": "dns-sample-2",
+      "msg": "block ads by DNS: analytics.example.test"
+    }
+  ],
+  "https": []
+}

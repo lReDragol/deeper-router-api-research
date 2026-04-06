@@ -1,0 +1,12 @@
+{
+  "success": true,
+  "workingInfo": {
+    "mode": "vwire",
+    "ap": null,
+    "sta": null,
+    "eth": null,
+    "logs": null,
+    "wanStatus": null,
+    "isAir": false
+  }
+}

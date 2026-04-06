@@ -1,0 +1,1 @@
+import{j as e}from"./index.gHG1NCGy.js";import{c as s}from"./index.Duw3QxP2.js";import{L as t}from"./loader-circle.jbazPvmO.js";const o=({className:r})=>e.jsx("div",{className:s("flex flex-col items-center justify-center w-full h-full",r),children:e.jsx(t,{className:"mr-2 h-4 w-4 animate-spin text-gray-400"})});export{o as L};

@@ -1,0 +1,1 @@
+import{c as r}from"./index.gHG1NCGy.js";import{u as a}from"./useQuery.ZtxjnH9M.js";const i=()=>a({queryKey:["sharing.sharingConfig"],queryFn:async()=>await r.get("/api/sharing/getSharingConfig")});export{i as u};

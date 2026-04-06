@@ -1,0 +1,202 @@
+[
+  {
+    "key": "eafd90ee8d34aa1d",
+    "line": "2026-02-21 19:58:04 : nl80211: deinit ifname=wlan1 disabled_11b_rates=0"
+  },
+  {
+    "key": "86422097b722422b",
+    "line": "2026-02-21 19:58:04 : hostapd_free_hapd_data: Interface wlan1 wasn't started"
+  },
+  {
+    "key": "9b18e2d53a76a067",
+    "line": "2026-02-21 19:58:04 : wlan1: CTRL-EVENT-TERMINATING "
+  },
+  {
+    "key": "681e1dfa5fd8746b",
+    "line": "2026-02-21 19:58:04 : wlan1: AP-DISABLED "
+  },
+  {
+    "key": "8dc498f3ae128629",
+    "line": "2026-02-21 19:58:04 : wlan1: interface state DISABLED->DISABLED"
+  },
+  {
+    "key": "f1d2e9a08ccbb7ea",
+    "line": "2026-02-21 19:58:04 : wlan1: Unable to setup interface."
+  },
+  {
+    "key": "e1b02820ef36225c",
+    "line": "2026-02-21 19:58:04 : wlan1: AP-DISABLED "
+  },
+  {
+    "key": "944c2be67f5fc9e9",
+    "line": "2026-02-21 19:58:04 : wlan1: interface state HT_SCAN->DISABLED"
+  },
+  {
+    "key": "930ab209928875a3",
+    "line": "2026-02-21 19:58:04 : Failed to request a scan of neighboring BSSes ret=-1 (Operation not permitted)"
+  },
+  {
+    "key": "35247fdd5fb6c15c",
+    "line": "2026-02-21 19:58:04 : wlan1: interface state UNINITIALIZED->HT_SCAN"
+  },
+  {
+    "key": "291742359d0e8540",
+    "line": "2026-02-21 19:57:58 : nl80211: deinit ifname=wlan1 disabled_11b_rates=0"
+  },
+  {
+    "key": "6467a68fb1c34ea9",
+    "line": "2026-02-21 19:57:58 : hostapd_free_hapd_data: Interface wlan1 wasn't started"
+  },
+  {
+    "key": "4689877e7f2df546",
+    "line": "2026-02-21 19:57:58 : wlan1: CTRL-EVENT-TERMINATING "
+  },
+  {
+    "key": "72fba9306fe549ec",
+    "line": "2026-02-21 19:57:58 : wlan1: AP-DISABLED "
+  },
+  {
+    "key": "cb49b5541a35e5a1",
+    "line": "2026-02-21 19:57:58 : wlan1: interface state DISABLED->DISABLED"
+  },
+  {
+    "key": "ed3634ff6831ba88",
+    "line": "2026-02-21 19:57:58 : wlan1: Unable to setup interface."
+  },
+  {
+    "key": "e5c959f274350808",
+    "line": "2026-02-21 19:57:58 : wlan1: AP-DISABLED "
+  },
+  {
+    "key": "139b503b33a0d04a",
+    "line": "2026-02-21 19:57:58 : wlan1: interface state HT_SCAN->DISABLED"
+  },
+  {
+    "key": "b0bda1ec3d4a19fb",
+    "line": "2026-02-21 19:57:58 : Failed to request a scan of neighboring BSSes ret=-1 (Operation not permitted)"
+  },
+  {
+    "key": "0da7a1827d62769a",
+    "line": "2026-02-21 19:57:58 : wlan1: interface state UNINITIALIZED->HT_SCAN"
+  },
+  {
+    "key": "ee18f55fbfdb8373",
+    "line": "2026-02-21 19:57:53 : nl80211: deinit ifname=wlan1 disabled_11b_rates=0"
+  },
+  {
+    "key": "5fe5fd75ff74d3d0",
+    "line": "2026-02-21 19:57:53 : hostapd_free_hapd_data: Interface wlan1 wasn't started"
+  },
+  {
+    "key": "eab5629af199c73c",
+    "line": "2026-02-21 19:57:53 : wlan1: CTRL-EVENT-TERMINATING "
+  },
+  {
+    "key": "a18ec4b49be7b604",
+    "line": "2026-02-21 19:57:53 : wlan1: AP-DISABLED "
+  },
+  {
+    "key": "ddb31a48de8fee90",
+    "line": "2026-02-21 19:57:53 : wlan1: interface state DISABLED->DISABLED"
+  },
+  {
+    "key": "06bf24faffbcaccb",
+    "line": "2026-02-21 19:57:53 : wlan1: Unable to setup interface."
+  },
+  {
+    "key": "895877a5e0755d9f",
+    "line": "2026-02-21 19:57:53 : wlan1: AP-DISABLED "
+  },
+  {
+    "key": "4d65e19b0593a1c2",
+    "line": "2026-02-21 19:57:53 : wlan1: interface state HT_SCAN->DISABLED"
+  },
+  {
+    "key": "43aec8f05601ec97",
+    "line": "2026-02-21 19:57:53 : Failed to request a scan of neighboring BSSes ret=-1 (Operation not permitted)"
+  },
+  {
+    "key": "e82ec5492e9f5ee0",
+    "line": "2026-02-21 19:57:53 : wlan1: interface state UNINITIALIZED->HT_SCAN"
+  },
+  {
+    "key": "f081e16872e0b420",
+    "line": "2026-02-21 19:57:48 : nl80211: deinit ifname=wlan1 disabled_11b_rates=0"
+  },
+  {
+    "key": "7aace2bf3f96e1d8",
+    "line": "2026-02-21 19:57:48 : hostapd_free_hapd_data: Interface wlan1 wasn't started"
+  },
+  {
+    "key": "5a0a4754de133754",
+    "line": "2026-02-21 19:57:48 : wlan1: CTRL-EVENT-TERMINATING "
+  },
+  {
+    "key": "7901de443839a86e",
+    "line": "2026-02-21 19:57:48 : wlan1: AP-DISABLED "
+  },
+  {
+    "key": "5ff5086c5d139962",
+    "line": "2026-02-21 19:57:48 : wlan1: interface state DISABLED->DISABLED"
+  },
+  {
+    "key": "bb545a3c8fc64a67",
+    "line": "2026-02-21 19:57:48 : wlan1: Unable to setup interface."
+  },
+  {
+    "key": "5394c95b739bab0c",
+    "line": "2026-02-21 19:57:48 : wlan1: AP-DISABLED "
+  },
+  {
+    "key": "c88c94cfd7a7e84c",
+    "line": "2026-02-21 19:57:48 : wlan1: interface state HT_SCAN->DISABLED"
+  },
+  {
+    "key": "b5c549487f1dfd5c",
+    "line": "2026-02-21 19:57:48 : Failed to request a scan of neighboring BSSes ret=-1 (Operation not permitted)"
+  },
+  {
+    "key": "eb6ebcb6d158d668",
+    "line": "2026-02-21 19:57:48 : wlan1: interface state UNINITIALIZED->HT_SCAN"
+  },
+  {
+    "key": "6a30c52a0dfbe8fd",
+    "line": "2026-02-21 19:57:41 : nl80211: deinit ifname=wlan1 disabled_11b_rates=0"
+  },
+  {
+    "key": "7f506bfebd08a269",
+    "line": "2026-02-21 19:57:41 : hostapd_free_hapd_data: Interface wlan1 wasn't started"
+  },
+  {
+    "key": "c86491338b06e7ec",
+    "line": "2026-02-21 19:57:41 : wlan1: CTRL-EVENT-TERMINATING "
+  },
+  {
+    "key": "5b0bcface5ec8a68",
+    "line": "2026-02-21 19:57:41 : wlan1: AP-DISABLED "
+  },
+  {
+    "key": "bb0a46307dab0369",
+    "line": "2026-02-21 19:57:41 : wlan1: interface state DISABLED->DISABLED"
+  },
+  {
+    "key": "360f6a010169561f",
+    "line": "2026-02-21 19:57:41 : wlan1: Unable to setup interface."
+  },
+  {
+    "key": "cdcd8adff395e9bb",
+    "line": "2026-02-21 19:57:41 : wlan1: AP-DISABLED "
+  },
+  {
+    "key": "a6cf166828dc64ce",
+    "line": "2026-02-21 19:57:41 : wlan1: interface state HT_SCAN->DISABLED"
+  },
+  {
+    "key": "3fa4b76692eb3e4a",
+    "line": "2026-02-21 19:57:41 : Failed to request a scan of neighboring BSSes ret=-1 (Operation not permitted)"
+  },
+  {
+    "key": "4c5991c46beae82f",
+    "line": "2026-02-21 19:57:41 : wlan1: interface state UNINITIALIZED->HT_SCAN"
+  }
+]

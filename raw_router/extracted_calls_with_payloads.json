@@ -1,0 +1,1544 @@
+[
+  {
+    "method": "POST",
+    "path": "/api/accessControl/delete",
+    "category": "accessControl",
+    "sources": [
+      "assets__actions.CDXTKKH4.js"
+    ],
+    "body_keys": [
+      "macList"
+    ],
+    "arg2_types": [
+      "object_literal"
+    ]
+  },
+  {
+    "method": "GET",
+    "path": "/api/accessControl/list",
+    "category": "accessControl",
+    "sources": [
+      "assets__actions.CDXTKKH4.js"
+    ],
+    "body_keys": [],
+    "arg2_types": []
+  },
+  {
+    "method": "POST",
+    "path": "/api/accessControl/setOne",
+    "category": "accessControl",
+    "sources": [
+      "assets__actions.CDXTKKH4.js"
+    ],
+    "body_keys": [],
+    "arg2_types": [
+      "identifier:o",
+      "identifier:y"
+    ]
+  },
+  {
+    "method": "GET",
+    "path": "/api/accessControl/switch",
+    "category": "accessControl",
+    "sources": [
+      "assets__actions.CDXTKKH4.js"
+    ],
+    "body_keys": [],
+    "arg2_types": []
+  },
+  {
+    "method": "POST",
+    "path": "/api/accessControl/switch",
+    "category": "accessControl",
+    "sources": [
+      "assets__actions.CDXTKKH4.js"
+    ],
+    "body_keys": [
+      "value"
+    ],
+    "arg2_types": [
+      "object_literal"
+    ]
+  },
+  {
+    "method": "POST",
+    "path": "/api/admin/changePassword",
+    "category": "admin",
+    "sources": [
+      "assets__index.BsQdlffd.js"
+    ],
+    "body_keys": [],
+    "arg2_types": [
+      "identifier:n"
+    ]
+  },
+  {
+    "method": "POST",
+    "path": "/api/admin/connect",
+    "category": "admin",
+    "sources": [
+      "assets__index.SMSNCy-w.js"
+    ],
+    "body_keys": [],
+    "arg2_types": []
+  },
+  {
+    "method": "POST",
+    "path": "/api/admin/consent",
+    "category": "admin",
+    "sources": [
+      "assets__index.Cn0M_pb9.js"
+    ],
+    "body_keys": [
+      "privacyPolicy",
+      "termsOfUse"
+    ],
+    "arg2_types": [
+      "object_literal"
+    ]
+  },
+  {
+    "method": "POST",
+    "path": "/api/admin/deeperLog",
+    "category": "admin",
+    "sources": [
+      "assets__index.j1L27DJZ.js"
+    ],
+    "body_keys": [
+      "level",
+      "message"
+    ],
+    "arg2_types": [
+      "object_literal"
+    ]
+  },
+  {
+    "method": "GET",
+    "path": "/api/admin/getDeviceId",
+    "category": "admin",
+    "sources": [
+      "assets__actions.BcRzSJ0R.js"
+    ],
+    "body_keys": [],
+    "arg2_types": []
+  },
+  {
+    "method": "GET",
+    "path": "/api/admin/getMyCountry",
+    "category": "admin",
+    "sources": [
+      "assets__actions.BcRzSJ0R.js",
+      "assets__state.DWtk4kGo.js"
+    ],
+    "body_keys": [],
+    "arg2_types": []
+  },
+  {
+    "method": "POST",
+    "path": "/api/admin/logOut",
+    "category": "admin",
+    "sources": [
+      "assets__Layout.corvXxLa.js"
+    ],
+    "body_keys": [],
+    "arg2_types": []
+  },
+  {
+    "method": "POST",
+    "path": "/api/admin/reboot",
+    "category": "admin",
+    "sources": [
+      "assets__index.CljWzoTA.js"
+    ],
+    "body_keys": [],
+    "arg2_types": []
+  },
+  {
+    "method": "GET",
+    "path": "/api/admin/remoteWeb",
+    "category": "admin",
+    "sources": [
+      "assets__index.SMSNCy-w.js"
+    ],
+    "body_keys": [],
+    "arg2_types": []
+  },
+  {
+    "method": "POST",
+    "path": "/api/admin/remoteWeb/start",
+    "category": "admin",
+    "sources": [
+      "assets__index.SMSNCy-w.js"
+    ],
+    "body_keys": [],
+    "arg2_types": []
+  },
+  {
+    "method": "POST",
+    "path": "/api/admin/remoteWeb/stop",
+    "category": "admin",
+    "sources": [
+      "assets__index.SMSNCy-w.js"
+    ],
+    "body_keys": [],
+    "arg2_types": []
+  },
+  {
+    "method": "POST",
+    "path": "/api/admin/reset",
+    "category": "admin",
+    "sources": [
+      "assets__index.ddX4Lx1L.js"
+    ],
+    "body_keys": [],
+    "arg2_types": [
+      "identifier:i"
+    ]
+  },
+  {
+    "method": "POST",
+    "path": "/api/admin/validateToken",
+    "category": "admin",
+    "sources": [
+      "assets__actions.BcRzSJ0R.js",
+      "assets__index.gHG1NCGy.js"
+    ],
+    "body_keys": [],
+    "arg2_types": []
+  },
+  {
+    "method": "POST",
+    "path": "/api/appRelocator/addApp",
+    "category": "appRelocator",
+    "sources": [
+      "assets__state.BMZevs80.js"
+    ],
+    "body_keys": [],
+    "arg2_types": [
+      "identifier:t"
+    ]
+  },
+  {
+    "method": "GET",
+    "path": "/api/appRelocator/apps",
+    "category": "appRelocator",
+    "sources": [
+      "assets__state.BMZevs80.js"
+    ],
+    "body_keys": [],
+    "arg2_types": []
+  },
+  {
+    "method": "POST",
+    "path": "/api/appRelocator/delApp",
+    "category": "appRelocator",
+    "sources": [
+      "assets__state.BMZevs80.js"
+    ],
+    "body_keys": [
+      "appName"
+    ],
+    "arg2_types": [
+      "object_literal"
+    ]
+  },
+  {
+    "method": "GET",
+    "path": "/api/autoReboot/config",
+    "category": "autoReboot",
+    "sources": [
+      "assets__index.CljWzoTA.js"
+    ],
+    "body_keys": [],
+    "arg2_types": []
+  },
+  {
+    "method": "POST",
+    "path": "/api/autoReboot/config",
+    "category": "autoReboot",
+    "sources": [
+      "assets__index.CljWzoTA.js"
+    ],
+    "body_keys": [],
+    "arg2_types": [
+      "identifier:o"
+    ]
+  },
+  {
+    "method": "GET",
+    "path": "/api/betanet/getBalanceAndCredit",
+    "category": "betanet",
+    "sources": [
+      "assets__index.C09gRyaU.js"
+    ],
+    "body_keys": [],
+    "arg2_types": []
+  },
+  {
+    "method": "GET",
+    "path": "/api/betanet/getBalanceHistory",
+    "category": "betanet",
+    "sources": [
+      "assets__index.C09gRyaU.js"
+    ],
+    "body_keys": [],
+    "arg2_types": []
+  },
+  {
+    "method": "GET",
+    "path": "/api/betanet/getOnChainStatus",
+    "category": "betanet",
+    "sources": [
+      "assets__index.C09gRyaU.js"
+    ],
+    "body_keys": [],
+    "arg2_types": []
+  },
+  {
+    "method": "GET",
+    "path": "/api/betanet/getTransactionList",
+    "category": "betanet",
+    "sources": [
+      "assets__index.DOE0vzot.js"
+    ],
+    "body_keys": [
+      "params"
+    ],
+    "arg2_types": [
+      "object_literal"
+    ]
+  },
+  {
+    "method": "GET",
+    "path": "/api/betanet/getTransactionSum",
+    "category": "betanet",
+    "sources": [
+      "assets__index.9KobG3oN.js"
+    ],
+    "body_keys": [
+      "params",
+      "position"
+    ],
+    "arg2_types": [
+      "object_literal"
+    ]
+  },
+  {
+    "method": "POST",
+    "path": "/api/betanet/redeemCredit",
+    "category": "betanet",
+    "sources": [
+      "assets__index.DnlURU1K.js"
+    ],
+    "body_keys": [],
+    "arg2_types": [
+      "identifier:t"
+    ]
+  },
+  {
+    "method": "POST",
+    "path": "/api/betanet/setCreditLevel",
+    "category": "betanet",
+    "sources": [
+      "assets__index.DnlURU1K.js"
+    ],
+    "body_keys": [],
+    "arg2_types": [
+      "identifier:t"
+    ]
+  },
+  {
+    "method": "POST",
+    "path": "/api/betanet/transfer",
+    "category": "betanet",
+    "sources": [
+      "assets__index.DnlURU1K.js"
+    ],
+    "body_keys": [],
+    "arg2_types": [
+      "identifier:t"
+    ]
+  },
+  {
+    "method": "GET",
+    "path": "/api/betanet/walletData",
+    "category": "betanet",
+    "sources": [
+      "assets__index.DnlURU1K.js"
+    ],
+    "body_keys": [],
+    "arg2_types": []
+  },
+  {
+    "method": "GET",
+    "path": "/api/dynamic-data",
+    "category": "dynamic-data",
+    "sources": [
+      "assets__index.Dr-ktp7K.js"
+    ],
+    "body_keys": [],
+    "arg2_types": []
+  },
+  {
+    "method": "GET",
+    "path": "/api/info",
+    "category": "info",
+    "sources": [
+      "assets__index.Dr-ktp7K.js"
+    ],
+    "body_keys": [],
+    "arg2_types": []
+  },
+  {
+    "method": "GET",
+    "path": "/api/inform",
+    "category": "inform",
+    "sources": [
+      "assets__index.Dr-ktp7K.js"
+    ],
+    "body_keys": [],
+    "arg2_types": []
+  },
+  {
+    "method": "GET",
+    "path": "/api/liquid",
+    "category": "liquid",
+    "sources": [
+      "assets__index.Bagt5HqK.js",
+      "assets__index.Dr-ktp7K.js"
+    ],
+    "body_keys": [],
+    "arg2_types": []
+  },
+  {
+    "method": "GET",
+    "path": "/api/microPayment/getDailyTraffic",
+    "category": "microPayment",
+    "sources": [
+      "assets__index.C09gRyaU.js"
+    ],
+    "body_keys": [],
+    "arg2_types": []
+  },
+  {
+    "method": "GET",
+    "path": "/api/rustdesk/config",
+    "category": "rustdesk",
+    "sources": [
+      "assets__index.MnKnF552.js"
+    ],
+    "body_keys": [],
+    "arg2_types": []
+  },
+  {
+    "method": "POST",
+    "path": "/api/rustdesk/forced",
+    "category": "rustdesk",
+    "sources": [
+      "assets__index.MnKnF552.js"
+    ],
+    "body_keys": [],
+    "arg2_types": [
+      "identifier:r"
+    ]
+  },
+  {
+    "method": "GET",
+    "path": "/api/rustdesk/hbbrLog",
+    "category": "rustdesk",
+    "sources": [
+      "assets__index.BGtX8-ae.js"
+    ],
+    "body_keys": [],
+    "arg2_types": []
+  },
+  {
+    "method": "DELETE",
+    "path": "/api/rustdesk/keys",
+    "category": "rustdesk",
+    "sources": [
+      "assets__index.MnKnF552.js"
+    ],
+    "body_keys": [],
+    "arg2_types": []
+  },
+  {
+    "method": "POST",
+    "path": "/api/rustdesk/port",
+    "category": "rustdesk",
+    "sources": [
+      "assets__index.MnKnF552.js"
+    ],
+    "body_keys": [],
+    "arg2_types": [
+      "identifier:r"
+    ]
+  },
+  {
+    "method": "POST",
+    "path": "/api/rustdesk/switch",
+    "category": "rustdesk",
+    "sources": [
+      "assets__index.MnKnF552.js"
+    ],
+    "body_keys": [],
+    "arg2_types": [
+      "identifier:r"
+    ]
+  },
+  {
+    "method": "GET",
+    "path": "/api/rustdesk/version",
+    "category": "rustdesk",
+    "sources": [
+      "assets__index.BGtX8-ae.js"
+    ],
+    "body_keys": [],
+    "arg2_types": []
+  },
+  {
+    "method": "GET",
+    "path": "/api/rustdesk/vpnConfig",
+    "category": "rustdesk",
+    "sources": [
+      "assets__index.MnKnF552.js"
+    ],
+    "body_keys": [],
+    "arg2_types": []
+  },
+  {
+    "method": "POST",
+    "path": "/api/rustdesk/vpnSwitch",
+    "category": "rustdesk",
+    "sources": [
+      "assets__index.MnKnF552.js"
+    ],
+    "body_keys": [],
+    "arg2_types": [
+      "identifier:r"
+    ]
+  },
+  {
+    "method": "GET",
+    "path": "/api/security/blockedCounts",
+    "category": "security",
+    "sources": [
+      "assets__index.Dr-ktp7K.js"
+    ],
+    "body_keys": [],
+    "arg2_types": []
+  },
+  {
+    "method": "GET",
+    "path": "/api/security/getUrlFilterData",
+    "category": "security",
+    "sources": [
+      "assets__index.BWB2vwqs.js",
+      "assets__index.Dr-ktp7K.js",
+      "assets__index.WXnVqVp2.js",
+      "assets__state.CCN6UJfP.js"
+    ],
+    "body_keys": [],
+    "arg2_types": []
+  },
+  {
+    "method": "POST",
+    "path": "/api/security/setCategoryStates",
+    "category": "security",
+    "sources": [
+      "assets__index.BWB2vwqs.js",
+      "assets__index.WXnVqVp2.js",
+      "assets__state.CCN6UJfP.js"
+    ],
+    "body_keys": [],
+    "arg2_types": [
+      "identifier:a",
+      "identifier:e"
+    ]
+  },
+  {
+    "method": "GET",
+    "path": "/api/security/wanIpAccess",
+    "category": "security",
+    "sources": [
+      "assets__state.DWtk4kGo.js"
+    ],
+    "body_keys": [],
+    "arg2_types": []
+  },
+  {
+    "method": "POST",
+    "path": "/api/security/wanIpAccess",
+    "category": "security",
+    "sources": [
+      "assets__state.DWtk4kGo.js"
+    ],
+    "body_keys": [],
+    "arg2_types": [
+      "identifier:n"
+    ]
+  },
+  {
+    "method": "DELETE",
+    "path": "/api/sharing/blacklist",
+    "category": "sharing",
+    "sources": [
+      "assets__index.CbvcFa62.js"
+    ],
+    "body_keys": [
+      "data"
+    ],
+    "arg2_types": [
+      "object_literal"
+    ]
+  },
+  {
+    "method": "GET",
+    "path": "/api/sharing/blacklist",
+    "category": "sharing",
+    "sources": [
+      "assets__index.CbvcFa62.js"
+    ],
+    "body_keys": [
+      "pageNo",
+      "pageSize",
+      "params"
+    ],
+    "arg2_types": [
+      "object_literal"
+    ]
+  },
+  {
+    "method": "POST",
+    "path": "/api/sharing/blacklist",
+    "category": "sharing",
+    "sources": [
+      "assets__index.CbvcFa62.js"
+    ],
+    "body_keys": [
+      "domain"
+    ],
+    "arg2_types": [
+      "identifier:e",
+      "object_literal"
+    ]
+  },
+  {
+    "method": "POST",
+    "path": "/api/sharing/clearBlacklist",
+    "category": "sharing",
+    "sources": [
+      "assets__index.CbvcFa62.js"
+    ],
+    "body_keys": [],
+    "arg2_types": [
+      "identifier:n"
+    ]
+  },
+  {
+    "method": "GET",
+    "path": "/api/sharing/getSharingConfig",
+    "category": "sharing",
+    "sources": [
+      "assets__actions.CC343xZA.js"
+    ],
+    "body_keys": [],
+    "arg2_types": []
+  },
+  {
+    "method": "GET",
+    "path": "/api/sharing/getTrafficLimit",
+    "category": "sharing",
+    "sources": [
+      "assets__index.3PvT7rsi.js"
+    ],
+    "body_keys": [],
+    "arg2_types": []
+  },
+  {
+    "method": "POST",
+    "path": "/api/sharing/setBandwidthLimit",
+    "category": "sharing",
+    "sources": [
+      "assets__index.3PvT7rsi.js"
+    ],
+    "body_keys": [
+      "number"
+    ],
+    "arg2_types": [
+      "object_literal"
+    ]
+  },
+  {
+    "method": "POST",
+    "path": "/api/sharing/setBtSharing",
+    "category": "sharing",
+    "sources": [
+      "assets__index.3PvT7rsi.js"
+    ],
+    "body_keys": [
+      "btEnabled"
+    ],
+    "arg2_types": [
+      "object_literal"
+    ]
+  },
+  {
+    "method": "POST",
+    "path": "/api/sharing/setDnsBlacklistForSharing",
+    "category": "sharing",
+    "sources": [
+      "assets__index.CbvcFa62.js"
+    ],
+    "body_keys": [
+      "dnsBlacklistForSharing"
+    ],
+    "arg2_types": [
+      "object_literal"
+    ]
+  },
+  {
+    "method": "POST",
+    "path": "/api/sharing/setSharingState",
+    "category": "sharing",
+    "sources": [
+      "assets__index.3PvT7rsi.js"
+    ],
+    "body_keys": [],
+    "arg2_types": [
+      "identifier:t"
+    ]
+  },
+  {
+    "method": "POST",
+    "path": "/api/sharing/setSmtpSharing",
+    "category": "sharing",
+    "sources": [
+      "assets__index.3PvT7rsi.js"
+    ],
+    "body_keys": [
+      "smtpEnabled"
+    ],
+    "arg2_types": [
+      "object_literal"
+    ]
+  },
+  {
+    "method": "POST",
+    "path": "/api/sharing/setTrafficLimit",
+    "category": "sharing",
+    "sources": [
+      "assets__index.3PvT7rsi.js"
+    ],
+    "body_keys": [
+      "number",
+      "unit"
+    ],
+    "arg2_types": [
+      "object_literal"
+    ]
+  },
+  {
+    "method": "GET",
+    "path": "/api/sharingSecurity/getList/1000",
+    "category": "sharingSecurity",
+    "sources": [
+      "assets__index.DqIyz8Vy.js"
+    ],
+    "body_keys": [],
+    "arg2_types": []
+  },
+  {
+    "method": "GET",
+    "path": "/api/sharingSecurity/getMode",
+    "category": "sharingSecurity",
+    "sources": [
+      "assets__index.DqIyz8Vy.js"
+    ],
+    "body_keys": [],
+    "arg2_types": []
+  },
+  {
+    "method": "POST",
+    "path": "/api/smartRoute/addToBlacklist/domain",
+    "category": "smartRoute",
+    "sources": [
+      "assets__index.BhYV-5Mr.js"
+    ],
+    "body_keys": [],
+    "arg2_types": [
+      "identifier:t"
+    ]
+  },
+  {
+    "method": "POST",
+    "path": "/api/smartRoute/addToBlacklist/ip",
+    "category": "smartRoute",
+    "sources": [
+      "assets__index.B0IPt6Tx.js"
+    ],
+    "body_keys": [],
+    "arg2_types": [
+      "identifier:t"
+    ]
+  },
+  {
+    "method": "POST",
+    "path": "/api/smartRoute/addToWhitelist/domain",
+    "category": "smartRoute",
+    "sources": [
+      "assets__index.BhYV-5Mr.js"
+    ],
+    "body_keys": [],
+    "arg2_types": [
+      "identifier:t"
+    ]
+  },
+  {
+    "method": "POST",
+    "path": "/api/smartRoute/addToWhitelist/ip",
+    "category": "smartRoute",
+    "sources": [
+      "assets__index.B0IPt6Tx.js"
+    ],
+    "body_keys": [],
+    "arg2_types": [
+      "identifier:t"
+    ]
+  },
+  {
+    "method": "POST",
+    "path": "/api/smartRoute/addTunnel",
+    "category": "smartRoute",
+    "sources": [
+      "assets__state.Bl-YjL3W.js"
+    ],
+    "body_keys": [],
+    "arg2_types": [
+      "identifier:o"
+    ]
+  },
+  {
+    "method": "POST",
+    "path": "/api/smartRoute/deleteFromBlacklist/domain",
+    "category": "smartRoute",
+    "sources": [
+      "assets__index.BhYV-5Mr.js"
+    ],
+    "body_keys": [],
+    "arg2_types": [
+      "identifier:t"
+    ]
+  },
+  {
+    "method": "POST",
+    "path": "/api/smartRoute/deleteFromBlacklist/ip",
+    "category": "smartRoute",
+    "sources": [
+      "assets__index.B0IPt6Tx.js"
+    ],
+    "body_keys": [],
+    "arg2_types": [
+      "identifier:t"
+    ]
+  },
+  {
+    "method": "POST",
+    "path": "/api/smartRoute/deleteFromWhitelist/domain",
+    "category": "smartRoute",
+    "sources": [
+      "assets__index.BhYV-5Mr.js"
+    ],
+    "body_keys": [],
+    "arg2_types": [
+      "identifier:t"
+    ]
+  },
+  {
+    "method": "POST",
+    "path": "/api/smartRoute/deleteFromWhitelist/ip",
+    "category": "smartRoute",
+    "sources": [
+      "assets__index.B0IPt6Tx.js"
+    ],
+    "body_keys": [],
+    "arg2_types": [
+      "identifier:t"
+    ]
+  },
+  {
+    "method": "POST",
+    "path": "/api/smartRoute/deleteTunnels",
+    "category": "smartRoute",
+    "sources": [
+      "assets__state.Bl-YjL3W.js"
+    ],
+    "body_keys": [],
+    "arg2_types": [
+      "identifier:e"
+    ]
+  },
+  {
+    "method": "POST",
+    "path": "/api/smartRoute/editWhiteEntry/domain",
+    "category": "smartRoute",
+    "sources": [
+      "assets__index.BhYV-5Mr.js"
+    ],
+    "body_keys": [],
+    "arg2_types": [
+      "identifier:t"
+    ]
+  },
+  {
+    "method": "POST",
+    "path": "/api/smartRoute/editWhiteEntry/ip",
+    "category": "smartRoute",
+    "sources": [
+      "assets__index.B0IPt6Tx.js"
+    ],
+    "body_keys": [],
+    "arg2_types": [
+      "identifier:t"
+    ]
+  },
+  {
+    "method": "GET",
+    "path": "/api/smartRoute/getDpnMode",
+    "category": "smartRoute",
+    "sources": [
+      "assets__state.eF2SevIn.js"
+    ],
+    "body_keys": [],
+    "arg2_types": []
+  },
+  {
+    "method": "GET",
+    "path": "/api/smartRoute/getRoutingBlacklist/domain",
+    "category": "smartRoute",
+    "sources": [
+      "assets__index.BhYV-5Mr.js"
+    ],
+    "body_keys": [
+      "pageNo",
+      "pageSize",
+      "params"
+    ],
+    "arg2_types": [
+      "object_literal"
+    ]
+  },
+  {
+    "method": "GET",
+    "path": "/api/smartRoute/getRoutingBlacklist/ip",
+    "category": "smartRoute",
+    "sources": [
+      "assets__index.B0IPt6Tx.js"
+    ],
+    "body_keys": [
+      "pageNo",
+      "pageSize",
+      "params"
+    ],
+    "arg2_types": [
+      "object_literal"
+    ]
+  },
+  {
+    "method": "GET",
+    "path": "/api/smartRoute/getRoutingWhitelist/domain",
+    "category": "smartRoute",
+    "sources": [
+      "assets__index.BhYV-5Mr.js"
+    ],
+    "body_keys": [
+      "pageNo",
+      "pageSize",
+      "params"
+    ],
+    "arg2_types": [
+      "object_literal"
+    ]
+  },
+  {
+    "method": "GET",
+    "path": "/api/smartRoute/getRoutingWhitelist/ip",
+    "category": "smartRoute",
+    "sources": [
+      "assets__index.B0IPt6Tx.js"
+    ],
+    "body_keys": [
+      "pageNo",
+      "pageSize",
+      "params"
+    ],
+    "arg2_types": [
+      "object_literal"
+    ]
+  },
+  {
+    "method": "POST",
+    "path": "/api/smartRoute/importDirect/domain",
+    "category": "smartRoute",
+    "sources": [
+      "assets__index.BhYV-5Mr.js"
+    ],
+    "body_keys": [],
+    "arg2_types": [
+      "identifier:s"
+    ]
+  },
+  {
+    "method": "POST",
+    "path": "/api/smartRoute/importDirect/ip",
+    "category": "smartRoute",
+    "sources": [
+      "assets__index.B0IPt6Tx.js"
+    ],
+    "body_keys": [],
+    "arg2_types": [
+      "identifier:a"
+    ]
+  },
+  {
+    "method": "POST",
+    "path": "/api/smartRoute/importSmart/domain",
+    "category": "smartRoute",
+    "sources": [
+      "assets__index.BhYV-5Mr.js"
+    ],
+    "body_keys": [],
+    "arg2_types": [
+      "identifier:s"
+    ]
+  },
+  {
+    "method": "POST",
+    "path": "/api/smartRoute/importSmart/ip",
+    "category": "smartRoute",
+    "sources": [
+      "assets__index.B0IPt6Tx.js"
+    ],
+    "body_keys": [],
+    "arg2_types": [
+      "identifier:a"
+    ]
+  },
+  {
+    "method": "GET",
+    "path": "/api/smartRoute/listTunnelOptions",
+    "category": "smartRoute",
+    "sources": [
+      "assets__actions.BGOOFw72.js"
+    ],
+    "body_keys": [],
+    "arg2_types": []
+  },
+  {
+    "method": "GET",
+    "path": "/api/smartRoute/listTunnels",
+    "category": "smartRoute",
+    "sources": [
+      "assets__state.CSlyoAGu.js"
+    ],
+    "body_keys": [],
+    "arg2_types": []
+  },
+  {
+    "method": "GET",
+    "path": "/api/smartRoute/nodeLbMode",
+    "category": "smartRoute",
+    "sources": [
+      "assets__state.Bl-YjL3W.js"
+    ],
+    "body_keys": [],
+    "arg2_types": []
+  },
+  {
+    "method": "POST",
+    "path": "/api/smartRoute/nodeLbMode",
+    "category": "smartRoute",
+    "sources": [
+      "assets__state.Bl-YjL3W.js"
+    ],
+    "body_keys": [],
+    "arg2_types": [
+      "identifier:r"
+    ]
+  },
+  {
+    "method": "POST",
+    "path": "/api/smartRoute/refreshTunnel",
+    "category": "smartRoute",
+    "sources": [
+      "assets__state.Bl-YjL3W.js"
+    ],
+    "body_keys": [],
+    "arg2_types": [
+      "identifier:t"
+    ]
+  },
+  {
+    "method": "POST",
+    "path": "/api/smartRoute/setDpnMode",
+    "category": "smartRoute",
+    "sources": [
+      "assets__state.eF2SevIn.js"
+    ],
+    "body_keys": [],
+    "arg2_types": [
+      "identifier:e"
+    ]
+  },
+  {
+    "method": "POST",
+    "path": "/api/smartRoute/switchNode",
+    "category": "smartRoute",
+    "sources": [
+      "assets__state.Bl-YjL3W.js"
+    ],
+    "body_keys": [],
+    "arg2_types": [
+      "identifier:t"
+    ]
+  },
+  {
+    "method": "GET",
+    "path": "/api/speedometer",
+    "category": "speedometer",
+    "sources": [
+      "assets__index.Bagt5HqK.js",
+      "assets__index.Dr-ktp7K.js"
+    ],
+    "body_keys": [],
+    "arg2_types": []
+  },
+  {
+    "method": "GET",
+    "path": "/api/system-info/get-autoupdate",
+    "category": "system-info",
+    "sources": [
+      "assets__index.Bagt5HqK.js"
+    ],
+    "body_keys": [],
+    "arg2_types": []
+  },
+  {
+    "method": "GET",
+    "path": "/api/system-info/get-latestversion",
+    "category": "system-info",
+    "sources": [
+      "assets__index.Bagt5HqK.js"
+    ],
+    "body_keys": [],
+    "arg2_types": []
+  },
+  {
+    "method": "GET",
+    "path": "/api/system-info/hardware-info",
+    "category": "system-info",
+    "sources": [
+      "assets__index.Bagt5HqK.js"
+    ],
+    "body_keys": [],
+    "arg2_types": []
+  },
+  {
+    "method": "GET",
+    "path": "/api/system-info/network-address",
+    "category": "system-info",
+    "sources": [
+      "assets__index.Bagt5HqK.js",
+      "assets__index.MnKnF552.js"
+    ],
+    "body_keys": [],
+    "arg2_types": []
+  },
+  {
+    "method": "GET",
+    "path": "/api/system-info/session-info",
+    "category": "system-info",
+    "sources": [
+      "assets__index.Bagt5HqK.js"
+    ],
+    "body_keys": [],
+    "arg2_types": []
+  },
+  {
+    "method": "GET",
+    "path": "/api/system-info/set-autoupdate",
+    "category": "system-info",
+    "sources": [
+      "assets__index.Bagt5HqK.js"
+    ],
+    "body_keys": [
+      "params"
+    ],
+    "arg2_types": [
+      "object_literal"
+    ]
+  },
+  {
+    "method": "GET",
+    "path": "/api/system-info/software-info",
+    "category": "system-info",
+    "sources": [
+      "assets__index.Bagt5HqK.js"
+    ],
+    "body_keys": [],
+    "arg2_types": []
+  },
+  {
+    "method": "GET",
+    "path": "/api/system-info/update-latestversion",
+    "category": "system-info",
+    "sources": [
+      "assets__index.Bagt5HqK.js"
+    ],
+    "body_keys": [],
+    "arg2_types": []
+  },
+  {
+    "method": "GET",
+    "path": "/api/system-info/usage",
+    "category": "system-info",
+    "sources": [
+      "assets__index.Bagt5HqK.js"
+    ],
+    "body_keys": [],
+    "arg2_types": []
+  },
+  {
+    "method": "GET",
+    "path": "/api/tproxy/adsFilter",
+    "category": "tproxy",
+    "sources": [
+      "assets__actions.BSDc0uML.js",
+      "assets__index.C07NpMhh.js"
+    ],
+    "body_keys": [],
+    "arg2_types": []
+  },
+  {
+    "method": "POST",
+    "path": "/api/tproxy/adsFilter",
+    "category": "tproxy",
+    "sources": [
+      "assets__actions.BSDc0uML.js",
+      "assets__index.C07NpMhh.js"
+    ],
+    "body_keys": [],
+    "arg2_types": [
+      "identifier:s",
+      "identifier:t"
+    ]
+  },
+  {
+    "method": "GET",
+    "path": "/api/tproxy/rule",
+    "category": "tproxy",
+    "sources": [
+      "assets__index.C07NpMhh.js"
+    ],
+    "body_keys": [],
+    "arg2_types": []
+  },
+  {
+    "method": "POST",
+    "path": "/api/tproxy/rule",
+    "category": "tproxy",
+    "sources": [
+      "assets__index.C07NpMhh.js"
+    ],
+    "body_keys": [],
+    "arg2_types": [
+      "identifier:s"
+    ]
+  },
+  {
+    "method": "GET",
+    "path": "/api/tproxy/sslBypass",
+    "category": "tproxy",
+    "sources": [
+      "assets__actions.BSDc0uML.js",
+      "assets__index.C07NpMhh.js"
+    ],
+    "body_keys": [],
+    "arg2_types": []
+  },
+  {
+    "method": "POST",
+    "path": "/api/tproxy/sslBypass",
+    "category": "tproxy",
+    "sources": [
+      "assets__actions.BSDc0uML.js",
+      "assets__index.C07NpMhh.js"
+    ],
+    "body_keys": [],
+    "arg2_types": [
+      "identifier:s",
+      "identifier:t"
+    ]
+  },
+  {
+    "method": "GET",
+    "path": "/api/traffic/routedInfo",
+    "category": "traffic",
+    "sources": [
+      "assets__index.Dr-ktp7K.js"
+    ],
+    "body_keys": [],
+    "arg2_types": []
+  },
+  {
+    "method": "GET",
+    "path": "/api/traffic/savedTraffic",
+    "category": "traffic",
+    "sources": [
+      "assets__index.Dr-ktp7K.js"
+    ],
+    "body_keys": [],
+    "arg2_types": []
+  },
+  {
+    "method": "GET",
+    "path": "/api/traffic/session-speed",
+    "category": "traffic",
+    "sources": [
+      "assets__index.CaZRWQuY.js"
+    ],
+    "body_keys": [],
+    "arg2_types": []
+  },
+  {
+    "method": "GET",
+    "path": "/api/traffic/total-traffic",
+    "category": "traffic",
+    "sources": [
+      "assets__index.CaZRWQuY.js"
+    ],
+    "body_keys": [],
+    "arg2_types": []
+  },
+  {
+    "method": "POST",
+    "path": "/api/wallet/bindWallet",
+    "category": "wallet",
+    "sources": [
+      "assets__index.DnlURU1K.js"
+    ],
+    "body_keys": [],
+    "arg2_types": [
+      "identifier:l",
+      "identifier:n"
+    ]
+  },
+  {
+    "method": "POST",
+    "path": "/api/wallet/downloadKeystore",
+    "category": "wallet",
+    "sources": [
+      "assets__index.DnlURU1K.js"
+    ],
+    "body_keys": [],
+    "arg2_types": [
+      "identifier:t"
+    ]
+  },
+  {
+    "method": "POST",
+    "path": "/api/wallet/generateWallet",
+    "category": "wallet",
+    "sources": [
+      "assets__index.DnlURU1K.js"
+    ],
+    "body_keys": [
+      "password"
+    ],
+    "arg2_types": [
+      "object_literal"
+    ]
+  },
+  {
+    "method": "GET",
+    "path": "/api/wallet/publicKey",
+    "category": "wallet",
+    "sources": [
+      "assets__state.CmWONeJ1.js"
+    ],
+    "body_keys": [],
+    "arg2_types": []
+  },
+  {
+    "method": "POST",
+    "path": "/api/wallet/resetPassword",
+    "category": "wallet",
+    "sources": [
+      "assets__actions.B3aE-YOO.js"
+    ],
+    "body_keys": [],
+    "arg2_types": []
+  },
+  {
+    "method": "POST",
+    "path": "/api/wallet/setPassword",
+    "category": "wallet",
+    "sources": [
+      "assets__Layout.corvXxLa.js",
+      "assets__actions.B3aE-YOO.js"
+    ],
+    "body_keys": [
+      "password"
+    ],
+    "arg2_types": [
+      "object_literal"
+    ]
+  },
+  {
+    "method": "POST",
+    "path": "/api/wallet/unbindWallet",
+    "category": "wallet",
+    "sources": [
+      "assets__index.DnlURU1K.js"
+    ],
+    "body_keys": [],
+    "arg2_types": []
+  },
+  {
+    "method": "POST",
+    "path": "/api/wallet/unlock",
+    "category": "wallet",
+    "sources": [
+      "assets__Layout.corvXxLa.js"
+    ],
+    "body_keys": [
+      "password"
+    ],
+    "arg2_types": [
+      "object_literal"
+    ]
+  },
+  {
+    "method": "GET",
+    "path": "/api/wallet/unstaking",
+    "category": "wallet",
+    "sources": [
+      "assets__index.DnlURU1K.js"
+    ],
+    "body_keys": [],
+    "arg2_types": []
+  },
+  {
+    "method": "POST",
+    "path": "/api/wallet/unstaking",
+    "category": "wallet",
+    "sources": [
+      "assets__index.DnlURU1K.js"
+    ],
+    "body_keys": [
+      "choice",
+      "password"
+    ],
+    "arg2_types": [
+      "object_literal"
+    ]
+  },
+  {
+    "method": "POST",
+    "path": "/api/wifi/connect",
+    "category": "wifi",
+    "sources": [
+      "assets__state.DWtk4kGo.js"
+    ],
+    "body_keys": [],
+    "arg2_types": [
+      "identifier:s"
+    ]
+  },
+  {
+    "method": "GET",
+    "path": "/api/wifi/enable",
+    "category": "wifi",
+    "sources": [
+      "assets__state.CSlyoAGu.js"
+    ],
+    "body_keys": [],
+    "arg2_types": []
+  },
+  {
+    "method": "POST",
+    "path": "/api/wifi/forget",
+    "category": "wifi",
+    "sources": [
+      "assets__state.DWtk4kGo.js"
+    ],
+    "body_keys": [
+      "ssid"
+    ],
+    "arg2_types": [
+      "object_literal"
+    ]
+  },
+  {
+    "method": "GET",
+    "path": "/api/wifi/getAPConfig",
+    "category": "wifi",
+    "sources": [
+      "assets__state.DWtk4kGo.js"
+    ],
+    "body_keys": [],
+    "arg2_types": []
+  },
+  {
+    "method": "GET",
+    "path": "/api/wifi/hostapdLog",
+    "category": "wifi",
+    "sources": [
+      "assets__index.BCbjQJ8i.js"
+    ],
+    "body_keys": [],
+    "arg2_types": []
+  },
+  {
+    "method": "POST",
+    "path": "/api/wifi/setDownstream",
+    "category": "wifi",
+    "sources": [
+      "assets__state.DWtk4kGo.js"
+    ],
+    "body_keys": [],
+    "arg2_types": [
+      "identifier:s"
+    ]
+  },
+  {
+    "method": "GET",
+    "path": "/api/wifi/upstreamList",
+    "category": "wifi",
+    "sources": [
+      "assets__ConnectWifiModal.DKbjEQ-3.js"
+    ],
+    "body_keys": [],
+    "arg2_types": []
+  },
+  {
+    "method": "GET",
+    "path": "/api/wifi/workingInfo",
+    "category": "wifi",
+    "sources": [
+      "assets__state.DWtk4kGo.js"
+    ],
+    "body_keys": [],
+    "arg2_types": []
+  },
+  {
+    "method": "GET",
+    "path": "/api/worldmap-data",
+    "category": "worldmap-data",
+    "sources": [
+      "assets__index.Dr-ktp7K.js"
+    ],
+    "body_keys": [],
+    "arg2_types": []
+  }
+]

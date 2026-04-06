@@ -1,0 +1,1 @@
+import{u as t}from"./useQuery.ZtxjnH9M.js";import{c as e}from"./index.gHG1NCGy.js";const o=1024*1024*1,r=1,u=10,c=()=>t({queryKey:["DPN.fetchTunnelOptions"],queryFn:async()=>await e.get("/api/smartRoute/listTunnelOptions")});export{o as F,r as P,u as a,c as u};

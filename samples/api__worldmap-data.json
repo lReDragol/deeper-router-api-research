@@ -1,0 +1,69 @@
+{
+  "self": {
+    "city": "REDACTED",
+    "coordinates": [
+      0.0,
+      0.0
+    ]
+  },
+  "peerList": [
+    {
+      "city": "Example City A",
+      "coordinates": [
+        45.0,
+        -122.0
+      ]
+    },
+    {
+      "city": "Example City B",
+      "coordinates": [
+        33.7,
+        -84.7
+      ]
+    },
+    {
+      "city": "Example City C",
+      "coordinates": [
+        58.4,
+        14.8
+      ]
+    }
+  ],
+  "routedList": [
+    {
+      "key": "198.51.100.21",
+      "tun": {
+        "city": "Example City A",
+        "coordinates": [
+          45.0,
+          -122.0
+        ]
+      },
+      "dst": {
+        "city": "Example Destination A",
+        "coordinates": [
+          54.9,
+          73.3
+        ]
+      }
+    },
+    {
+      "key": "203.0.113.22",
+      "tun": {
+        "city": "Example City A",
+        "coordinates": [
+          45.0,
+          -122.0
+        ]
+      },
+      "dst": {
+        "city": "Example Destination B",
+        "coordinates": [
+          45.0,
+          38.9
+        ]
+      }
+    }
+  ],
+  "ngn": "000000"
+}

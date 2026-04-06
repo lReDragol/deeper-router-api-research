@@ -1,0 +1,1 @@
+import{j as s}from"./index.gHG1NCGy.js";import{B as a}from"./button.DDB_q-cu.js";import{L as i}from"./loader-circle.jbazPvmO.js";const x=({loading:r,disabled:t,children:m,onClick:o,...e})=>s.jsxs(a,{disabled:r||t,onClick:o,...e,children:[r?s.jsx(i,{className:"mr-2 h-4 w-4 animate-spin"}):null,m]});export{x as B};

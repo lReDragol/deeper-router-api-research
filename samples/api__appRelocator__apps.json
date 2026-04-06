@@ -1,0 +1,7219 @@
+[
+  {
+    "category": "allCategories",
+    "appsBySubcategory": [
+      {
+        "subcategory": "allCountries",
+        "apps": [
+          {
+            "app": "nbaLeaguePass",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "IN"
+            ],
+            "website": "https://www.nba.com/",
+            "tags": [
+              "tags/nba"
+            ]
+          },
+          {
+            "app": "nbcSports",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.nbcsports.com/",
+            "tags": [
+              "country/US",
+              "tags/epl",
+              "tags/nhl",
+              "tags/nfl",
+              "tags/nba",
+              "tags/ipl"
+            ]
+          },
+          {
+            "app": "abc",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://abc.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "beInSports",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "CA"
+            ],
+            "website": "https://www.beinsports.com/",
+            "tags": [
+              "tags/nba",
+              "tags/epl"
+            ]
+          },
+          {
+            "app": "hboMax",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "FI",
+              "SI",
+              "MX"
+            ],
+            "website": "https://www.hbomax.com/"
+          },
+          {
+            "app": "fubo",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "CA"
+            ],
+            "website": "https://www.fubo.tv/",
+            "tags": [
+              "tags/epl",
+              "tags/mlb",
+              "tags/nba",
+              "tags/nfl",
+              "tags/nhl"
+            ]
+          },
+          {
+            "app": "netflix",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "GB",
+              "CA"
+            ],
+            "website": "https://www.netflix.com/"
+          },
+          {
+            "app": "pluto",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "ES",
+              "GB",
+              "CA",
+              "DE"
+            ],
+            "website": "https://static-homepage-en.pluto.tv/welcome",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "acornTv",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "GB"
+            ],
+            "website": "https://acorn.tv/"
+          },
+          {
+            "app": "crunchyroll",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "GB"
+            ],
+            "website": "https://www.crunchyroll.com/"
+          },
+          {
+            "app": "f1Tv",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://f1tv.formula1.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "nhl",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "CA"
+            ],
+            "lockedTunnels": [
+              "CA"
+            ],
+            "website": "https://nhllive.com/",
+            "tags": [
+              "country/CA",
+              "tags/nhl"
+            ]
+          },
+          {
+            "app": "skySports",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "GB",
+              "IE"
+            ],
+            "lockedTunnels": [
+              "GB",
+              "IE"
+            ],
+            "website": "https://www.skysports.com/",
+            "tags": [
+              "tags/epl",
+              "tags/nfl",
+              "tags/ipl",
+              "tags/nba"
+            ]
+          },
+          {
+            "app": "vudu",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.vudu.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "britBox",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "GB"
+            ],
+            "website": "https://www.britbox.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "filmrise",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://filmrise.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "hulu",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "JP"
+            ],
+            "website": "https://www.hulu.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "mlb",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.mlb.com/",
+            "tags": [
+              "country/US",
+              "tags/mlb"
+            ]
+          },
+          {
+            "app": "theCw",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.cwtv.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "dazn",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "CA",
+              "DE",
+              "IT",
+              "ID"
+            ],
+            "website": "https://www.dazn.com/",
+            "tags": [
+              "tags/nfl",
+              "tags/epl",
+              "tags/nba",
+              "tags/nhl",
+              "tags/ipl"
+            ]
+          },
+          {
+            "app": "roku",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://therokuchannel.roku.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "sportsnetNow",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "CA"
+            ],
+            "lockedTunnels": [
+              "CA"
+            ],
+            "website": "https://www.sportsnet.ca/",
+            "tags": [
+              "country/CA",
+              "tags/nhl",
+              "tags/mlb",
+              "tags/nba",
+              "tags/nfl",
+              "tags/ipl"
+            ]
+          },
+          {
+            "app": "cbsSports",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.cbssports.com/cbssports",
+            "tags": [
+              "country/US",
+              "tags/epl",
+              "tags/mlb",
+              "tags/nfl",
+              "tags/nba",
+              "tags/nhl"
+            ]
+          },
+          {
+            "app": "foxSports",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "CA",
+              "AU"
+            ],
+            "website": "https://www.foxsports.com/",
+            "tags": [
+              "tags/epl",
+              "tags/nfl",
+              "tags/ipl",
+              "tags/nba"
+            ]
+          },
+          {
+            "app": "discoveryPlus",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "GB"
+            ],
+            "website": "https://www.discoveryplus.com/"
+          },
+          {
+            "app": "paramountPlus",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "MX",
+              "AU",
+              "CA",
+              "GB"
+            ],
+            "website": "https://www.paramountplus.com/"
+          },
+          {
+            "app": "tsn",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "CA"
+            ],
+            "lockedTunnels": [
+              "CA"
+            ],
+            "website": "https://www.tsn.ca/",
+            "tags": [
+              "country/CA",
+              "tags/nhl",
+              "tags/nfl",
+              "tags/mlb"
+            ]
+          },
+          {
+            "app": "xumo",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.xumo.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "amazonPrimeVideo",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "GB"
+            ],
+            "website": "https://www.primevideo.com/",
+            "tags": [
+              "tags/epl",
+              "tags/nfl"
+            ]
+          },
+          {
+            "app": "disneyPlus",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "GB",
+              "CA"
+            ],
+            "website": "https://www.disneyplus.com/"
+          },
+          {
+            "app": "frndlyTv",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://try.frndlytv.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "pbs",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.pbs.org/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "starz",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.starz.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "tubiTv",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://tubitv.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "amcPlus",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.amcplus.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "peacock",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.peacocktv.com/",
+            "tags": [
+              "country/US",
+              "tags/epl",
+              "tags/mlb",
+              "tags/nba",
+              "tags/nhl",
+              "tags/nfl"
+            ]
+          },
+          {
+            "app": "stirr",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.stirr.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "showtimeAnytime",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.sho.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "youtube",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "MO"
+            ],
+            "website": "https://www.youtube.com/"
+          },
+          {
+            "app": "attTv",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.directv.com/att-tv/"
+          },
+          {
+            "app": "mgmPlus",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.epix.com/"
+          },
+          {
+            "app": "fxNow",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.fxnetworks.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "nbc",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.nbc.com/",
+            "tags": [
+              "country/US",
+              "tags/nfl",
+              "tags/nhl",
+              "tags/ipl"
+            ]
+          },
+          {
+            "app": "philo",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.philo.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "shudder",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "GB",
+              "CA"
+            ],
+            "website": "https://www.shudder.com/"
+          },
+          {
+            "app": "crackle",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.crackle.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "espn",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.espn.com/",
+            "tags": [
+              "country/US",
+              "tags/epl",
+              "tags/mlb",
+              "tags/nba",
+              "tags/nhl",
+              "tags/ipl"
+            ]
+          },
+          {
+            "app": "plex",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.plex.tv/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "tbs",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.tbs.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "usaNetwork",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.usanetwork.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "slingTv",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.sling.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "tencentVideo",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "CN"
+            ],
+            "lockedTunnels": [
+              "CN"
+            ],
+            "website": "https://v.qq.com/",
+            "tags": [
+              "country/CN",
+              "tags/nba",
+              "tags/epl",
+              "tags/nfl",
+              "tags/mlb",
+              "tags/nhl"
+            ]
+          },
+          {
+            "app": "bilibili",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "CN"
+            ],
+            "lockedTunnels": [
+              "CN"
+            ],
+            "website": "https://www.bilibili.com/",
+            "tags": [
+              "country/CN"
+            ]
+          },
+          {
+            "app": "migu",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "CN"
+            ],
+            "lockedTunnels": [
+              "CN"
+            ],
+            "website": "https://www.miguvideo.com/",
+            "tags": [
+              "country/CN"
+            ]
+          },
+          {
+            "app": "iqiyi",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "CN"
+            ],
+            "lockedTunnels": [
+              "CN"
+            ],
+            "website": "https://www.iqiyi.com/",
+            "tags": [
+              "country/CN"
+            ]
+          },
+          {
+            "app": "youku",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "CN"
+            ],
+            "lockedTunnels": [
+              "CN"
+            ],
+            "website": "https://youku.com/",
+            "tags": [
+              "country/CN"
+            ]
+          },
+          {
+            "app": "mangoTV",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "CN"
+            ],
+            "lockedTunnels": [
+              "CN"
+            ],
+            "website": "https://www.mgtv.com/",
+            "tags": [
+              "country/CN"
+            ]
+          },
+          {
+            "app": "molotovTv",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "FR"
+            ],
+            "lockedTunnels": [
+              "FR"
+            ],
+            "website": "https://www.molotov.tv/",
+            "tags": [
+              "country/FR"
+            ]
+          },
+          {
+            "app": "sSportsPlus",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "TR"
+            ],
+            "lockedTunnels": [
+              "TR"
+            ],
+            "website": "https://www.ssportplus.com/",
+            "tags": [
+              "country/TR"
+            ]
+          },
+          {
+            "app": "myTf1",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "FR"
+            ],
+            "lockedTunnels": [
+              "FR"
+            ],
+            "website": "https://www.tf1.fr/",
+            "tags": [
+              "country/FR"
+            ]
+          },
+          {
+            "app": "showmax",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "ZA"
+            ],
+            "website": "https://www.showmax.com/",
+            "tags": [
+              "country/ZA"
+            ]
+          },
+          {
+            "app": "dsTv",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "ZA"
+            ],
+            "website": "https://now.dstv.com/",
+            "tags": [
+              "country/ZA"
+            ]
+          },
+          {
+            "app": "rakutenTv",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "JP"
+            ],
+            "lockedTunnels": [
+              "JP"
+            ],
+            "website": "https://www.rakuten.tv/",
+            "tags": [
+              "country/JP",
+              "tags/nba"
+            ]
+          },
+          {
+            "app": "pandora",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.pandora.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "qqMusic",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "CN"
+            ],
+            "website": "https://y.qq.com/",
+            "tags": [
+              "country/CN"
+            ]
+          },
+          {
+            "app": "spotify",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "IN"
+            ],
+            "website": "https://www.spotify.com/",
+            "tags": [
+              "country/SE"
+            ]
+          },
+          {
+            "app": "tidal",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "AR"
+            ],
+            "website": "https://www.tidal.com/",
+            "tags": [
+              "country/NO"
+            ]
+          },
+          {
+            "app": "weChat",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "CN"
+            ],
+            "lockedTunnels": [
+              "CN"
+            ],
+            "website": "https://www.wechat.com/",
+            "tags": [
+              "country/CN"
+            ]
+          },
+          {
+            "app": "whatsApp",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.whatsapp.com/"
+          },
+          {
+            "app": "line",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "JP",
+              "TH",
+              "KR"
+            ],
+            "lockedTunnels": [
+              "JP",
+              "TH",
+              "KR"
+            ],
+            "website": "https://line.me/en/",
+            "tags": [
+              "country/JP"
+            ]
+          },
+          {
+            "app": "signal",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "IN"
+            ],
+            "website": "https://signal.org/"
+          },
+          {
+            "app": "crave",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "CA"
+            ],
+            "website": "https://www.crave.ca/"
+          },
+          {
+            "app": "cbcGem",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "CA",
+              "GB"
+            ],
+            "website": "https://gem.cbc.ca/"
+          },
+          {
+            "app": "sonyLiv",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "IN"
+            ],
+            "lockedTunnels": [
+              "IN"
+            ],
+            "website": "https://www.sonyliv.com/",
+            "tags": [
+              "country/IN",
+              "tags/ipl"
+            ]
+          },
+          {
+            "app": "altBalaji",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "IN"
+            ],
+            "lockedTunnels": [
+              "IN"
+            ],
+            "website": "https://www.altbalaji.com/",
+            "tags": [
+              "country/IN"
+            ]
+          },
+          {
+            "app": "mxPlayer",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "IN"
+            ],
+            "website": "https://www.mxplayer.in/",
+            "tags": [
+              "country/IN"
+            ]
+          },
+          {
+            "app": "zee5",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "IN"
+            ],
+            "website": "https://www.zee5.com/"
+          },
+          {
+            "app": "willowTv",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "CA",
+              "GB",
+              "IN"
+            ],
+            "lockedTunnels": [
+              "US",
+              "CA",
+              "GB",
+              "IN"
+            ],
+            "website": "https://www.willow.tv/",
+            "tags": [
+              "country/IN",
+              "tags/epl",
+              "tags/ipl"
+            ]
+          },
+          {
+            "app": "skyGo",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "IT",
+              "GB"
+            ],
+            "website": "https://www.sky.com"
+          },
+          {
+            "app": "nowTV",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "GB"
+            ],
+            "lockedTunnels": [
+              "GB"
+            ],
+            "website": "https://www.nowtv.com/",
+            "tags": [
+              "country/GB"
+            ]
+          },
+          {
+            "app": "channel4",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "GB"
+            ],
+            "lockedTunnels": [
+              "GB"
+            ],
+            "website": "https://www.channel4.com/",
+            "tags": [
+              "country/GB"
+            ]
+          },
+          {
+            "app": "itv",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "GB"
+            ],
+            "lockedTunnels": [
+              "GB"
+            ],
+            "website": "https://www.itv.com/",
+            "tags": [
+              "country/GB"
+            ]
+          },
+          {
+            "app": "channel5",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "GB"
+            ],
+            "lockedTunnels": [
+              "GB"
+            ],
+            "website": "https://www.channel5.com/",
+            "tags": [
+              "country/GB"
+            ]
+          },
+          {
+            "app": "tvPlayer",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "GB"
+            ],
+            "lockedTunnels": [
+              "GB"
+            ],
+            "website": "https://tvplayer.com/",
+            "tags": [
+              "country/GB"
+            ]
+          },
+          {
+            "app": "ukTvPlay",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "GB"
+            ],
+            "lockedTunnels": [
+              "GB"
+            ],
+            "website": "https://uktvplay.co.uk/",
+            "tags": [
+              "country/GB"
+            ]
+          },
+          {
+            "app": "bbcIPlayer",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "GB"
+            ],
+            "lockedTunnels": [
+              "GB"
+            ],
+            "website": "https://www.bbc.co.uk/iplayer",
+            "tags": [
+              "country/GB"
+            ]
+          },
+          {
+            "app": "zattoo",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "CH"
+            ],
+            "lockedTunnels": [
+              "GB",
+              "CH",
+              "FR",
+              "DE"
+            ],
+            "website": "https://www.zattoo.com/",
+            "tags": [
+              "country/CH"
+            ]
+          },
+          {
+            "app": "agoda",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "TH",
+              "IN"
+            ],
+            "website": "https://www.agoda.com/",
+            "tags": [
+              "country/SG"
+            ]
+          },
+          {
+            "app": "expedia",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "MY",
+              "IN"
+            ],
+            "website": "https://www.expedia.com/"
+          },
+          {
+            "app": "flyScanner",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.skyscanner.net/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "telegram",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "JP",
+              "KR"
+            ],
+            "website": "https://telegram.org/"
+          },
+          {
+            "app": "messenger",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "SG",
+              "KR"
+            ],
+            "website": "https://www.messenger.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "chatGpt",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "JP",
+              "KR"
+            ],
+            "website": "https://chat.openai.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "canalPlus",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "FR"
+            ],
+            "lockedTunnels": [
+              "FR"
+            ],
+            "website": "https://www.canalplus.com/"
+          },
+          {
+            "app": "facebook",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.facebook.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "instagram",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.instagram.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "twitter",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://x.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "apple",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.apple.com/apple-one/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "tiktok",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "IN",
+              "VN",
+              "AU",
+              "JP",
+              "TH",
+              "RU",
+              "ID",
+              "TR",
+              "BR"
+            ],
+            "website": "https://www.tiktok.com/",
+            "tags": [
+              "country/CN"
+            ]
+          },
+          {
+            "app": "discord",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "GB",
+              "AU",
+              "JP",
+              "KR",
+              "BR"
+            ],
+            "website": "https://discord.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "deezer",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "FR",
+              "US",
+              "DE",
+              "MX",
+              "TR",
+              "BR",
+              "AR"
+            ],
+            "website": "https://www.deezer.com/",
+            "tags": [
+              "country/FR"
+            ]
+          },
+          {
+            "app": "playstation",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "JP",
+              "US",
+              "GB",
+              "CA",
+              "KR",
+              "BR",
+              "IN"
+            ],
+            "website": "https://www.playstation.com/",
+            "tags": [
+              "country/JP"
+            ]
+          },
+          {
+            "app": "soundcloud",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "FR",
+              "US",
+              "GB",
+              "CA",
+              "AU",
+              "BR",
+              "ZA"
+            ],
+            "website": "https://soundcloud.com/",
+            "tags": [
+              "country/DE"
+            ]
+          },
+          {
+            "app": "tunein",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "FR",
+              "US",
+              "GB",
+              "CA",
+              "AU",
+              "BR",
+              "ZA"
+            ],
+            "website": "https://tunein.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "steam",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "AR",
+              "IN",
+              "RU",
+              "BR",
+              "ZA",
+              "TR"
+            ],
+            "website": "https://store.steampowered.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "osnplus",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "SA",
+              "AE",
+              "QA"
+            ],
+            "website": "https://osnplus.com/",
+            "tags": [
+              "country/UAE"
+            ]
+          },
+          {
+            "app": "shahid",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "SA",
+              "AE",
+              "QA"
+            ],
+            "website": "https://shahid.mbc.net/",
+            "tags": [
+              "country/SA"
+            ]
+          },
+          {
+            "app": "todtv",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "SA",
+              "AE",
+              "QA"
+            ],
+            "website": "https://www.tod.tv/",
+            "tags": [
+              "country/QA"
+            ]
+          },
+          {
+            "app": "viutv",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "HK"
+            ],
+            "website": "https://viu.tv/",
+            "tags": [
+              "country/CN"
+            ]
+          },
+          {
+            "app": "chaupal",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "IN"
+            ],
+            "website": "https://chaupal.tv",
+            "tags": [
+              "country/IN"
+            ]
+          },
+          {
+            "app": "nfl",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.nfl.com",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "rumble",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "CA"
+            ],
+            "website": "https://www.rumble.com",
+            "tags": [
+              "country/CA"
+            ]
+          },
+          {
+            "app": "epic",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://store.epicgames.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "nintendo",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "JP",
+              "KR",
+              "HK"
+            ],
+            "website": "https://www.nintendo.com/",
+            "tags": [
+              "country/JP"
+            ]
+          },
+          {
+            "app": "raiplay",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "IT"
+            ],
+            "website": "https://www.raiplay.it/",
+            "tags": [
+              "country/IT"
+            ]
+          },
+          {
+            "app": "zdf",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "DE",
+              "CH",
+              "AT"
+            ],
+            "website": "https://www.zdf.de/",
+            "tags": [
+              "country/DE"
+            ]
+          },
+          {
+            "app": "ard",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "DE",
+              "CH",
+              "AT"
+            ],
+            "website": "https://www.ard.de/",
+            "tags": [
+              "country/DE"
+            ]
+          },
+          {
+            "app": "reddit",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.reddit.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "viber",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "JP",
+              "US",
+              "GB"
+            ],
+            "website": "https://www.viber.com/",
+            "tags": [
+              "country/JP"
+            ]
+          },
+          {
+            "app": "oculus",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.meta.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "sportsnet",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "CA"
+            ],
+            "lockedTunnels": [
+              "CA"
+            ],
+            "website": "https://www.sportsnet.ca/",
+            "tags": [
+              "country/CA"
+            ]
+          },
+          {
+            "app": "roblox",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "CA",
+              "UK"
+            ],
+            "website": "https://www.roblox.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "citytv",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "CA"
+            ],
+            "lockedTunnels": [
+              "CA"
+            ],
+            "website": "https://citytvplus.ca/",
+            "tags": [
+              "country/CA"
+            ]
+          },
+          {
+            "app": "jiohotstar",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "MY",
+              "SG",
+              "IN",
+              "ID",
+              "CA",
+              "ZA"
+            ],
+            "lockedTunnels": [
+              "MY",
+              "SG",
+              "IN",
+              "ID",
+              "CA",
+              "ZA"
+            ],
+            "website": "https://www.hotstar.com/",
+            "tags": [
+              "country/IN",
+              "tags/epl",
+              "tags/ipl"
+            ]
+          },
+          {
+            "app": "mediasetinfinity",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "IT"
+            ],
+            "website": "https://mediasetinfinity.mediaset.it/",
+            "tags": [
+              "country/IT"
+            ]
+          }
+        ]
+      },
+      {
+        "subcategory": "US",
+        "apps": [
+          {
+            "app": "nbaLeaguePass",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "IN"
+            ],
+            "website": "https://www.nba.com/",
+            "tags": [
+              "tags/nba"
+            ]
+          },
+          {
+            "app": "nbcSports",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.nbcsports.com/",
+            "tags": [
+              "country/US",
+              "tags/epl",
+              "tags/nhl",
+              "tags/nfl",
+              "tags/nba",
+              "tags/ipl"
+            ]
+          },
+          {
+            "app": "abc",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://abc.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "beInSports",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "CA"
+            ],
+            "website": "https://www.beinsports.com/",
+            "tags": [
+              "tags/nba",
+              "tags/epl"
+            ]
+          },
+          {
+            "app": "hboMax",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "FI",
+              "SI",
+              "MX"
+            ],
+            "website": "https://www.hbomax.com/"
+          },
+          {
+            "app": "fubo",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "CA"
+            ],
+            "website": "https://www.fubo.tv/",
+            "tags": [
+              "tags/epl",
+              "tags/mlb",
+              "tags/nba",
+              "tags/nfl",
+              "tags/nhl"
+            ]
+          },
+          {
+            "app": "netflix",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "GB",
+              "CA"
+            ],
+            "website": "https://www.netflix.com/"
+          },
+          {
+            "app": "pluto",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "ES",
+              "GB",
+              "CA",
+              "DE"
+            ],
+            "website": "https://static-homepage-en.pluto.tv/welcome",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "acornTv",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "GB"
+            ],
+            "website": "https://acorn.tv/"
+          },
+          {
+            "app": "crunchyroll",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "GB"
+            ],
+            "website": "https://www.crunchyroll.com/"
+          },
+          {
+            "app": "f1Tv",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://f1tv.formula1.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "nhl",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "CA"
+            ],
+            "lockedTunnels": [
+              "CA"
+            ],
+            "website": "https://nhllive.com/",
+            "tags": [
+              "country/CA",
+              "tags/nhl"
+            ]
+          },
+          {
+            "app": "skySports",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "GB",
+              "IE"
+            ],
+            "lockedTunnels": [
+              "GB",
+              "IE"
+            ],
+            "website": "https://www.skysports.com/",
+            "tags": [
+              "tags/epl",
+              "tags/nfl",
+              "tags/ipl",
+              "tags/nba"
+            ]
+          },
+          {
+            "app": "vudu",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.vudu.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "britBox",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "GB"
+            ],
+            "website": "https://www.britbox.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "filmrise",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://filmrise.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "hulu",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "JP"
+            ],
+            "website": "https://www.hulu.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "mlb",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.mlb.com/",
+            "tags": [
+              "country/US",
+              "tags/mlb"
+            ]
+          },
+          {
+            "app": "theCw",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.cwtv.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "dazn",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "CA",
+              "DE",
+              "IT",
+              "ID"
+            ],
+            "website": "https://www.dazn.com/",
+            "tags": [
+              "tags/nfl",
+              "tags/epl",
+              "tags/nba",
+              "tags/nhl",
+              "tags/ipl"
+            ]
+          },
+          {
+            "app": "roku",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://therokuchannel.roku.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "sportsnetNow",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "CA"
+            ],
+            "lockedTunnels": [
+              "CA"
+            ],
+            "website": "https://www.sportsnet.ca/",
+            "tags": [
+              "country/CA",
+              "tags/nhl",
+              "tags/mlb",
+              "tags/nba",
+              "tags/nfl",
+              "tags/ipl"
+            ]
+          },
+          {
+            "app": "cbsSports",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.cbssports.com/cbssports",
+            "tags": [
+              "country/US",
+              "tags/epl",
+              "tags/mlb",
+              "tags/nfl",
+              "tags/nba",
+              "tags/nhl"
+            ]
+          },
+          {
+            "app": "foxSports",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "CA",
+              "AU"
+            ],
+            "website": "https://www.foxsports.com/",
+            "tags": [
+              "tags/epl",
+              "tags/nfl",
+              "tags/ipl",
+              "tags/nba"
+            ]
+          },
+          {
+            "app": "discoveryPlus",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "GB"
+            ],
+            "website": "https://www.discoveryplus.com/"
+          },
+          {
+            "app": "paramountPlus",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "MX",
+              "AU",
+              "CA",
+              "GB"
+            ],
+            "website": "https://www.paramountplus.com/"
+          },
+          {
+            "app": "tsn",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "CA"
+            ],
+            "lockedTunnels": [
+              "CA"
+            ],
+            "website": "https://www.tsn.ca/",
+            "tags": [
+              "country/CA",
+              "tags/nhl",
+              "tags/nfl",
+              "tags/mlb"
+            ]
+          },
+          {
+            "app": "xumo",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.xumo.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "amazonPrimeVideo",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "GB"
+            ],
+            "website": "https://www.primevideo.com/",
+            "tags": [
+              "tags/epl",
+              "tags/nfl"
+            ]
+          },
+          {
+            "app": "disneyPlus",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "GB",
+              "CA"
+            ],
+            "website": "https://www.disneyplus.com/"
+          },
+          {
+            "app": "frndlyTv",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://try.frndlytv.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "pbs",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.pbs.org/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "starz",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.starz.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "tubiTv",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://tubitv.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "amcPlus",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.amcplus.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "peacock",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.peacocktv.com/",
+            "tags": [
+              "country/US",
+              "tags/epl",
+              "tags/mlb",
+              "tags/nba",
+              "tags/nhl",
+              "tags/nfl"
+            ]
+          },
+          {
+            "app": "stirr",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.stirr.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "showtimeAnytime",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.sho.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "youtube",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "MO"
+            ],
+            "website": "https://www.youtube.com/"
+          },
+          {
+            "app": "attTv",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.directv.com/att-tv/"
+          },
+          {
+            "app": "mgmPlus",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.epix.com/"
+          },
+          {
+            "app": "fxNow",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.fxnetworks.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "nbc",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.nbc.com/",
+            "tags": [
+              "country/US",
+              "tags/nfl",
+              "tags/nhl",
+              "tags/ipl"
+            ]
+          },
+          {
+            "app": "philo",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.philo.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "shudder",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "GB",
+              "CA"
+            ],
+            "website": "https://www.shudder.com/"
+          },
+          {
+            "app": "crackle",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.crackle.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "espn",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.espn.com/",
+            "tags": [
+              "country/US",
+              "tags/epl",
+              "tags/mlb",
+              "tags/nba",
+              "tags/nhl",
+              "tags/ipl"
+            ]
+          },
+          {
+            "app": "plex",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.plex.tv/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "tbs",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.tbs.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "usaNetwork",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.usanetwork.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "slingTv",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.sling.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "crave",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "CA"
+            ],
+            "website": "https://www.crave.ca/"
+          },
+          {
+            "app": "cbcGem",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "CA",
+              "GB"
+            ],
+            "website": "https://gem.cbc.ca/"
+          },
+          {
+            "app": "pandora",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.pandora.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "whatsApp",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.whatsapp.com/"
+          },
+          {
+            "app": "signal",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "IN"
+            ],
+            "website": "https://signal.org/"
+          },
+          {
+            "app": "spotify",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "IN"
+            ],
+            "website": "https://www.spotify.com/",
+            "tags": [
+              "country/SE"
+            ]
+          },
+          {
+            "app": "messenger",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "SG",
+              "KR"
+            ],
+            "website": "https://www.messenger.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "chatGpt",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "JP",
+              "KR"
+            ],
+            "website": "https://chat.openai.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "facebook",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.facebook.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "instagram",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.instagram.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "twitter",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://x.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "apple",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.apple.com/apple-one/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "discord",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "GB",
+              "AU",
+              "JP",
+              "KR",
+              "BR"
+            ],
+            "website": "https://discord.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "tunein",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "FR",
+              "US",
+              "GB",
+              "CA",
+              "AU",
+              "BR",
+              "ZA"
+            ],
+            "website": "https://tunein.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "steam",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "AR",
+              "IN",
+              "RU",
+              "BR",
+              "ZA",
+              "TR"
+            ],
+            "website": "https://store.steampowered.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "nfl",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.nfl.com",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "epic",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://store.epicgames.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "reddit",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.reddit.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "oculus",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.meta.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "roblox",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "CA",
+              "UK"
+            ],
+            "website": "https://www.roblox.com/",
+            "tags": [
+              "country/US"
+            ]
+          }
+        ]
+      },
+      {
+        "subcategory": "CN",
+        "apps": [
+          {
+            "app": "tencentVideo",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "CN"
+            ],
+            "lockedTunnels": [
+              "CN"
+            ],
+            "website": "https://v.qq.com/",
+            "tags": [
+              "country/CN",
+              "tags/nba",
+              "tags/epl",
+              "tags/nfl",
+              "tags/mlb",
+              "tags/nhl"
+            ]
+          },
+          {
+            "app": "bilibili",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "CN"
+            ],
+            "lockedTunnels": [
+              "CN"
+            ],
+            "website": "https://www.bilibili.com/",
+            "tags": [
+              "country/CN"
+            ]
+          },
+          {
+            "app": "migu",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "CN"
+            ],
+            "lockedTunnels": [
+              "CN"
+            ],
+            "website": "https://www.miguvideo.com/",
+            "tags": [
+              "country/CN"
+            ]
+          },
+          {
+            "app": "iqiyi",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "CN"
+            ],
+            "lockedTunnels": [
+              "CN"
+            ],
+            "website": "https://www.iqiyi.com/",
+            "tags": [
+              "country/CN"
+            ]
+          },
+          {
+            "app": "youku",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "CN"
+            ],
+            "lockedTunnels": [
+              "CN"
+            ],
+            "website": "https://youku.com/",
+            "tags": [
+              "country/CN"
+            ]
+          },
+          {
+            "app": "mangoTV",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "CN"
+            ],
+            "lockedTunnels": [
+              "CN"
+            ],
+            "website": "https://www.mgtv.com/",
+            "tags": [
+              "country/CN"
+            ]
+          },
+          {
+            "app": "qqMusic",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "CN"
+            ],
+            "website": "https://y.qq.com/",
+            "tags": [
+              "country/CN"
+            ]
+          },
+          {
+            "app": "weChat",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "CN"
+            ],
+            "lockedTunnels": [
+              "CN"
+            ],
+            "website": "https://www.wechat.com/",
+            "tags": [
+              "country/CN"
+            ]
+          },
+          {
+            "app": "tiktok",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "IN",
+              "VN",
+              "AU",
+              "JP",
+              "TH",
+              "RU",
+              "ID",
+              "TR",
+              "BR"
+            ],
+            "website": "https://www.tiktok.com/",
+            "tags": [
+              "country/CN"
+            ]
+          },
+          {
+            "app": "viutv",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "HK"
+            ],
+            "website": "https://viu.tv/",
+            "tags": [
+              "country/CN"
+            ]
+          }
+        ]
+      },
+      {
+        "subcategory": "IN",
+        "apps": [
+          {
+            "app": "netflix",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "GB",
+              "CA"
+            ],
+            "website": "https://www.netflix.com/"
+          },
+          {
+            "app": "sonyLiv",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "IN"
+            ],
+            "lockedTunnels": [
+              "IN"
+            ],
+            "website": "https://www.sonyliv.com/",
+            "tags": [
+              "country/IN",
+              "tags/ipl"
+            ]
+          },
+          {
+            "app": "altBalaji",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "IN"
+            ],
+            "lockedTunnels": [
+              "IN"
+            ],
+            "website": "https://www.altbalaji.com/",
+            "tags": [
+              "country/IN"
+            ]
+          },
+          {
+            "app": "mxPlayer",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "IN"
+            ],
+            "website": "https://www.mxplayer.in/",
+            "tags": [
+              "country/IN"
+            ]
+          },
+          {
+            "app": "amazonPrimeVideo",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "GB"
+            ],
+            "website": "https://www.primevideo.com/",
+            "tags": [
+              "tags/epl",
+              "tags/nfl"
+            ]
+          },
+          {
+            "app": "youtube",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "MO"
+            ],
+            "website": "https://www.youtube.com/"
+          },
+          {
+            "app": "zee5",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "IN"
+            ],
+            "website": "https://www.zee5.com/"
+          },
+          {
+            "app": "willowTv",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "CA",
+              "GB",
+              "IN"
+            ],
+            "lockedTunnels": [
+              "US",
+              "CA",
+              "GB",
+              "IN"
+            ],
+            "website": "https://www.willow.tv/",
+            "tags": [
+              "country/IN",
+              "tags/epl",
+              "tags/ipl"
+            ]
+          },
+          {
+            "app": "chaupal",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "IN"
+            ],
+            "website": "https://chaupal.tv",
+            "tags": [
+              "country/IN"
+            ]
+          },
+          {
+            "app": "jiohotstar",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "MY",
+              "SG",
+              "IN",
+              "ID",
+              "CA",
+              "ZA"
+            ],
+            "lockedTunnels": [
+              "MY",
+              "SG",
+              "IN",
+              "ID",
+              "CA",
+              "ZA"
+            ],
+            "website": "https://www.hotstar.com/",
+            "tags": [
+              "country/IN",
+              "tags/epl",
+              "tags/ipl"
+            ]
+          }
+        ]
+      },
+      {
+        "subcategory": "CA",
+        "apps": [
+          {
+            "app": "beInSports",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "CA"
+            ],
+            "website": "https://www.beinsports.com/",
+            "tags": [
+              "tags/nba",
+              "tags/epl"
+            ]
+          },
+          {
+            "app": "crave",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "CA"
+            ],
+            "website": "https://www.crave.ca/"
+          },
+          {
+            "app": "fubo",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "CA"
+            ],
+            "website": "https://www.fubo.tv/",
+            "tags": [
+              "tags/epl",
+              "tags/mlb",
+              "tags/nba",
+              "tags/nfl",
+              "tags/nhl"
+            ]
+          },
+          {
+            "app": "netflix",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "GB",
+              "CA"
+            ],
+            "website": "https://www.netflix.com/"
+          },
+          {
+            "app": "cbcGem",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "CA",
+              "GB"
+            ],
+            "website": "https://gem.cbc.ca/"
+          },
+          {
+            "app": "paramountPlus",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "MX",
+              "AU",
+              "CA",
+              "GB"
+            ],
+            "website": "https://www.paramountplus.com/"
+          },
+          {
+            "app": "amazonPrimeVideo",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "GB"
+            ],
+            "website": "https://www.primevideo.com/",
+            "tags": [
+              "tags/epl",
+              "tags/nfl"
+            ]
+          },
+          {
+            "app": "disneyPlus",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "GB",
+              "CA"
+            ],
+            "website": "https://www.disneyplus.com/"
+          },
+          {
+            "app": "youtube",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "MO"
+            ],
+            "website": "https://www.youtube.com/"
+          },
+          {
+            "app": "rumble",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "CA"
+            ],
+            "website": "https://www.rumble.com",
+            "tags": [
+              "country/CA"
+            ]
+          },
+          {
+            "app": "sportsnet",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "CA"
+            ],
+            "lockedTunnels": [
+              "CA"
+            ],
+            "website": "https://www.sportsnet.ca/",
+            "tags": [
+              "country/CA"
+            ]
+          },
+          {
+            "app": "citytv",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "CA"
+            ],
+            "lockedTunnels": [
+              "CA"
+            ],
+            "website": "https://citytvplus.ca/",
+            "tags": [
+              "country/CA"
+            ]
+          }
+        ]
+      },
+      {
+        "subcategory": "GB",
+        "apps": [
+          {
+            "app": "beInSports",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "CA"
+            ],
+            "website": "https://www.beinsports.com/",
+            "tags": [
+              "tags/nba",
+              "tags/epl"
+            ]
+          },
+          {
+            "app": "crave",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "CA"
+            ],
+            "website": "https://www.crave.ca/"
+          },
+          {
+            "app": "fubo",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "CA"
+            ],
+            "website": "https://www.fubo.tv/",
+            "tags": [
+              "tags/epl",
+              "tags/mlb",
+              "tags/nba",
+              "tags/nfl",
+              "tags/nhl"
+            ]
+          },
+          {
+            "app": "netflix",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "GB",
+              "CA"
+            ],
+            "website": "https://www.netflix.com/"
+          },
+          {
+            "app": "skyGo",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "IT",
+              "GB"
+            ],
+            "website": "https://www.sky.com"
+          },
+          {
+            "app": "acornTv",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "GB"
+            ],
+            "website": "https://acorn.tv/"
+          },
+          {
+            "app": "crunchyroll",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "GB"
+            ],
+            "website": "https://www.crunchyroll.com/"
+          },
+          {
+            "app": "britBox",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "GB"
+            ],
+            "website": "https://www.britbox.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "nowTV",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "GB"
+            ],
+            "lockedTunnels": [
+              "GB"
+            ],
+            "website": "https://www.nowtv.com/",
+            "tags": [
+              "country/GB"
+            ]
+          },
+          {
+            "app": "cbcGem",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "CA",
+              "GB"
+            ],
+            "website": "https://gem.cbc.ca/"
+          },
+          {
+            "app": "discoveryPlus",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "GB"
+            ],
+            "website": "https://www.discoveryplus.com/"
+          },
+          {
+            "app": "paramountPlus",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "MX",
+              "AU",
+              "CA",
+              "GB"
+            ],
+            "website": "https://www.paramountplus.com/"
+          },
+          {
+            "app": "channel4",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "GB"
+            ],
+            "lockedTunnels": [
+              "GB"
+            ],
+            "website": "https://www.channel4.com/",
+            "tags": [
+              "country/GB"
+            ]
+          },
+          {
+            "app": "amazonPrimeVideo",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "GB"
+            ],
+            "website": "https://www.primevideo.com/",
+            "tags": [
+              "tags/epl",
+              "tags/nfl"
+            ]
+          },
+          {
+            "app": "disneyPlus",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "GB",
+              "CA"
+            ],
+            "website": "https://www.disneyplus.com/"
+          },
+          {
+            "app": "itv",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "GB"
+            ],
+            "lockedTunnels": [
+              "GB"
+            ],
+            "website": "https://www.itv.com/",
+            "tags": [
+              "country/GB"
+            ]
+          },
+          {
+            "app": "channel5",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "GB"
+            ],
+            "lockedTunnels": [
+              "GB"
+            ],
+            "website": "https://www.channel5.com/",
+            "tags": [
+              "country/GB"
+            ]
+          },
+          {
+            "app": "tvPlayer",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "GB"
+            ],
+            "lockedTunnels": [
+              "GB"
+            ],
+            "website": "https://tvplayer.com/",
+            "tags": [
+              "country/GB"
+            ]
+          },
+          {
+            "app": "youtube",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "MO"
+            ],
+            "website": "https://www.youtube.com/"
+          },
+          {
+            "app": "ukTvPlay",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "GB"
+            ],
+            "lockedTunnels": [
+              "GB"
+            ],
+            "website": "https://uktvplay.co.uk/",
+            "tags": [
+              "country/GB"
+            ]
+          },
+          {
+            "app": "bbcIPlayer",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "GB"
+            ],
+            "lockedTunnels": [
+              "GB"
+            ],
+            "website": "https://www.bbc.co.uk/iplayer",
+            "tags": [
+              "country/GB"
+            ]
+          }
+        ]
+      },
+      {
+        "subcategory": "NA",
+        "apps": [
+          {
+            "app": "molotovTv",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "FR"
+            ],
+            "lockedTunnels": [
+              "FR"
+            ],
+            "website": "https://www.molotov.tv/",
+            "tags": [
+              "country/FR"
+            ]
+          },
+          {
+            "app": "sSportsPlus",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "TR"
+            ],
+            "lockedTunnels": [
+              "TR"
+            ],
+            "website": "https://www.ssportplus.com/",
+            "tags": [
+              "country/TR"
+            ]
+          },
+          {
+            "app": "myTf1",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "FR"
+            ],
+            "lockedTunnels": [
+              "FR"
+            ],
+            "website": "https://www.tf1.fr/",
+            "tags": [
+              "country/FR"
+            ]
+          },
+          {
+            "app": "showmax",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "ZA"
+            ],
+            "website": "https://www.showmax.com/",
+            "tags": [
+              "country/ZA"
+            ]
+          },
+          {
+            "app": "dsTv",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "ZA"
+            ],
+            "website": "https://now.dstv.com/",
+            "tags": [
+              "country/ZA"
+            ]
+          },
+          {
+            "app": "rakutenTv",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "JP"
+            ],
+            "lockedTunnels": [
+              "JP"
+            ],
+            "website": "https://www.rakuten.tv/",
+            "tags": [
+              "country/JP",
+              "tags/nba"
+            ]
+          },
+          {
+            "app": "zattoo",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "CH"
+            ],
+            "lockedTunnels": [
+              "GB",
+              "CH",
+              "FR",
+              "DE"
+            ],
+            "website": "https://www.zattoo.com/",
+            "tags": [
+              "country/CH"
+            ]
+          },
+          {
+            "app": "spotify",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "IN"
+            ],
+            "website": "https://www.spotify.com/",
+            "tags": [
+              "country/SE"
+            ]
+          },
+          {
+            "app": "tidal",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "AR"
+            ],
+            "website": "https://www.tidal.com/",
+            "tags": [
+              "country/NO"
+            ]
+          },
+          {
+            "app": "line",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "JP",
+              "TH",
+              "KR"
+            ],
+            "lockedTunnels": [
+              "JP",
+              "TH",
+              "KR"
+            ],
+            "website": "https://line.me/en/",
+            "tags": [
+              "country/JP"
+            ]
+          },
+          {
+            "app": "telegram",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "JP",
+              "KR"
+            ],
+            "website": "https://telegram.org/"
+          },
+          {
+            "app": "canalPlus",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "FR"
+            ],
+            "lockedTunnels": [
+              "FR"
+            ],
+            "website": "https://www.canalplus.com/"
+          },
+          {
+            "app": "deezer",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "FR",
+              "US",
+              "DE",
+              "MX",
+              "TR",
+              "BR",
+              "AR"
+            ],
+            "website": "https://www.deezer.com/",
+            "tags": [
+              "country/FR"
+            ]
+          },
+          {
+            "app": "playstation",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "JP",
+              "US",
+              "GB",
+              "CA",
+              "KR",
+              "BR",
+              "IN"
+            ],
+            "website": "https://www.playstation.com/",
+            "tags": [
+              "country/JP"
+            ]
+          },
+          {
+            "app": "soundcloud",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "FR",
+              "US",
+              "GB",
+              "CA",
+              "AU",
+              "BR",
+              "ZA"
+            ],
+            "website": "https://soundcloud.com/",
+            "tags": [
+              "country/DE"
+            ]
+          },
+          {
+            "app": "osnplus",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "SA",
+              "AE",
+              "QA"
+            ],
+            "website": "https://osnplus.com/",
+            "tags": [
+              "country/UAE"
+            ]
+          },
+          {
+            "app": "shahid",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "SA",
+              "AE",
+              "QA"
+            ],
+            "website": "https://shahid.mbc.net/",
+            "tags": [
+              "country/SA"
+            ]
+          },
+          {
+            "app": "todtv",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "SA",
+              "AE",
+              "QA"
+            ],
+            "website": "https://www.tod.tv/",
+            "tags": [
+              "country/QA"
+            ]
+          },
+          {
+            "app": "nintendo",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "JP",
+              "KR",
+              "HK"
+            ],
+            "website": "https://www.nintendo.com/",
+            "tags": [
+              "country/JP"
+            ]
+          },
+          {
+            "app": "raiplay",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "IT"
+            ],
+            "website": "https://www.raiplay.it/",
+            "tags": [
+              "country/IT"
+            ]
+          },
+          {
+            "app": "zdf",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "DE",
+              "CH",
+              "AT"
+            ],
+            "website": "https://www.zdf.de/",
+            "tags": [
+              "country/DE"
+            ]
+          },
+          {
+            "app": "ard",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "DE",
+              "CH",
+              "AT"
+            ],
+            "website": "https://www.ard.de/",
+            "tags": [
+              "country/DE"
+            ]
+          },
+          {
+            "app": "viber",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "JP",
+              "US",
+              "GB"
+            ],
+            "website": "https://www.viber.com/",
+            "tags": [
+              "country/JP"
+            ]
+          },
+          {
+            "app": "mediasetinfinity",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "IT"
+            ],
+            "website": "https://mediasetinfinity.mediaset.it/",
+            "tags": [
+              "country/IT"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "video",
+    "appsBySubcategory": [
+      {
+        "subcategory": "allCountries",
+        "apps": [
+          {
+            "app": "nbaLeaguePass",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "IN"
+            ],
+            "website": "https://www.nba.com/",
+            "tags": [
+              "tags/nba"
+            ]
+          },
+          {
+            "app": "nbcSports",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.nbcsports.com/",
+            "tags": [
+              "country/US",
+              "tags/epl",
+              "tags/nhl",
+              "tags/nfl",
+              "tags/nba",
+              "tags/ipl"
+            ]
+          },
+          {
+            "app": "abc",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://abc.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "beInSports",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "CA"
+            ],
+            "website": "https://www.beinsports.com/",
+            "tags": [
+              "tags/nba",
+              "tags/epl"
+            ]
+          },
+          {
+            "app": "hboMax",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "FI",
+              "SI",
+              "MX"
+            ],
+            "website": "https://www.hbomax.com/"
+          },
+          {
+            "app": "fubo",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "CA"
+            ],
+            "website": "https://www.fubo.tv/",
+            "tags": [
+              "tags/epl",
+              "tags/mlb",
+              "tags/nba",
+              "tags/nfl",
+              "tags/nhl"
+            ]
+          },
+          {
+            "app": "netflix",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "GB",
+              "CA"
+            ],
+            "website": "https://www.netflix.com/"
+          },
+          {
+            "app": "pluto",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "ES",
+              "GB",
+              "CA",
+              "DE"
+            ],
+            "website": "https://static-homepage-en.pluto.tv/welcome",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "acornTv",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "GB"
+            ],
+            "website": "https://acorn.tv/"
+          },
+          {
+            "app": "crunchyroll",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "GB"
+            ],
+            "website": "https://www.crunchyroll.com/"
+          },
+          {
+            "app": "f1Tv",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://f1tv.formula1.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "nhl",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "CA"
+            ],
+            "lockedTunnels": [
+              "CA"
+            ],
+            "website": "https://nhllive.com/",
+            "tags": [
+              "country/CA",
+              "tags/nhl"
+            ]
+          },
+          {
+            "app": "skySports",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "GB",
+              "IE"
+            ],
+            "lockedTunnels": [
+              "GB",
+              "IE"
+            ],
+            "website": "https://www.skysports.com/",
+            "tags": [
+              "tags/epl",
+              "tags/nfl",
+              "tags/ipl",
+              "tags/nba"
+            ]
+          },
+          {
+            "app": "vudu",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.vudu.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "britBox",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "GB"
+            ],
+            "website": "https://www.britbox.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "filmrise",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://filmrise.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "hulu",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "JP"
+            ],
+            "website": "https://www.hulu.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "mlb",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.mlb.com/",
+            "tags": [
+              "country/US",
+              "tags/mlb"
+            ]
+          },
+          {
+            "app": "theCw",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.cwtv.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "dazn",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "CA",
+              "DE",
+              "IT",
+              "ID"
+            ],
+            "website": "https://www.dazn.com/",
+            "tags": [
+              "tags/nfl",
+              "tags/epl",
+              "tags/nba",
+              "tags/nhl",
+              "tags/ipl"
+            ]
+          },
+          {
+            "app": "roku",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://therokuchannel.roku.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "sportsnetNow",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "CA"
+            ],
+            "lockedTunnels": [
+              "CA"
+            ],
+            "website": "https://www.sportsnet.ca/",
+            "tags": [
+              "country/CA",
+              "tags/nhl",
+              "tags/mlb",
+              "tags/nba",
+              "tags/nfl",
+              "tags/ipl"
+            ]
+          },
+          {
+            "app": "cbsSports",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.cbssports.com/cbssports",
+            "tags": [
+              "country/US",
+              "tags/epl",
+              "tags/mlb",
+              "tags/nfl",
+              "tags/nba",
+              "tags/nhl"
+            ]
+          },
+          {
+            "app": "foxSports",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "CA",
+              "AU"
+            ],
+            "website": "https://www.foxsports.com/",
+            "tags": [
+              "tags/epl",
+              "tags/nfl",
+              "tags/ipl",
+              "tags/nba"
+            ]
+          },
+          {
+            "app": "discoveryPlus",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "GB"
+            ],
+            "website": "https://www.discoveryplus.com/"
+          },
+          {
+            "app": "paramountPlus",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "MX",
+              "AU",
+              "CA",
+              "GB"
+            ],
+            "website": "https://www.paramountplus.com/"
+          },
+          {
+            "app": "tsn",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "CA"
+            ],
+            "lockedTunnels": [
+              "CA"
+            ],
+            "website": "https://www.tsn.ca/",
+            "tags": [
+              "country/CA",
+              "tags/nhl",
+              "tags/nfl",
+              "tags/mlb"
+            ]
+          },
+          {
+            "app": "xumo",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.xumo.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "amazonPrimeVideo",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "GB"
+            ],
+            "website": "https://www.primevideo.com/",
+            "tags": [
+              "tags/epl",
+              "tags/nfl"
+            ]
+          },
+          {
+            "app": "disneyPlus",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "GB",
+              "CA"
+            ],
+            "website": "https://www.disneyplus.com/"
+          },
+          {
+            "app": "frndlyTv",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://try.frndlytv.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "pbs",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.pbs.org/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "starz",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.starz.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "tubiTv",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://tubitv.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "amcPlus",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.amcplus.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "peacock",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.peacocktv.com/",
+            "tags": [
+              "country/US",
+              "tags/epl",
+              "tags/mlb",
+              "tags/nba",
+              "tags/nhl",
+              "tags/nfl"
+            ]
+          },
+          {
+            "app": "stirr",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.stirr.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "showtimeAnytime",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.sho.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "youtube",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "MO"
+            ],
+            "website": "https://www.youtube.com/"
+          },
+          {
+            "app": "attTv",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.directv.com/att-tv/"
+          },
+          {
+            "app": "mgmPlus",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.epix.com/"
+          },
+          {
+            "app": "fxNow",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.fxnetworks.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "nbc",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.nbc.com/",
+            "tags": [
+              "country/US",
+              "tags/nfl",
+              "tags/nhl",
+              "tags/ipl"
+            ]
+          },
+          {
+            "app": "philo",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.philo.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "shudder",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "GB",
+              "CA"
+            ],
+            "website": "https://www.shudder.com/"
+          },
+          {
+            "app": "crackle",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.crackle.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "espn",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.espn.com/",
+            "tags": [
+              "country/US",
+              "tags/epl",
+              "tags/mlb",
+              "tags/nba",
+              "tags/nhl",
+              "tags/ipl"
+            ]
+          },
+          {
+            "app": "plex",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.plex.tv/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "tbs",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.tbs.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "usaNetwork",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.usanetwork.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "slingTv",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.sling.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "tencentVideo",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "CN"
+            ],
+            "lockedTunnels": [
+              "CN"
+            ],
+            "website": "https://v.qq.com/",
+            "tags": [
+              "country/CN",
+              "tags/nba",
+              "tags/epl",
+              "tags/nfl",
+              "tags/mlb",
+              "tags/nhl"
+            ]
+          },
+          {
+            "app": "bilibili",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "CN"
+            ],
+            "lockedTunnels": [
+              "CN"
+            ],
+            "website": "https://www.bilibili.com/",
+            "tags": [
+              "country/CN"
+            ]
+          },
+          {
+            "app": "migu",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "CN"
+            ],
+            "lockedTunnels": [
+              "CN"
+            ],
+            "website": "https://www.miguvideo.com/",
+            "tags": [
+              "country/CN"
+            ]
+          },
+          {
+            "app": "iqiyi",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "CN"
+            ],
+            "lockedTunnels": [
+              "CN"
+            ],
+            "website": "https://www.iqiyi.com/",
+            "tags": [
+              "country/CN"
+            ]
+          },
+          {
+            "app": "youku",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "CN"
+            ],
+            "lockedTunnels": [
+              "CN"
+            ],
+            "website": "https://youku.com/",
+            "tags": [
+              "country/CN"
+            ]
+          },
+          {
+            "app": "mangoTV",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "CN"
+            ],
+            "lockedTunnels": [
+              "CN"
+            ],
+            "website": "https://www.mgtv.com/",
+            "tags": [
+              "country/CN"
+            ]
+          },
+          {
+            "app": "molotovTv",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "FR"
+            ],
+            "lockedTunnels": [
+              "FR"
+            ],
+            "website": "https://www.molotov.tv/",
+            "tags": [
+              "country/FR"
+            ]
+          },
+          {
+            "app": "sSportsPlus",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "TR"
+            ],
+            "lockedTunnels": [
+              "TR"
+            ],
+            "website": "https://www.ssportplus.com/",
+            "tags": [
+              "country/TR"
+            ]
+          },
+          {
+            "app": "myTf1",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "FR"
+            ],
+            "lockedTunnels": [
+              "FR"
+            ],
+            "website": "https://www.tf1.fr/",
+            "tags": [
+              "country/FR"
+            ]
+          },
+          {
+            "app": "showmax",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "ZA"
+            ],
+            "website": "https://www.showmax.com/",
+            "tags": [
+              "country/ZA"
+            ]
+          },
+          {
+            "app": "dsTv",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "ZA"
+            ],
+            "website": "https://now.dstv.com/",
+            "tags": [
+              "country/ZA"
+            ]
+          },
+          {
+            "app": "rakutenTv",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "JP"
+            ],
+            "lockedTunnels": [
+              "JP"
+            ],
+            "website": "https://www.rakuten.tv/",
+            "tags": [
+              "country/JP",
+              "tags/nba"
+            ]
+          },
+          {
+            "app": "canalPlus",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "FR"
+            ],
+            "lockedTunnels": [
+              "FR"
+            ],
+            "website": "https://www.canalplus.com/"
+          },
+          {
+            "app": "apple",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.apple.com/apple-one/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "tiktok",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "IN",
+              "VN",
+              "AU",
+              "JP",
+              "TH",
+              "RU",
+              "ID",
+              "TR",
+              "BR"
+            ],
+            "website": "https://www.tiktok.com/",
+            "tags": [
+              "country/CN"
+            ]
+          },
+          {
+            "app": "osnplus",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "SA",
+              "AE",
+              "QA"
+            ],
+            "website": "https://osnplus.com/",
+            "tags": [
+              "country/UAE"
+            ]
+          },
+          {
+            "app": "shahid",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "SA",
+              "AE",
+              "QA"
+            ],
+            "website": "https://shahid.mbc.net/",
+            "tags": [
+              "country/SA"
+            ]
+          },
+          {
+            "app": "todtv",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "SA",
+              "AE",
+              "QA"
+            ],
+            "website": "https://www.tod.tv/",
+            "tags": [
+              "country/QA"
+            ]
+          },
+          {
+            "app": "viutv",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "HK"
+            ],
+            "website": "https://viu.tv/",
+            "tags": [
+              "country/CN"
+            ]
+          },
+          {
+            "app": "chaupal",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "IN"
+            ],
+            "website": "https://chaupal.tv",
+            "tags": [
+              "country/IN"
+            ]
+          },
+          {
+            "app": "nfl",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.nfl.com",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "rumble",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "CA"
+            ],
+            "website": "https://www.rumble.com",
+            "tags": [
+              "country/CA"
+            ]
+          },
+          {
+            "app": "raiplay",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "IT"
+            ],
+            "website": "https://www.raiplay.it/",
+            "tags": [
+              "country/IT"
+            ]
+          },
+          {
+            "app": "zdf",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "DE",
+              "CH",
+              "AT"
+            ],
+            "website": "https://www.zdf.de/",
+            "tags": [
+              "country/DE"
+            ]
+          },
+          {
+            "app": "ard",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "DE",
+              "CH",
+              "AT"
+            ],
+            "website": "https://www.ard.de/",
+            "tags": [
+              "country/DE"
+            ]
+          },
+          {
+            "app": "oculus",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.meta.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "sportsnet",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "CA"
+            ],
+            "lockedTunnels": [
+              "CA"
+            ],
+            "website": "https://www.sportsnet.ca/",
+            "tags": [
+              "country/CA"
+            ]
+          },
+          {
+            "app": "citytv",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "CA"
+            ],
+            "lockedTunnels": [
+              "CA"
+            ],
+            "website": "https://citytvplus.ca/",
+            "tags": [
+              "country/CA"
+            ]
+          },
+          {
+            "app": "jiohotstar",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "MY",
+              "SG",
+              "IN",
+              "ID",
+              "CA",
+              "ZA"
+            ],
+            "lockedTunnels": [
+              "MY",
+              "SG",
+              "IN",
+              "ID",
+              "CA",
+              "ZA"
+            ],
+            "website": "https://www.hotstar.com/",
+            "tags": [
+              "country/IN",
+              "tags/epl",
+              "tags/ipl"
+            ]
+          },
+          {
+            "app": "mediasetinfinity",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "IT"
+            ],
+            "website": "https://mediasetinfinity.mediaset.it/",
+            "tags": [
+              "country/IT"
+            ]
+          }
+        ]
+      },
+      {
+        "subcategory": "US",
+        "apps": [
+          {
+            "app": "nbaLeaguePass",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "IN"
+            ],
+            "website": "https://www.nba.com/",
+            "tags": [
+              "tags/nba"
+            ]
+          },
+          {
+            "app": "nbcSports",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.nbcsports.com/",
+            "tags": [
+              "country/US",
+              "tags/epl",
+              "tags/nhl",
+              "tags/nfl",
+              "tags/nba",
+              "tags/ipl"
+            ]
+          },
+          {
+            "app": "fubo",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "CA"
+            ],
+            "website": "https://www.fubo.tv/",
+            "tags": [
+              "tags/epl",
+              "tags/mlb",
+              "tags/nba",
+              "tags/nfl",
+              "tags/nhl"
+            ]
+          },
+          {
+            "app": "abc",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://abc.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "beInSports",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "CA"
+            ],
+            "website": "https://www.beinsports.com/",
+            "tags": [
+              "tags/nba",
+              "tags/epl"
+            ]
+          },
+          {
+            "app": "hboMax",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "FI",
+              "SI",
+              "MX"
+            ],
+            "website": "https://www.hbomax.com/"
+          },
+          {
+            "app": "netflix",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "GB",
+              "CA"
+            ],
+            "website": "https://www.netflix.com/"
+          },
+          {
+            "app": "pluto",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "ES",
+              "GB",
+              "CA",
+              "DE"
+            ],
+            "website": "https://static-homepage-en.pluto.tv/welcome",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "acornTv",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "GB"
+            ],
+            "website": "https://acorn.tv/"
+          },
+          {
+            "app": "crunchyroll",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "GB"
+            ],
+            "website": "https://www.crunchyroll.com/"
+          },
+          {
+            "app": "f1Tv",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://f1tv.formula1.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "nhl",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "CA"
+            ],
+            "lockedTunnels": [
+              "CA"
+            ],
+            "website": "https://nhllive.com/",
+            "tags": [
+              "country/CA",
+              "tags/nhl"
+            ]
+          },
+          {
+            "app": "skySports",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "GB",
+              "IE"
+            ],
+            "lockedTunnels": [
+              "GB",
+              "IE"
+            ],
+            "website": "https://www.skysports.com/",
+            "tags": [
+              "tags/epl",
+              "tags/nfl",
+              "tags/ipl",
+              "tags/nba"
+            ]
+          },
+          {
+            "app": "vudu",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.vudu.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "britBox",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "GB"
+            ],
+            "website": "https://www.britbox.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "filmrise",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://filmrise.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "hulu",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "JP"
+            ],
+            "website": "https://www.hulu.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "mlb",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.mlb.com/",
+            "tags": [
+              "country/US",
+              "tags/mlb"
+            ]
+          },
+          {
+            "app": "theCw",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.cwtv.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "dazn",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "CA",
+              "DE",
+              "IT",
+              "ID"
+            ],
+            "website": "https://www.dazn.com/",
+            "tags": [
+              "tags/nfl",
+              "tags/epl",
+              "tags/nba",
+              "tags/nhl",
+              "tags/ipl"
+            ]
+          },
+          {
+            "app": "roku",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://therokuchannel.roku.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "sportsnetNow",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "CA"
+            ],
+            "lockedTunnels": [
+              "CA"
+            ],
+            "website": "https://www.sportsnet.ca/",
+            "tags": [
+              "country/CA",
+              "tags/nhl",
+              "tags/mlb",
+              "tags/nba",
+              "tags/nfl",
+              "tags/ipl"
+            ]
+          },
+          {
+            "app": "cbsSports",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.cbssports.com/cbssports",
+            "tags": [
+              "country/US",
+              "tags/epl",
+              "tags/mlb",
+              "tags/nfl",
+              "tags/nba",
+              "tags/nhl"
+            ]
+          },
+          {
+            "app": "foxSports",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "CA",
+              "AU"
+            ],
+            "website": "https://www.foxsports.com/",
+            "tags": [
+              "tags/epl",
+              "tags/nfl",
+              "tags/ipl",
+              "tags/nba"
+            ]
+          },
+          {
+            "app": "discoveryPlus",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "GB"
+            ],
+            "website": "https://www.discoveryplus.com/"
+          },
+          {
+            "app": "paramountPlus",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "MX",
+              "AU",
+              "CA",
+              "GB"
+            ],
+            "website": "https://www.paramountplus.com/"
+          },
+          {
+            "app": "tsn",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "CA"
+            ],
+            "lockedTunnels": [
+              "CA"
+            ],
+            "website": "https://www.tsn.ca/",
+            "tags": [
+              "country/CA",
+              "tags/nhl",
+              "tags/nfl",
+              "tags/mlb"
+            ]
+          },
+          {
+            "app": "xumo",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.xumo.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "amazonPrimeVideo",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "GB"
+            ],
+            "website": "https://www.primevideo.com/",
+            "tags": [
+              "tags/epl",
+              "tags/nfl"
+            ]
+          },
+          {
+            "app": "disneyPlus",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "GB",
+              "CA"
+            ],
+            "website": "https://www.disneyplus.com/"
+          },
+          {
+            "app": "frndlyTv",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://try.frndlytv.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "pbs",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.pbs.org/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "starz",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.starz.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "tubiTv",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://tubitv.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "amcPlus",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.amcplus.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "peacock",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.peacocktv.com/",
+            "tags": [
+              "country/US",
+              "tags/epl",
+              "tags/mlb",
+              "tags/nba",
+              "tags/nhl",
+              "tags/nfl"
+            ]
+          },
+          {
+            "app": "stirr",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.stirr.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "showtimeAnytime",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.sho.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "youtube",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "MO"
+            ],
+            "website": "https://www.youtube.com/"
+          },
+          {
+            "app": "attTv",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.directv.com/att-tv/"
+          },
+          {
+            "app": "mgmPlus",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.epix.com/"
+          },
+          {
+            "app": "fxNow",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.fxnetworks.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "nbc",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.nbc.com/",
+            "tags": [
+              "country/US",
+              "tags/nfl",
+              "tags/nhl",
+              "tags/ipl"
+            ]
+          },
+          {
+            "app": "philo",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.philo.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "shudder",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "GB",
+              "CA"
+            ],
+            "website": "https://www.shudder.com/"
+          },
+          {
+            "app": "crackle",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.crackle.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "espn",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.espn.com/",
+            "tags": [
+              "country/US",
+              "tags/epl",
+              "tags/mlb",
+              "tags/nba",
+              "tags/nhl",
+              "tags/ipl"
+            ]
+          },
+          {
+            "app": "plex",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.plex.tv/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "tbs",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.tbs.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "usaNetwork",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.usanetwork.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "slingTv",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.sling.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "beInSports",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "CA"
+            ],
+            "website": "https://www.beinsports.com/",
+            "tags": [
+              "tags/nba",
+              "tags/epl"
+            ]
+          },
+          {
+            "app": "crave",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "CA"
+            ],
+            "website": "https://www.crave.ca/"
+          },
+          {
+            "app": "netflix",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "GB",
+              "CA"
+            ],
+            "website": "https://www.netflix.com/"
+          },
+          {
+            "app": "cbcGem",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "CA",
+              "GB"
+            ],
+            "website": "https://gem.cbc.ca/"
+          },
+          {
+            "app": "paramountPlus",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "MX",
+              "AU",
+              "CA",
+              "GB"
+            ],
+            "website": "https://www.paramountplus.com/"
+          },
+          {
+            "app": "amazonPrimeVideo",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "GB"
+            ],
+            "website": "https://www.primevideo.com/",
+            "tags": [
+              "tags/epl",
+              "tags/nfl"
+            ]
+          },
+          {
+            "app": "disneyPlus",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "GB",
+              "CA"
+            ],
+            "website": "https://www.disneyplus.com/"
+          },
+          {
+            "app": "youtube",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "MO"
+            ],
+            "website": "https://www.youtube.com/"
+          },
+          {
+            "app": "apple",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.apple.com/apple-one/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "nfl",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.nfl.com",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "oculus",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.meta.com/",
+            "tags": [
+              "country/US"
+            ]
+          }
+        ]
+      },
+      {
+        "subcategory": "CN",
+        "apps": [
+          {
+            "app": "tencentVideo",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "CN"
+            ],
+            "lockedTunnels": [
+              "CN"
+            ],
+            "website": "https://v.qq.com/",
+            "tags": [
+              "country/CN",
+              "tags/nba",
+              "tags/epl",
+              "tags/nfl",
+              "tags/mlb",
+              "tags/nhl"
+            ]
+          },
+          {
+            "app": "bilibili",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "CN"
+            ],
+            "lockedTunnels": [
+              "CN"
+            ],
+            "website": "https://www.bilibili.com/",
+            "tags": [
+              "country/CN"
+            ]
+          },
+          {
+            "app": "migu",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "CN"
+            ],
+            "lockedTunnels": [
+              "CN"
+            ],
+            "website": "https://www.miguvideo.com/",
+            "tags": [
+              "country/CN"
+            ]
+          },
+          {
+            "app": "iqiyi",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "CN"
+            ],
+            "lockedTunnels": [
+              "CN"
+            ],
+            "website": "https://www.iqiyi.com/",
+            "tags": [
+              "country/CN"
+            ]
+          },
+          {
+            "app": "youku",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "CN"
+            ],
+            "lockedTunnels": [
+              "CN"
+            ],
+            "website": "https://youku.com/",
+            "tags": [
+              "country/CN"
+            ]
+          },
+          {
+            "app": "mangoTV",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "CN"
+            ],
+            "lockedTunnels": [
+              "CN"
+            ],
+            "website": "https://www.mgtv.com/",
+            "tags": [
+              "country/CN"
+            ]
+          },
+          {
+            "app": "tiktok",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "IN",
+              "VN",
+              "AU",
+              "JP",
+              "TH",
+              "RU",
+              "ID",
+              "TR",
+              "BR"
+            ],
+            "website": "https://www.tiktok.com/",
+            "tags": [
+              "country/CN"
+            ]
+          },
+          {
+            "app": "viutv",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "HK"
+            ],
+            "website": "https://viu.tv/",
+            "tags": [
+              "country/CN"
+            ]
+          }
+        ]
+      },
+      {
+        "subcategory": "IN",
+        "apps": [
+          {
+            "app": "netflix",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "GB",
+              "CA"
+            ],
+            "website": "https://www.netflix.com/"
+          },
+          {
+            "app": "sonyLiv",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "IN"
+            ],
+            "lockedTunnels": [
+              "IN"
+            ],
+            "website": "https://www.sonyliv.com/",
+            "tags": [
+              "country/IN",
+              "tags/ipl"
+            ]
+          },
+          {
+            "app": "altBalaji",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "IN"
+            ],
+            "lockedTunnels": [
+              "IN"
+            ],
+            "website": "https://www.altbalaji.com/",
+            "tags": [
+              "country/IN"
+            ]
+          },
+          {
+            "app": "mxPlayer",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "IN"
+            ],
+            "website": "https://www.mxplayer.in/",
+            "tags": [
+              "country/IN"
+            ]
+          },
+          {
+            "app": "amazonPrimeVideo",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "GB"
+            ],
+            "website": "https://www.primevideo.com/",
+            "tags": [
+              "tags/epl",
+              "tags/nfl"
+            ]
+          },
+          {
+            "app": "youtube",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "MO"
+            ],
+            "website": "https://www.youtube.com/"
+          },
+          {
+            "app": "zee5",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "IN"
+            ],
+            "website": "https://www.zee5.com/"
+          },
+          {
+            "app": "willowTv",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "CA",
+              "GB",
+              "IN"
+            ],
+            "lockedTunnels": [
+              "US",
+              "CA",
+              "GB",
+              "IN"
+            ],
+            "website": "https://www.willow.tv/",
+            "tags": [
+              "country/IN",
+              "tags/epl",
+              "tags/ipl"
+            ]
+          },
+          {
+            "app": "chaupal",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "IN"
+            ],
+            "website": "https://chaupal.tv",
+            "tags": [
+              "country/IN"
+            ]
+          },
+          {
+            "app": "jiohotstar",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "MY",
+              "SG",
+              "IN",
+              "ID",
+              "CA",
+              "ZA"
+            ],
+            "lockedTunnels": [
+              "MY",
+              "SG",
+              "IN",
+              "ID",
+              "CA",
+              "ZA"
+            ],
+            "website": "https://www.hotstar.com/",
+            "tags": [
+              "country/IN",
+              "tags/epl",
+              "tags/ipl"
+            ]
+          }
+        ]
+      },
+      {
+        "subcategory": "CA",
+        "apps": [
+          {
+            "app": "fubo",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "CA"
+            ],
+            "website": "https://www.fubo.tv/",
+            "tags": [
+              "tags/epl",
+              "tags/mlb",
+              "tags/nba",
+              "tags/nfl",
+              "tags/nhl"
+            ]
+          },
+          {
+            "app": "beInSports",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "CA"
+            ],
+            "website": "https://www.beinsports.com/",
+            "tags": [
+              "tags/nba",
+              "tags/epl"
+            ]
+          },
+          {
+            "app": "crave",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "CA"
+            ],
+            "website": "https://www.crave.ca/"
+          },
+          {
+            "app": "netflix",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "GB",
+              "CA"
+            ],
+            "website": "https://www.netflix.com/"
+          },
+          {
+            "app": "cbcGem",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "CA",
+              "GB"
+            ],
+            "website": "https://gem.cbc.ca/"
+          },
+          {
+            "app": "paramountPlus",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "MX",
+              "AU",
+              "CA",
+              "GB"
+            ],
+            "website": "https://www.paramountplus.com/"
+          },
+          {
+            "app": "amazonPrimeVideo",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "GB"
+            ],
+            "website": "https://www.primevideo.com/",
+            "tags": [
+              "tags/epl",
+              "tags/nfl"
+            ]
+          },
+          {
+            "app": "disneyPlus",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "GB",
+              "CA"
+            ],
+            "website": "https://www.disneyplus.com/"
+          },
+          {
+            "app": "youtube",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "MO"
+            ],
+            "website": "https://www.youtube.com/"
+          },
+          {
+            "app": "rumble",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "CA"
+            ],
+            "website": "https://www.rumble.com",
+            "tags": [
+              "country/CA"
+            ]
+          },
+          {
+            "app": "sportsnet",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "CA"
+            ],
+            "lockedTunnels": [
+              "CA"
+            ],
+            "website": "https://www.sportsnet.ca/",
+            "tags": [
+              "country/CA"
+            ]
+          },
+          {
+            "app": "citytv",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "CA"
+            ],
+            "lockedTunnels": [
+              "CA"
+            ],
+            "website": "https://citytvplus.ca/",
+            "tags": [
+              "country/CA"
+            ]
+          }
+        ]
+      },
+      {
+        "subcategory": "GB",
+        "apps": [
+          {
+            "app": "fubo",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "CA"
+            ],
+            "website": "https://www.fubo.tv/",
+            "tags": [
+              "tags/epl",
+              "tags/mlb",
+              "tags/nba",
+              "tags/nfl",
+              "tags/nhl"
+            ]
+          },
+          {
+            "app": "beInSports",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "CA"
+            ],
+            "website": "https://www.beinsports.com/",
+            "tags": [
+              "tags/nba",
+              "tags/epl"
+            ]
+          },
+          {
+            "app": "crave",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "CA"
+            ],
+            "website": "https://www.crave.ca/"
+          },
+          {
+            "app": "netflix",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "GB",
+              "CA"
+            ],
+            "website": "https://www.netflix.com/"
+          },
+          {
+            "app": "skyGo",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "IT",
+              "GB"
+            ],
+            "website": "https://www.sky.com"
+          },
+          {
+            "app": "acornTv",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "GB"
+            ],
+            "website": "https://acorn.tv/"
+          },
+          {
+            "app": "crunchyroll",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "GB"
+            ],
+            "website": "https://www.crunchyroll.com/"
+          },
+          {
+            "app": "britBox",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "GB"
+            ],
+            "website": "https://www.britbox.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "nowTV",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "GB"
+            ],
+            "lockedTunnels": [
+              "GB"
+            ],
+            "website": "https://www.nowtv.com/",
+            "tags": [
+              "country/GB"
+            ]
+          },
+          {
+            "app": "cbcGem",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "CA",
+              "GB"
+            ],
+            "website": "https://gem.cbc.ca/"
+          },
+          {
+            "app": "discoveryPlus",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "GB"
+            ],
+            "website": "https://www.discoveryplus.com/"
+          },
+          {
+            "app": "paramountPlus",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "MX",
+              "AU",
+              "CA",
+              "GB"
+            ],
+            "website": "https://www.paramountplus.com/"
+          },
+          {
+            "app": "channel4",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "GB"
+            ],
+            "lockedTunnels": [
+              "GB"
+            ],
+            "website": "https://www.channel4.com/",
+            "tags": [
+              "country/GB"
+            ]
+          },
+          {
+            "app": "amazonPrimeVideo",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "GB"
+            ],
+            "website": "https://www.primevideo.com/",
+            "tags": [
+              "tags/epl",
+              "tags/nfl"
+            ]
+          },
+          {
+            "app": "disneyPlus",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "GB",
+              "CA"
+            ],
+            "website": "https://www.disneyplus.com/"
+          },
+          {
+            "app": "itv",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "GB"
+            ],
+            "lockedTunnels": [
+              "GB"
+            ],
+            "website": "https://www.itv.com/",
+            "tags": [
+              "country/GB"
+            ]
+          },
+          {
+            "app": "channel5",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "GB"
+            ],
+            "lockedTunnels": [
+              "GB"
+            ],
+            "website": "https://www.channel5.com/",
+            "tags": [
+              "country/GB"
+            ]
+          },
+          {
+            "app": "tvPlayer",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "GB"
+            ],
+            "lockedTunnels": [
+              "GB"
+            ],
+            "website": "https://tvplayer.com/",
+            "tags": [
+              "country/GB"
+            ]
+          },
+          {
+            "app": "youtube",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "MO"
+            ],
+            "website": "https://www.youtube.com/"
+          },
+          {
+            "app": "ukTvPlay",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "GB"
+            ],
+            "lockedTunnels": [
+              "GB"
+            ],
+            "website": "https://uktvplay.co.uk/",
+            "tags": [
+              "country/GB"
+            ]
+          },
+          {
+            "app": "bbcIPlayer",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "GB"
+            ],
+            "lockedTunnels": [
+              "GB"
+            ],
+            "website": "https://www.bbc.co.uk/iplayer",
+            "tags": [
+              "country/GB"
+            ]
+          }
+        ]
+      },
+      {
+        "subcategory": "NA",
+        "apps": [
+          {
+            "app": "molotovTv",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "FR"
+            ],
+            "lockedTunnels": [
+              "FR"
+            ],
+            "website": "https://www.molotov.tv/",
+            "tags": [
+              "country/FR"
+            ]
+          },
+          {
+            "app": "sSportsPlus",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "TR"
+            ],
+            "lockedTunnels": [
+              "TR"
+            ],
+            "website": "https://www.ssportplus.com/",
+            "tags": [
+              "country/TR"
+            ]
+          },
+          {
+            "app": "myTf1",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "FR"
+            ],
+            "lockedTunnels": [
+              "FR"
+            ],
+            "website": "https://www.tf1.fr/",
+            "tags": [
+              "country/FR"
+            ]
+          },
+          {
+            "app": "showmax",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "ZA"
+            ],
+            "website": "https://www.showmax.com/",
+            "tags": [
+              "country/ZA"
+            ]
+          },
+          {
+            "app": "dsTv",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "ZA"
+            ],
+            "website": "https://now.dstv.com/",
+            "tags": [
+              "country/ZA"
+            ]
+          },
+          {
+            "app": "rakutenTv",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "JP"
+            ],
+            "lockedTunnels": [
+              "JP"
+            ],
+            "website": "https://www.rakuten.tv/",
+            "tags": [
+              "country/JP",
+              "tags/nba"
+            ]
+          },
+          {
+            "app": "zattoo",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "CH"
+            ],
+            "lockedTunnels": [
+              "GB",
+              "CH",
+              "FR",
+              "DE"
+            ],
+            "website": "https://www.zattoo.com/",
+            "tags": [
+              "country/CH"
+            ]
+          },
+          {
+            "app": "osnplus",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "SA",
+              "AE",
+              "QA"
+            ],
+            "website": "https://osnplus.com/",
+            "tags": [
+              "country/UAE"
+            ]
+          },
+          {
+            "app": "shahid",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "SA",
+              "AE",
+              "QA"
+            ],
+            "website": "https://shahid.mbc.net/",
+            "tags": [
+              "country/SA"
+            ]
+          },
+          {
+            "app": "todtv",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "SA",
+              "AE",
+              "QA"
+            ],
+            "website": "https://www.tod.tv/",
+            "tags": [
+              "country/QA"
+            ]
+          },
+          {
+            "app": "raiplay",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "IT"
+            ],
+            "website": "https://www.raiplay.it/",
+            "tags": [
+              "country/IT"
+            ]
+          },
+          {
+            "app": "zdf",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "DE",
+              "CH",
+              "AT"
+            ],
+            "website": "https://www.zdf.de/",
+            "tags": [
+              "country/DE"
+            ]
+          },
+          {
+            "app": "ard",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "DE",
+              "CH",
+              "AT"
+            ],
+            "website": "https://www.ard.de/",
+            "tags": [
+              "country/DE"
+            ]
+          },
+          {
+            "app": "mediasetinfinity",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "IT"
+            ],
+            "website": "https://mediasetinfinity.mediaset.it/",
+            "tags": [
+              "country/IT"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "music",
+    "appsBySubcategory": [
+      {
+        "subcategory": "allCountries",
+        "apps": [
+          {
+            "app": "pandora",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.pandora.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "qqMusic",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "CN"
+            ],
+            "website": "https://y.qq.com/",
+            "tags": [
+              "country/CN"
+            ]
+          },
+          {
+            "app": "spotify",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "IN"
+            ],
+            "website": "https://www.spotify.com/",
+            "tags": [
+              "country/SE"
+            ]
+          },
+          {
+            "app": "tidal",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "AR"
+            ],
+            "website": "https://www.tidal.com/",
+            "tags": [
+              "country/NO"
+            ]
+          },
+          {
+            "app": "apple",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.apple.com/apple-one/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "deezer",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "FR",
+              "US",
+              "DE",
+              "MX",
+              "TR",
+              "BR",
+              "AR"
+            ],
+            "website": "https://www.deezer.com/",
+            "tags": [
+              "country/FR"
+            ]
+          },
+          {
+            "app": "soundcloud",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "FR",
+              "US",
+              "GB",
+              "CA",
+              "AU",
+              "BR",
+              "ZA"
+            ],
+            "website": "https://soundcloud.com/",
+            "tags": [
+              "country/DE"
+            ]
+          },
+          {
+            "app": "tunein",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "FR",
+              "US",
+              "GB",
+              "CA",
+              "AU",
+              "BR",
+              "ZA"
+            ],
+            "website": "https://tunein.com/",
+            "tags": [
+              "country/US"
+            ]
+          }
+        ]
+      },
+      {
+        "subcategory": "US",
+        "apps": [
+          {
+            "app": "pandora",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.pandora.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "apple",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.apple.com/apple-one/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "tunein",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "FR",
+              "US",
+              "GB",
+              "CA",
+              "AU",
+              "BR",
+              "ZA"
+            ],
+            "website": "https://tunein.com/",
+            "tags": [
+              "country/US"
+            ]
+          }
+        ]
+      },
+      {
+        "subcategory": "CN",
+        "apps": [
+          {
+            "app": "qqMusic",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "CN"
+            ],
+            "website": "https://y.qq.com/",
+            "tags": [
+              "country/CN"
+            ]
+          }
+        ]
+      },
+      {
+        "subcategory": "IN",
+        "apps": []
+      },
+      {
+        "subcategory": "CA",
+        "apps": []
+      },
+      {
+        "subcategory": "GB",
+        "apps": []
+      },
+      {
+        "subcategory": "NA",
+        "apps": [
+          {
+            "app": "spotify",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "IN"
+            ],
+            "website": "https://www.spotify.com/",
+            "tags": [
+              "country/SE"
+            ]
+          },
+          {
+            "app": "tidal",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "AR"
+            ],
+            "website": "https://www.tidal.com/",
+            "tags": [
+              "country/NO"
+            ]
+          },
+          {
+            "app": "deezer",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "FR",
+              "US",
+              "DE",
+              "MX",
+              "TR",
+              "BR",
+              "AR"
+            ],
+            "website": "https://www.deezer.com/",
+            "tags": [
+              "country/FR"
+            ]
+          },
+          {
+            "app": "soundcloud",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "FR",
+              "US",
+              "GB",
+              "CA",
+              "AU",
+              "BR",
+              "ZA"
+            ],
+            "website": "https://soundcloud.com/",
+            "tags": [
+              "country/DE"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "im",
+    "appsBySubcategory": [
+      {
+        "subcategory": "allCountries",
+        "apps": [
+          {
+            "app": "weChat",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "CN"
+            ],
+            "lockedTunnels": [
+              "CN"
+            ],
+            "website": "https://www.wechat.com/",
+            "tags": [
+              "country/CN"
+            ]
+          },
+          {
+            "app": "whatsApp",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.whatsapp.com/"
+          },
+          {
+            "app": "line",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "JP",
+              "TH",
+              "KR"
+            ],
+            "lockedTunnels": [
+              "JP",
+              "TH",
+              "KR"
+            ],
+            "website": "https://line.me/en/",
+            "tags": [
+              "country/JP"
+            ]
+          },
+          {
+            "app": "signal",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "IN"
+            ],
+            "website": "https://signal.org/"
+          },
+          {
+            "app": "telegram",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "JP",
+              "KR"
+            ],
+            "website": "https://telegram.org/"
+          },
+          {
+            "app": "messenger",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "SG",
+              "KR"
+            ],
+            "website": "https://www.messenger.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "facebook",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.facebook.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "instagram",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.instagram.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "twitter",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://x.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "apple",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.apple.com/apple-one/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "discord",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "GB",
+              "AU",
+              "JP",
+              "KR",
+              "BR"
+            ],
+            "website": "https://discord.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "reddit",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.reddit.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "viber",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "JP",
+              "US",
+              "GB"
+            ],
+            "website": "https://www.viber.com/",
+            "tags": [
+              "country/JP"
+            ]
+          }
+        ]
+      },
+      {
+        "subcategory": "US",
+        "apps": [
+          {
+            "app": "whatsApp",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.whatsapp.com/"
+          },
+          {
+            "app": "signal",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "IN"
+            ],
+            "website": "https://signal.org/"
+          },
+          {
+            "app": "messenger",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "SG",
+              "KR"
+            ],
+            "website": "https://www.messenger.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "facebook",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.facebook.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "instagram",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.instagram.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "twitter",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://x.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "apple",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.apple.com/apple-one/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "discord",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "GB",
+              "AU",
+              "JP",
+              "KR",
+              "BR"
+            ],
+            "website": "https://discord.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "reddit",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.reddit.com/",
+            "tags": [
+              "country/US"
+            ]
+          }
+        ]
+      },
+      {
+        "subcategory": "CN",
+        "apps": [
+          {
+            "app": "weChat",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "CN"
+            ],
+            "lockedTunnels": [
+              "CN"
+            ],
+            "website": "https://www.wechat.com/",
+            "tags": [
+              "country/CN"
+            ]
+          }
+        ]
+      },
+      {
+        "subcategory": "IN",
+        "apps": []
+      },
+      {
+        "subcategory": "CA",
+        "apps": []
+      },
+      {
+        "subcategory": "GB",
+        "apps": []
+      },
+      {
+        "subcategory": "NA",
+        "apps": [
+          {
+            "app": "line",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "JP",
+              "TH",
+              "KR"
+            ],
+            "lockedTunnels": [
+              "JP",
+              "TH",
+              "KR"
+            ],
+            "website": "https://line.me/en/",
+            "tags": [
+              "country/JP"
+            ]
+          },
+          {
+            "app": "telegram",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "JP",
+              "KR"
+            ],
+            "website": "https://telegram.org/"
+          },
+          {
+            "app": "viber",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "JP",
+              "US",
+              "GB"
+            ],
+            "website": "https://www.viber.com/",
+            "tags": [
+              "country/JP"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "flightAndHotel",
+    "appsBySubcategory": [
+      {
+        "subcategory": "allCountries",
+        "apps": [
+          {
+            "app": "agoda",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "TH",
+              "IN"
+            ],
+            "website": "https://www.agoda.com/",
+            "tags": [
+              "country/SG"
+            ]
+          },
+          {
+            "app": "expedia",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "MY",
+              "IN"
+            ],
+            "website": "https://www.expedia.com/"
+          },
+          {
+            "app": "flyScanner",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.skyscanner.net/",
+            "tags": [
+              "country/US"
+            ]
+          }
+        ]
+      },
+      {
+        "subcategory": "US",
+        "apps": [
+          {
+            "app": "expedia",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "MY",
+              "IN"
+            ],
+            "website": "https://www.expedia.com/"
+          }
+        ]
+      },
+      {
+        "subcategory": "CN",
+        "apps": []
+      },
+      {
+        "subcategory": "IN",
+        "apps": []
+      },
+      {
+        "subcategory": "CA",
+        "apps": []
+      },
+      {
+        "subcategory": "GB",
+        "apps": []
+      },
+      {
+        "subcategory": "NA",
+        "apps": [
+          {
+            "app": "agoda",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "TH",
+              "IN"
+            ],
+            "website": "https://www.agoda.com/",
+            "tags": [
+              "country/SG"
+            ]
+          },
+          {
+            "app": "flyScanner",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.skyscanner.net/",
+            "tags": [
+              "country/US"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "subscription",
+    "appsBySubcategory": [
+      {
+        "subcategory": "allCountries",
+        "apps": [
+          {
+            "app": "spotify",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "IN"
+            ],
+            "website": "https://www.spotify.com/",
+            "tags": [
+              "country/SE"
+            ]
+          },
+          {
+            "app": "tidal",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "AR"
+            ],
+            "website": "https://www.tidal.com/",
+            "tags": [
+              "country/NO"
+            ]
+          },
+          {
+            "app": "youtube",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "MO"
+            ],
+            "website": "https://www.youtube.com/"
+          },
+          {
+            "app": "nbaLeaguePass",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "IN"
+            ],
+            "website": "https://www.nba.com/",
+            "tags": [
+              "tags/nba"
+            ]
+          },
+          {
+            "app": "apple",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.apple.com/apple-one/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "deezer",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "FR",
+              "US",
+              "DE",
+              "MX",
+              "TR",
+              "BR",
+              "AR"
+            ],
+            "website": "https://www.deezer.com/",
+            "tags": [
+              "country/FR"
+            ]
+          },
+          {
+            "app": "playstation",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "JP",
+              "US",
+              "GB",
+              "CA",
+              "KR",
+              "BR",
+              "IN"
+            ],
+            "website": "https://www.playstation.com/",
+            "tags": [
+              "country/JP"
+            ]
+          },
+          {
+            "app": "soundcloud",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "FR",
+              "US",
+              "GB",
+              "CA",
+              "AU",
+              "BR",
+              "ZA"
+            ],
+            "website": "https://soundcloud.com/",
+            "tags": [
+              "country/DE"
+            ]
+          },
+          {
+            "app": "tunein",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "FR",
+              "US",
+              "GB",
+              "CA",
+              "AU",
+              "BR",
+              "ZA"
+            ],
+            "website": "https://tunein.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "steam",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "AR",
+              "IN",
+              "RU",
+              "BR",
+              "ZA",
+              "TR"
+            ],
+            "website": "https://store.steampowered.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "epic",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://store.epicgames.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "nintendo",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "JP",
+              "KR",
+              "HK"
+            ],
+            "website": "https://www.nintendo.com/",
+            "tags": [
+              "country/JP"
+            ]
+          },
+          {
+            "app": "roblox",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "CA",
+              "UK"
+            ],
+            "website": "https://www.roblox.com/",
+            "tags": [
+              "country/US"
+            ]
+          }
+        ]
+      },
+      {
+        "subcategory": "US",
+        "apps": [
+          {
+            "app": "spotify",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "IN"
+            ],
+            "website": "https://www.spotify.com/",
+            "tags": [
+              "country/SE"
+            ]
+          },
+          {
+            "app": "youtube",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "MO"
+            ],
+            "website": "https://www.youtube.com/"
+          },
+          {
+            "app": "nbaLeaguePass",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "IN"
+            ],
+            "website": "https://www.nba.com/",
+            "tags": [
+              "tags/nba"
+            ]
+          },
+          {
+            "app": "apple",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://www.apple.com/apple-one/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "playstation",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "JP",
+              "US",
+              "GB",
+              "CA",
+              "KR",
+              "BR",
+              "IN"
+            ],
+            "website": "https://www.playstation.com/",
+            "tags": [
+              "country/JP"
+            ]
+          },
+          {
+            "app": "steam",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "AR",
+              "IN",
+              "RU",
+              "BR",
+              "ZA",
+              "TR"
+            ],
+            "website": "https://store.steampowered.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "epic",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US"
+            ],
+            "website": "https://store.epicgames.com/",
+            "tags": [
+              "country/US"
+            ]
+          },
+          {
+            "app": "roblox",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "CA",
+              "UK"
+            ],
+            "website": "https://www.roblox.com/",
+            "tags": [
+              "country/US"
+            ]
+          }
+        ]
+      },
+      {
+        "subcategory": "CN",
+        "apps": []
+      },
+      {
+        "subcategory": "IN",
+        "apps": []
+      },
+      {
+        "subcategory": "CA",
+        "apps": []
+      },
+      {
+        "subcategory": "GB",
+        "apps": []
+      },
+      {
+        "subcategory": "NA",
+        "apps": [
+          {
+            "app": "tidal",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "AR"
+            ],
+            "website": "https://www.tidal.com/",
+            "tags": [
+              "country/NO"
+            ]
+          },
+          {
+            "app": "nintendo",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "JP",
+              "KR",
+              "HK"
+            ],
+            "website": "https://www.nintendo.com/",
+            "tags": [
+              "country/JP"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "ai",
+    "appsBySubcategory": [
+      {
+        "subcategory": "allCountries",
+        "apps": [
+          {
+            "app": "chatGpt",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "JP",
+              "KR"
+            ],
+            "website": "https://chat.openai.com/",
+            "tags": [
+              "country/US"
+            ]
+          }
+        ]
+      },
+      {
+        "subcategory": "US",
+        "apps": [
+          {
+            "app": "chatGpt",
+            "tunnel": "GB",
+            "recommendedTunnels": [
+              "US",
+              "JP",
+              "KR"
+            ],
+            "website": "https://chat.openai.com/",
+            "tags": [
+              "country/US"
+            ]
+          }
+        ]
+      },
+      {
+        "subcategory": "CN",
+        "apps": []
+      },
+      {
+        "subcategory": "IN",
+        "apps": []
+      },
+      {
+        "subcategory": "CA",
+        "apps": []
+      },
+      {
+        "subcategory": "GB",
+        "apps": []
+      },
+      {
+        "subcategory": "NA",
+        "apps": []
+      }
+    ]
+  }
+]

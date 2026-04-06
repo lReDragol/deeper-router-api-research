@@ -1,0 +1,15 @@
+{
+  "string_paths": [
+    "/api/admin/validateToken"
+  ],
+  "method_paths": [
+    {
+      "method": "POST",
+      "path": "/api/admin/validateToken"
+    }
+  ],
+  "counts": {
+    "string_paths": 1,
+    "method_paths": 1
+  }
+}

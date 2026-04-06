@@ -1,0 +1,8 @@
+{
+  "success": true,
+  "sharingEnabled": false,
+  "btEnabled": false,
+  "smtpEnabled": false,
+  "maxBandwidth": "0",
+  "dnsBlacklistForSharing": false
+}

@@ -1,0 +1,808 @@
+{
+  "js_files": 155,
+  "string_paths": [
+    "/api/accessControl/delete",
+    "/api/accessControl/list",
+    "/api/accessControl/setOne",
+    "/api/accessControl/switch",
+    "/api/admin/changePassword",
+    "/api/admin/connect",
+    "/api/admin/consent",
+    "/api/admin/deeperLog",
+    "/api/admin/downloadLog",
+    "/api/admin/getDeviceId",
+    "/api/admin/getMyCountry",
+    "/api/admin/language",
+    "/api/admin/logOut",
+    "/api/admin/login",
+    "/api/admin/reboot",
+    "/api/admin/remoteWeb",
+    "/api/admin/remoteWeb/start",
+    "/api/admin/remoteWeb/stop",
+    "/api/admin/reset",
+    "/api/admin/validateToken",
+    "/api/appRelocator/addApp",
+    "/api/appRelocator/apps",
+    "/api/appRelocator/delApp",
+    "/api/autoReboot/config",
+    "/api/betanet/getBalanceAndCredit",
+    "/api/betanet/getBalanceHistory",
+    "/api/betanet/getOnChainStatus",
+    "/api/betanet/getTransactionList",
+    "/api/betanet/getTransactionSum",
+    "/api/betanet/redeemCredit",
+    "/api/betanet/setCreditLevel",
+    "/api/betanet/transfer",
+    "/api/betanet/walletData",
+    "/api/dynamic-data",
+    "/api/info",
+    "/api/inform",
+    "/api/liquid",
+    "/api/microPayment/getDailyTraffic",
+    "/api/notifications",
+    "/api/notifications?open=true",
+    "/api/rustdesk/config",
+    "/api/rustdesk/forced",
+    "/api/rustdesk/hbbrLog",
+    "/api/rustdesk/keys",
+    "/api/rustdesk/port",
+    "/api/rustdesk/switch",
+    "/api/rustdesk/version",
+    "/api/rustdesk/vpnConfig",
+    "/api/rustdesk/vpnSwitch",
+    "/api/security/",
+    "/api/security/blockedCounts",
+    "/api/security/exportBlacklist",
+    "/api/security/exportWhitelist",
+    "/api/security/getUrlFilterData",
+    "/api/security/setCategoryStates",
+    "/api/security/wanIpAccess",
+    "/api/sharing/blacklist",
+    "/api/sharing/clearBlacklist",
+    "/api/sharing/getSharingConfig",
+    "/api/sharing/getTrafficLimit",
+    "/api/sharing/setBandwidthLimit",
+    "/api/sharing/setBtSharing",
+    "/api/sharing/setDnsBlacklistForSharing",
+    "/api/sharing/setSharingState",
+    "/api/sharing/setSmtpSharing",
+    "/api/sharing/setTrafficLimit",
+    "/api/sharingSecurity/getList/1000",
+    "/api/sharingSecurity/getList/1000?unmasked=Y",
+    "/api/sharingSecurity/getMode",
+    "/api/smartRoute/addToBlacklist/domain",
+    "/api/smartRoute/addToBlacklist/ip",
+    "/api/smartRoute/addToWhitelist/domain",
+    "/api/smartRoute/addToWhitelist/ip",
+    "/api/smartRoute/addTunnel",
+    "/api/smartRoute/deleteFromBlacklist/domain",
+    "/api/smartRoute/deleteFromBlacklist/ip",
+    "/api/smartRoute/deleteFromWhitelist/domain",
+    "/api/smartRoute/deleteFromWhitelist/ip",
+    "/api/smartRoute/deleteTunnels",
+    "/api/smartRoute/editWhiteEntry/domain",
+    "/api/smartRoute/editWhiteEntry/ip",
+    "/api/smartRoute/exportDirect/domain",
+    "/api/smartRoute/exportDirect/ip",
+    "/api/smartRoute/exportSmart/domain",
+    "/api/smartRoute/exportSmart/ip",
+    "/api/smartRoute/getDpnMode",
+    "/api/smartRoute/getRoutingBlacklist/domain",
+    "/api/smartRoute/getRoutingBlacklist/ip",
+    "/api/smartRoute/getRoutingWhitelist/domain",
+    "/api/smartRoute/getRoutingWhitelist/ip",
+    "/api/smartRoute/importDirect/domain",
+    "/api/smartRoute/importDirect/ip",
+    "/api/smartRoute/importSmart/domain",
+    "/api/smartRoute/importSmart/ip",
+    "/api/smartRoute/listTunnelOptions",
+    "/api/smartRoute/listTunnels",
+    "/api/smartRoute/nodeLbMode",
+    "/api/smartRoute/refreshTunnel",
+    "/api/smartRoute/setDpnMode",
+    "/api/smartRoute/switchNode",
+    "/api/speedometer",
+    "/api/system-info/get-autoupdate",
+    "/api/system-info/get-latestversion",
+    "/api/system-info/hardware-info",
+    "/api/system-info/network-address",
+    "/api/system-info/session-info",
+    "/api/system-info/set-autoupdate",
+    "/api/system-info/software-info",
+    "/api/system-info/update-latestversion",
+    "/api/system-info/usage",
+    "/api/tproxy/adsFilter",
+    "/api/tproxy/rootCaCert",
+    "/api/tproxy/rule",
+    "/api/tproxy/sslBypass",
+    "/api/traffic/routedInfo",
+    "/api/traffic/savedTraffic",
+    "/api/traffic/session-speed",
+    "/api/traffic/total-traffic",
+    "/api/wallet/bindWallet",
+    "/api/wallet/downloadKeystore",
+    "/api/wallet/generateWallet",
+    "/api/wallet/publicKey",
+    "/api/wallet/resetPassword",
+    "/api/wallet/setPassword",
+    "/api/wallet/unbindWallet",
+    "/api/wallet/unlock",
+    "/api/wallet/unstaking",
+    "/api/wifi/connect",
+    "/api/wifi/enable",
+    "/api/wifi/forget",
+    "/api/wifi/getAPConfig",
+    "/api/wifi/getAPConfig request filed",
+    "/api/wifi/hostapdLog",
+    "/api/wifi/setDownstream",
+    "/api/wifi/upstreamList",
+    "/api/wifi/workingInfo",
+    "/api/worldmap-data"
+  ],
+  "method_paths": [
+    {
+      "method": "POST",
+      "path": "/api/accessControl/delete",
+      "source": "assets__actions.CDXTKKH4.js"
+    },
+    {
+      "method": "GET",
+      "path": "/api/accessControl/list",
+      "source": "assets__actions.CDXTKKH4.js"
+    },
+    {
+      "method": "POST",
+      "path": "/api/accessControl/setOne",
+      "source": "assets__actions.CDXTKKH4.js"
+    },
+    {
+      "method": "GET",
+      "path": "/api/accessControl/switch",
+      "source": "assets__actions.CDXTKKH4.js"
+    },
+    {
+      "method": "POST",
+      "path": "/api/accessControl/switch",
+      "source": "assets__actions.CDXTKKH4.js"
+    },
+    {
+      "method": "POST",
+      "path": "/api/admin/changePassword",
+      "source": "assets__index.BsQdlffd.js"
+    },
+    {
+      "method": "POST",
+      "path": "/api/admin/connect",
+      "source": "assets__index.SMSNCy-w.js"
+    },
+    {
+      "method": "POST",
+      "path": "/api/admin/consent",
+      "source": "assets__index.Cn0M_pb9.js"
+    },
+    {
+      "method": "POST",
+      "path": "/api/admin/deeperLog",
+      "source": "assets__index.j1L27DJZ.js"
+    },
+    {
+      "method": "GET",
+      "path": "/api/admin/getDeviceId",
+      "source": "assets__actions.BcRzSJ0R.js"
+    },
+    {
+      "method": "GET",
+      "path": "/api/admin/getMyCountry",
+      "source": "assets__actions.BcRzSJ0R.js"
+    },
+    {
+      "method": "POST",
+      "path": "/api/admin/logOut",
+      "source": "assets__Layout.corvXxLa.js"
+    },
+    {
+      "method": "POST",
+      "path": "/api/admin/reboot",
+      "source": "assets__index.CljWzoTA.js"
+    },
+    {
+      "method": "GET",
+      "path": "/api/admin/remoteWeb",
+      "source": "assets__index.SMSNCy-w.js"
+    },
+    {
+      "method": "POST",
+      "path": "/api/admin/remoteWeb/start",
+      "source": "assets__index.SMSNCy-w.js"
+    },
+    {
+      "method": "POST",
+      "path": "/api/admin/remoteWeb/stop",
+      "source": "assets__index.SMSNCy-w.js"
+    },
+    {
+      "method": "POST",
+      "path": "/api/admin/reset",
+      "source": "assets__index.ddX4Lx1L.js"
+    },
+    {
+      "method": "POST",
+      "path": "/api/admin/validateToken",
+      "source": "assets__actions.BcRzSJ0R.js"
+    },
+    {
+      "method": "POST",
+      "path": "/api/appRelocator/addApp",
+      "source": "assets__state.BMZevs80.js"
+    },
+    {
+      "method": "GET",
+      "path": "/api/appRelocator/apps",
+      "source": "assets__state.BMZevs80.js"
+    },
+    {
+      "method": "POST",
+      "path": "/api/appRelocator/delApp",
+      "source": "assets__state.BMZevs80.js"
+    },
+    {
+      "method": "GET",
+      "path": "/api/autoReboot/config",
+      "source": "assets__index.CljWzoTA.js"
+    },
+    {
+      "method": "POST",
+      "path": "/api/autoReboot/config",
+      "source": "assets__index.CljWzoTA.js"
+    },
+    {
+      "method": "GET",
+      "path": "/api/betanet/getBalanceAndCredit",
+      "source": "assets__index.C09gRyaU.js"
+    },
+    {
+      "method": "GET",
+      "path": "/api/betanet/getBalanceHistory",
+      "source": "assets__index.C09gRyaU.js"
+    },
+    {
+      "method": "GET",
+      "path": "/api/betanet/getOnChainStatus",
+      "source": "assets__index.C09gRyaU.js"
+    },
+    {
+      "method": "GET",
+      "path": "/api/betanet/getTransactionList",
+      "source": "assets__index.DOE0vzot.js"
+    },
+    {
+      "method": "GET",
+      "path": "/api/betanet/getTransactionSum",
+      "source": "assets__index.9KobG3oN.js"
+    },
+    {
+      "method": "POST",
+      "path": "/api/betanet/redeemCredit",
+      "source": "assets__index.DnlURU1K.js"
+    },
+    {
+      "method": "POST",
+      "path": "/api/betanet/setCreditLevel",
+      "source": "assets__index.DnlURU1K.js"
+    },
+    {
+      "method": "POST",
+      "path": "/api/betanet/transfer",
+      "source": "assets__index.DnlURU1K.js"
+    },
+    {
+      "method": "GET",
+      "path": "/api/betanet/walletData",
+      "source": "assets__index.DnlURU1K.js"
+    },
+    {
+      "method": "GET",
+      "path": "/api/dynamic-data",
+      "source": "assets__index.Dr-ktp7K.js"
+    },
+    {
+      "method": "GET",
+      "path": "/api/info",
+      "source": "assets__index.Dr-ktp7K.js"
+    },
+    {
+      "method": "GET",
+      "path": "/api/inform",
+      "source": "assets__index.Dr-ktp7K.js"
+    },
+    {
+      "method": "GET",
+      "path": "/api/liquid",
+      "source": "assets__index.Bagt5HqK.js"
+    },
+    {
+      "method": "GET",
+      "path": "/api/microPayment/getDailyTraffic",
+      "source": "assets__index.C09gRyaU.js"
+    },
+    {
+      "method": "GET",
+      "path": "/api/rustdesk/config",
+      "source": "assets__index.MnKnF552.js"
+    },
+    {
+      "method": "POST",
+      "path": "/api/rustdesk/forced",
+      "source": "assets__index.MnKnF552.js"
+    },
+    {
+      "method": "GET",
+      "path": "/api/rustdesk/hbbrLog",
+      "source": "assets__index.BGtX8-ae.js"
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/rustdesk/keys",
+      "source": "assets__index.MnKnF552.js"
+    },
+    {
+      "method": "POST",
+      "path": "/api/rustdesk/port",
+      "source": "assets__index.MnKnF552.js"
+    },
+    {
+      "method": "POST",
+      "path": "/api/rustdesk/switch",
+      "source": "assets__index.MnKnF552.js"
+    },
+    {
+      "method": "GET",
+      "path": "/api/rustdesk/version",
+      "source": "assets__index.BGtX8-ae.js"
+    },
+    {
+      "method": "GET",
+      "path": "/api/rustdesk/vpnConfig",
+      "source": "assets__index.MnKnF552.js"
+    },
+    {
+      "method": "POST",
+      "path": "/api/rustdesk/vpnSwitch",
+      "source": "assets__index.MnKnF552.js"
+    },
+    {
+      "method": "GET",
+      "path": "/api/security/blockedCounts",
+      "source": "assets__index.Dr-ktp7K.js"
+    },
+    {
+      "method": "GET",
+      "path": "/api/security/getUrlFilterData",
+      "source": "assets__index.BWB2vwqs.js"
+    },
+    {
+      "method": "POST",
+      "path": "/api/security/setCategoryStates",
+      "source": "assets__index.BWB2vwqs.js"
+    },
+    {
+      "method": "GET",
+      "path": "/api/security/wanIpAccess",
+      "source": "assets__state.DWtk4kGo.js"
+    },
+    {
+      "method": "POST",
+      "path": "/api/security/wanIpAccess",
+      "source": "assets__state.DWtk4kGo.js"
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/sharing/blacklist",
+      "source": "assets__index.CbvcFa62.js"
+    },
+    {
+      "method": "GET",
+      "path": "/api/sharing/blacklist",
+      "source": "assets__index.CbvcFa62.js"
+    },
+    {
+      "method": "POST",
+      "path": "/api/sharing/blacklist",
+      "source": "assets__index.CbvcFa62.js"
+    },
+    {
+      "method": "POST",
+      "path": "/api/sharing/clearBlacklist",
+      "source": "assets__index.CbvcFa62.js"
+    },
+    {
+      "method": "GET",
+      "path": "/api/sharing/getSharingConfig",
+      "source": "assets__actions.CC343xZA.js"
+    },
+    {
+      "method": "GET",
+      "path": "/api/sharing/getTrafficLimit",
+      "source": "assets__index.3PvT7rsi.js"
+    },
+    {
+      "method": "POST",
+      "path": "/api/sharing/setBandwidthLimit",
+      "source": "assets__index.3PvT7rsi.js"
+    },
+    {
+      "method": "POST",
+      "path": "/api/sharing/setBtSharing",
+      "source": "assets__index.3PvT7rsi.js"
+    },
+    {
+      "method": "POST",
+      "path": "/api/sharing/setDnsBlacklistForSharing",
+      "source": "assets__index.CbvcFa62.js"
+    },
+    {
+      "method": "POST",
+      "path": "/api/sharing/setSharingState",
+      "source": "assets__index.3PvT7rsi.js"
+    },
+    {
+      "method": "POST",
+      "path": "/api/sharing/setSmtpSharing",
+      "source": "assets__index.3PvT7rsi.js"
+    },
+    {
+      "method": "POST",
+      "path": "/api/sharing/setTrafficLimit",
+      "source": "assets__index.3PvT7rsi.js"
+    },
+    {
+      "method": "GET",
+      "path": "/api/sharingSecurity/getList/1000",
+      "source": "assets__index.DqIyz8Vy.js"
+    },
+    {
+      "method": "GET",
+      "path": "/api/sharingSecurity/getMode",
+      "source": "assets__index.DqIyz8Vy.js"
+    },
+    {
+      "method": "POST",
+      "path": "/api/smartRoute/addToBlacklist/domain",
+      "source": "assets__index.BhYV-5Mr.js"
+    },
+    {
+      "method": "POST",
+      "path": "/api/smartRoute/addToBlacklist/ip",
+      "source": "assets__index.B0IPt6Tx.js"
+    },
+    {
+      "method": "POST",
+      "path": "/api/smartRoute/addToWhitelist/domain",
+      "source": "assets__index.BhYV-5Mr.js"
+    },
+    {
+      "method": "POST",
+      "path": "/api/smartRoute/addToWhitelist/ip",
+      "source": "assets__index.B0IPt6Tx.js"
+    },
+    {
+      "method": "POST",
+      "path": "/api/smartRoute/addTunnel",
+      "source": "assets__state.Bl-YjL3W.js"
+    },
+    {
+      "method": "POST",
+      "path": "/api/smartRoute/deleteFromBlacklist/domain",
+      "source": "assets__index.BhYV-5Mr.js"
+    },
+    {
+      "method": "POST",
+      "path": "/api/smartRoute/deleteFromBlacklist/ip",
+      "source": "assets__index.B0IPt6Tx.js"
+    },
+    {
+      "method": "POST",
+      "path": "/api/smartRoute/deleteFromWhitelist/domain",
+      "source": "assets__index.BhYV-5Mr.js"
+    },
+    {
+      "method": "POST",
+      "path": "/api/smartRoute/deleteFromWhitelist/ip",
+      "source": "assets__index.B0IPt6Tx.js"
+    },
+    {
+      "method": "POST",
+      "path": "/api/smartRoute/deleteTunnels",
+      "source": "assets__state.Bl-YjL3W.js"
+    },
+    {
+      "method": "POST",
+      "path": "/api/smartRoute/editWhiteEntry/domain",
+      "source": "assets__index.BhYV-5Mr.js"
+    },
+    {
+      "method": "POST",
+      "path": "/api/smartRoute/editWhiteEntry/ip",
+      "source": "assets__index.B0IPt6Tx.js"
+    },
+    {
+      "method": "GET",
+      "path": "/api/smartRoute/getDpnMode",
+      "source": "assets__state.eF2SevIn.js"
+    },
+    {
+      "method": "GET",
+      "path": "/api/smartRoute/getRoutingBlacklist/domain",
+      "source": "assets__index.BhYV-5Mr.js"
+    },
+    {
+      "method": "GET",
+      "path": "/api/smartRoute/getRoutingBlacklist/ip",
+      "source": "assets__index.B0IPt6Tx.js"
+    },
+    {
+      "method": "GET",
+      "path": "/api/smartRoute/getRoutingWhitelist/domain",
+      "source": "assets__index.BhYV-5Mr.js"
+    },
+    {
+      "method": "GET",
+      "path": "/api/smartRoute/getRoutingWhitelist/ip",
+      "source": "assets__index.B0IPt6Tx.js"
+    },
+    {
+      "method": "POST",
+      "path": "/api/smartRoute/importDirect/domain",
+      "source": "assets__index.BhYV-5Mr.js"
+    },
+    {
+      "method": "POST",
+      "path": "/api/smartRoute/importDirect/ip",
+      "source": "assets__index.B0IPt6Tx.js"
+    },
+    {
+      "method": "POST",
+      "path": "/api/smartRoute/importSmart/domain",
+      "source": "assets__index.BhYV-5Mr.js"
+    },
+    {
+      "method": "POST",
+      "path": "/api/smartRoute/importSmart/ip",
+      "source": "assets__index.B0IPt6Tx.js"
+    },
+    {
+      "method": "GET",
+      "path": "/api/smartRoute/listTunnelOptions",
+      "source": "assets__actions.BGOOFw72.js"
+    },
+    {
+      "method": "GET",
+      "path": "/api/smartRoute/listTunnels",
+      "source": "assets__state.CSlyoAGu.js"
+    },
+    {
+      "method": "GET",
+      "path": "/api/smartRoute/nodeLbMode",
+      "source": "assets__state.Bl-YjL3W.js"
+    },
+    {
+      "method": "POST",
+      "path": "/api/smartRoute/nodeLbMode",
+      "source": "assets__state.Bl-YjL3W.js"
+    },
+    {
+      "method": "POST",
+      "path": "/api/smartRoute/refreshTunnel",
+      "source": "assets__state.Bl-YjL3W.js"
+    },
+    {
+      "method": "POST",
+      "path": "/api/smartRoute/setDpnMode",
+      "source": "assets__state.eF2SevIn.js"
+    },
+    {
+      "method": "POST",
+      "path": "/api/smartRoute/switchNode",
+      "source": "assets__state.Bl-YjL3W.js"
+    },
+    {
+      "method": "GET",
+      "path": "/api/speedometer",
+      "source": "assets__index.Bagt5HqK.js"
+    },
+    {
+      "method": "GET",
+      "path": "/api/system-info/get-autoupdate",
+      "source": "assets__index.Bagt5HqK.js"
+    },
+    {
+      "method": "GET",
+      "path": "/api/system-info/get-latestversion",
+      "source": "assets__index.Bagt5HqK.js"
+    },
+    {
+      "method": "GET",
+      "path": "/api/system-info/hardware-info",
+      "source": "assets__index.Bagt5HqK.js"
+    },
+    {
+      "method": "GET",
+      "path": "/api/system-info/network-address",
+      "source": "assets__index.Bagt5HqK.js"
+    },
+    {
+      "method": "GET",
+      "path": "/api/system-info/session-info",
+      "source": "assets__index.Bagt5HqK.js"
+    },
+    {
+      "method": "GET",
+      "path": "/api/system-info/set-autoupdate",
+      "source": "assets__index.Bagt5HqK.js"
+    },
+    {
+      "method": "GET",
+      "path": "/api/system-info/software-info",
+      "source": "assets__index.Bagt5HqK.js"
+    },
+    {
+      "method": "GET",
+      "path": "/api/system-info/update-latestversion",
+      "source": "assets__index.Bagt5HqK.js"
+    },
+    {
+      "method": "GET",
+      "path": "/api/system-info/usage",
+      "source": "assets__index.Bagt5HqK.js"
+    },
+    {
+      "method": "GET",
+      "path": "/api/tproxy/adsFilter",
+      "source": "assets__actions.BSDc0uML.js"
+    },
+    {
+      "method": "POST",
+      "path": "/api/tproxy/adsFilter",
+      "source": "assets__actions.BSDc0uML.js"
+    },
+    {
+      "method": "GET",
+      "path": "/api/tproxy/rule",
+      "source": "assets__index.C07NpMhh.js"
+    },
+    {
+      "method": "POST",
+      "path": "/api/tproxy/rule",
+      "source": "assets__index.C07NpMhh.js"
+    },
+    {
+      "method": "GET",
+      "path": "/api/tproxy/sslBypass",
+      "source": "assets__actions.BSDc0uML.js"
+    },
+    {
+      "method": "POST",
+      "path": "/api/tproxy/sslBypass",
+      "source": "assets__actions.BSDc0uML.js"
+    },
+    {
+      "method": "GET",
+      "path": "/api/traffic/routedInfo",
+      "source": "assets__index.Dr-ktp7K.js"
+    },
+    {
+      "method": "GET",
+      "path": "/api/traffic/savedTraffic",
+      "source": "assets__index.Dr-ktp7K.js"
+    },
+    {
+      "method": "GET",
+      "path": "/api/traffic/session-speed",
+      "source": "assets__index.CaZRWQuY.js"
+    },
+    {
+      "method": "GET",
+      "path": "/api/traffic/total-traffic",
+      "source": "assets__index.CaZRWQuY.js"
+    },
+    {
+      "method": "POST",
+      "path": "/api/wallet/bindWallet",
+      "source": "assets__index.DnlURU1K.js"
+    },
+    {
+      "method": "POST",
+      "path": "/api/wallet/downloadKeystore",
+      "source": "assets__index.DnlURU1K.js"
+    },
+    {
+      "method": "POST",
+      "path": "/api/wallet/generateWallet",
+      "source": "assets__index.DnlURU1K.js"
+    },
+    {
+      "method": "GET",
+      "path": "/api/wallet/publicKey",
+      "source": "assets__state.CmWONeJ1.js"
+    },
+    {
+      "method": "POST",
+      "path": "/api/wallet/resetPassword",
+      "source": "assets__actions.B3aE-YOO.js"
+    },
+    {
+      "method": "POST",
+      "path": "/api/wallet/setPassword",
+      "source": "assets__Layout.corvXxLa.js"
+    },
+    {
+      "method": "POST",
+      "path": "/api/wallet/unbindWallet",
+      "source": "assets__index.DnlURU1K.js"
+    },
+    {
+      "method": "POST",
+      "path": "/api/wallet/unlock",
+      "source": "assets__Layout.corvXxLa.js"
+    },
+    {
+      "method": "GET",
+      "path": "/api/wallet/unstaking",
+      "source": "assets__index.DnlURU1K.js"
+    },
+    {
+      "method": "POST",
+      "path": "/api/wallet/unstaking",
+      "source": "assets__index.DnlURU1K.js"
+    },
+    {
+      "method": "POST",
+      "path": "/api/wifi/connect",
+      "source": "assets__state.DWtk4kGo.js"
+    },
+    {
+      "method": "GET",
+      "path": "/api/wifi/enable",
+      "source": "assets__state.CSlyoAGu.js"
+    },
+    {
+      "method": "POST",
+      "path": "/api/wifi/forget",
+      "source": "assets__state.DWtk4kGo.js"
+    },
+    {
+      "method": "GET",
+      "path": "/api/wifi/getAPConfig",
+      "source": "assets__state.DWtk4kGo.js"
+    },
+    {
+      "method": "GET",
+      "path": "/api/wifi/hostapdLog",
+      "source": "assets__index.BCbjQJ8i.js"
+    },
+    {
+      "method": "POST",
+      "path": "/api/wifi/setDownstream",
+      "source": "assets__state.DWtk4kGo.js"
+    },
+    {
+      "method": "GET",
+      "path": "/api/wifi/upstreamList",
+      "source": "assets__ConnectWifiModal.DKbjEQ-3.js"
+    },
+    {
+      "method": "GET",
+      "path": "/api/wifi/workingInfo",
+      "source": "assets__state.DWtk4kGo.js"
+    },
+    {
+      "method": "GET",
+      "path": "/api/worldmap-data",
+      "source": "assets__index.Dr-ktp7K.js"
+    }
+  ],
+  "counts": {
+    "string_paths": 137,
+    "method_paths": 132
+  }
+}

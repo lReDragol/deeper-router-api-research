@@ -1,0 +1,14 @@
+{
+  "localTraffic": {
+    "upload": "30.2 GB",
+    "download": "31.0 GB"
+  },
+  "clientTraffic": {
+    "upload": "2.9 GB",
+    "download": "9.9 GB"
+  },
+  "serverTraffic": {
+    "upload": "0.0 B",
+    "download": "0.0 B"
+  }
+}

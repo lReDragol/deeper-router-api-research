@@ -1,0 +1,29 @@
+{
+  "online": [],
+  "offline": [
+    {
+      "mac": "00:11:22:33:44:55",
+      "createdAt": 1700000000000,
+      "name": "UPSTREAM-AP-EXAMPLE",
+      "routeMode": "smart",
+      "regionCode": null,
+      "httpsFilter": false,
+      "remark": "",
+      "pinned": false,
+      "bypass": [],
+      "bwLimit": 0
+    },
+    {
+      "mac": "66:77:88:99:aa:bb",
+      "createdAt": 1700003600000,
+      "name": "LAPTOP-EXAMPLE",
+      "routeMode": "smart",
+      "regionCode": null,
+      "httpsFilter": false,
+      "remark": "",
+      "pinned": false,
+      "bypass": [],
+      "bwLimit": 0
+    }
+  ]
+}

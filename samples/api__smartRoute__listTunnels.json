@@ -1,0 +1,74 @@
+[
+  {
+    "tunnelCode": "SA",
+    "regionCode": "ASW",
+    "countryCode": "SA",
+    "addedByUser": true,
+    "activeNum": 1,
+    "activeIp": "203.0.113.11"
+  },
+  {
+    "tunnelCode": "GB",
+    "regionCode": "EUN",
+    "countryCode": "GB",
+    "addedByUser": true,
+    "activeNum": 1,
+    "activeIp": "203.0.113.12"
+  },
+  {
+    "tunnelCode": "SE",
+    "regionCode": "EEU",
+    "countryCode": "SE",
+    "addedByUser": true,
+    "activeNum": 2,
+    "activeIp": "198.51.100.13"
+  },
+  {
+    "tunnelCode": "BW",
+    "regionCode": "AFS",
+    "countryCode": "BW",
+    "addedByUser": true,
+    "activeNum": 0,
+    "activeIp": null
+  },
+  {
+    "tunnelCode": "NL",
+    "regionCode": "EEU",
+    "countryCode": "NL",
+    "addedByUser": true,
+    "activeNum": 2,
+    "activeIp": "198.51.100.14"
+  },
+  {
+    "tunnelCode": "UB",
+    "regionCode": "AMN",
+    "countryCode": "UB",
+    "addedByUser": true,
+    "activeNum": 2,
+    "activeIp": "192.0.2.15"
+  },
+  {
+    "tunnelCode": "UF",
+    "regionCode": "AMN",
+    "countryCode": "UF",
+    "addedByUser": true,
+    "activeNum": 2,
+    "activeIp": "192.0.2.16"
+  },
+  {
+    "tunnelCode": "TR",
+    "regionCode": "ASW",
+    "countryCode": "TR",
+    "addedByUser": true,
+    "activeNum": 1,
+    "activeIp": "203.0.113.17"
+  },
+  {
+    "tunnelCode": "UE",
+    "regionCode": "AMN",
+    "countryCode": "UE",
+    "addedByUser": true,
+    "activeNum": 1,
+    "activeIp": "198.51.100.18"
+  }
+]

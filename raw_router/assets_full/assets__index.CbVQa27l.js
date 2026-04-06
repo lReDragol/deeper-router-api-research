@@ -1,0 +1,1 @@
+import{j as o}from"./index.gHG1NCGy.js";import{u as r}from"./index.Duw3QxP2.js";const x=({text:t})=>{const{t:s}=r(),e=t||s("common.no-result");return o.jsx("div",{className:"text-center text-gray-400 text-xs sm:text-sm",children:e})};export{x as E};

@@ -1,0 +1,56 @@
+[
+  {
+    "tunnelCode": "SA",
+    "regionCode": "ASW",
+    "countryCode": "SA",
+    "addedByUser": true
+  },
+  {
+    "tunnelCode": "GB",
+    "regionCode": "EUN",
+    "countryCode": "GB",
+    "addedByUser": true
+  },
+  {
+    "tunnelCode": "SE",
+    "regionCode": "EEU",
+    "countryCode": "SE",
+    "addedByUser": true
+  },
+  {
+    "tunnelCode": "BW",
+    "regionCode": "AFS",
+    "countryCode": "BW",
+    "addedByUser": true
+  },
+  {
+    "tunnelCode": "NL",
+    "regionCode": "EEU",
+    "countryCode": "NL",
+    "addedByUser": true
+  },
+  {
+    "tunnelCode": "UB",
+    "regionCode": "AMN",
+    "countryCode": "UB",
+    "addedByUser": true
+  },
+  {
+    "tunnelCode": "UF",
+    "regionCode": "AMN",
+    "countryCode": "UF",
+    "addedByUser": true
+  },
+  {
+    "tunnelCode": "TR",
+    "regionCode": "ASW",
+    "countryCode": "TR",
+    "addedByUser": true
+  },
+  {
+    "tunnelCode": "UE",
+    "regionCode": "AMN",
+    "countryCode": "UE",
+    "addedByUser": true
+  }
+]

@@ -1,0 +1,1 @@
+import{j as i}from"./index.gHG1NCGy.js";import{S as m}from"./switch.BnAMtX5L.js";import"./label.BepTF4n1.js";const h=({checked:r,onChange:t,className:o,loading:e,disabled:s})=>i.jsx(m,{className:o,checked:r,loading:e,disabled:e?!0:s,onCheckedChange:t});export{h as D};

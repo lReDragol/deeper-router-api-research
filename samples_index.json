@@ -1,0 +1,462 @@
+[
+  {
+    "path": "/api/accessControl/list",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "keys": [
+      "online",
+      "offline"
+    ]
+  },
+  {
+    "path": "/api/accessControl/switch",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "keys": [
+      "value"
+    ]
+  },
+  {
+    "path": "/api/admin/getDeviceId",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "keys": [
+      "deviceId"
+    ]
+  },
+  {
+    "path": "/api/admin/getMyCountry",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "keys": [
+      "myCountry"
+    ]
+  },
+  {
+    "path": "/api/admin/remoteWeb",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "keys": [
+      "running"
+    ]
+  },
+  {
+    "path": "/api/appRelocator/apps",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "list_len": 7
+  },
+  {
+    "path": "/api/autoReboot/config",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "keys": [
+      "on",
+      "freq",
+      "day",
+      "hour",
+      "minute"
+    ]
+  },
+  {
+    "path": "/api/dynamic-data",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "keys": [
+      "upLoadData",
+      "downLoadData",
+      "xData"
+    ]
+  },
+  {
+    "path": "/api/info",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "list_len": 5
+  },
+  {
+    "path": "/api/inform",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "keys": [
+      "app",
+      "rgn",
+      "dns",
+      "https"
+    ]
+  },
+  {
+    "path": "/api/liquid",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "keys": [
+      "scale"
+    ]
+  },
+  {
+    "path": "/api/microPayment/getDailyTraffic",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "keys": [
+      "success",
+      "consumed",
+      "shared"
+    ]
+  },
+  {
+    "path": "/api/rustdesk/config",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "keys": [
+      "on",
+      "forced",
+      "port",
+      "pubKey",
+      "vpnSupport"
+    ]
+  },
+  {
+    "path": "/api/rustdesk/hbbrLog",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "list_len": 0
+  },
+  {
+    "path": "/api/rustdesk/version",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "keys": [
+      "hbbr",
+      "hbbs"
+    ]
+  },
+  {
+    "path": "/api/rustdesk/vpnConfig",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "keys": [
+      "on"
+    ]
+  },
+  {
+    "path": "/api/security/blockedCounts",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "keys": [
+      "ads",
+      "tracker",
+      "malicious",
+      "porn",
+      "social",
+      "game",
+      "black",
+      "total"
+    ]
+  },
+  {
+    "path": "/api/security/getUrlFilterData",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "keys": [
+      "timeline",
+      "totalSeries",
+      "blockedSeries",
+      "queries",
+      "categoryStates",
+      "shortInterval"
+    ]
+  },
+  {
+    "path": "/api/security/wanIpAccess",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "keys": [
+      "val"
+    ]
+  },
+  {
+    "path": "/api/sharing/getSharingConfig",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "keys": [
+      "success",
+      "sharingEnabled",
+      "btEnabled",
+      "smtpEnabled",
+      "maxBandwidth",
+      "dnsBlacklistForSharing"
+    ]
+  },
+  {
+    "path": "/api/sharing/getTrafficLimit",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "keys": [
+      "limit",
+      "monthly"
+    ]
+  },
+  {
+    "path": "/api/sharingSecurity/getList/1000",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "list_len": 0
+  },
+  {
+    "path": "/api/sharingSecurity/getMode",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "keys": [
+      "mode"
+    ]
+  },
+  {
+    "path": "/api/smartRoute/getDpnMode",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "keys": [
+      "dpnMode",
+      "tunnelCode",
+      "killSwitch",
+      "smartTunnel",
+      "fullTunnel"
+    ]
+  },
+  {
+    "path": "/api/smartRoute/listTunnelOptions",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "list_len": 9
+  },
+  {
+    "path": "/api/smartRoute/listTunnels",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "list_len": 9
+  },
+  {
+    "path": "/api/smartRoute/nodeLbMode",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "keys": [
+      "mode"
+    ]
+  },
+  {
+    "path": "/api/speedometer",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "keys": [
+      "guage"
+    ]
+  },
+  {
+    "path": "/api/system-info/get-autoupdate",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "keys": [
+      "autoUpdate"
+    ]
+  },
+  {
+    "path": "/api/system-info/get-latestversion",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "keys": [
+      "latestVersion",
+      "currentVersion"
+    ]
+  },
+  {
+    "path": "/api/system-info/hardware-info",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "keys": [
+      "SN",
+      "deviceId",
+      "cpuCount",
+      "cpuModel",
+      "totalMem",
+      "tempInCelsius"
+    ]
+  },
+  {
+    "path": "/api/system-info/network-address",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "keys": [
+      "ip",
+      "pubIp",
+      "routerMac",
+      "gatewayMac"
+    ]
+  },
+  {
+    "path": "/api/system-info/session-info",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "keys": [
+      "maxSessionNum",
+      "currSessionNum",
+      "tcpSessionNum",
+      "udpSessionNum",
+      "icmpSessionNum",
+      "tunnelSessionNum"
+    ]
+  },
+  {
+    "path": "/api/system-info/set-autoupdate",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "keys": [
+      "code",
+      "desc"
+    ]
+  },
+  {
+    "path": "/api/system-info/software-info",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "keys": [
+      "softwareVersion",
+      "appSigVersion",
+      "builtinRuleVersion",
+      "urlSigVersion"
+    ]
+  },
+  {
+    "path": "/api/system-info/update-latestversion",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "keys": [
+      "success",
+      "reason"
+    ]
+  },
+  {
+    "path": "/api/system-info/usage",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "keys": [
+      "xData",
+      "cpuUsageData",
+      "memUsageData"
+    ]
+  },
+  {
+    "path": "/api/tproxy/adsFilter",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "keys": [
+      "success",
+      "enable"
+    ]
+  },
+  {
+    "path": "/api/tproxy/rule",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "keys": [
+      "success",
+      "list"
+    ]
+  },
+  {
+    "path": "/api/tproxy/sslBypass",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "keys": [
+      "success",
+      "enable"
+    ]
+  },
+  {
+    "path": "/api/traffic/routedInfo",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "keys": [
+      "count",
+      "traffic"
+    ]
+  },
+  {
+    "path": "/api/traffic/savedTraffic",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "keys": [
+      "total",
+      "saved"
+    ]
+  },
+  {
+    "path": "/api/traffic/session-speed",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "keys": [
+      "timeline",
+      "traffic"
+    ]
+  },
+  {
+    "path": "/api/traffic/total-traffic",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "keys": [
+      "localTraffic",
+      "clientTraffic",
+      "serverTraffic"
+    ]
+  },
+  {
+    "path": "/api/wifi/enable",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "keys": [
+      "success",
+      "enable"
+    ]
+  },
+  {
+    "path": "/api/wifi/getAPConfig",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "keys": [
+      "success"
+    ]
+  },
+  {
+    "path": "/api/wifi/hostapdLog",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "list_len": 50
+  },
+  {
+    "path": "/api/wifi/upstreamList",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "keys": [
+      "success",
+      "list"
+    ]
+  },
+  {
+    "path": "/api/wifi/workingInfo",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "keys": [
+      "success",
+      "workingInfo"
+    ]
+  },
+  {
+    "path": "/api/worldmap-data",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "keys": [
+      "self",
+      "peerList",
+      "routedList",
+      "ngn"
+    ]
+  }
+]
