@@ -4,6 +4,8 @@ Reverse-engineered API documentation and extraction artifacts for the local web 
 
 This repository is intentionally documentation-only. It focuses on the discovered API surface, extracted frontend evidence, and sanitized sample responses.
 
+A separate roadmap for the not-yet-published local companion tool, restore workflow, and optional telemetry backend is tracked in `TODO.md`.
+
 ## Current coverage
 
 - `145` discovered API paths
@@ -21,6 +23,7 @@ This repository is intentionally documentation-only. It focuses on the discovere
 - `samples/` - sanitized example responses for successful GET endpoints
 - `samples_index.json` - mapping between endpoint paths and sample files
 - `raw_router/` - downloaded frontend assets and intermediate extraction artifacts
+- `TODO.md` - roadmap for the planned local toolkit, restore bundles, and telemetry service
 
 ## Notable findings in this update
 
