@@ -5,7 +5,7 @@ __pycache__/
 # Local router auth/session artifacts
 router_session.cookies
 
-# Local optimizer state
+# Local analysis state
 optimizer_state.json
 optimizer_config.json
 optimizer_stats.db
@@ -16,3 +16,8 @@ optimizer_stats.db
 .env
 .venv/
 venv/
+
+# Local research outputs
+recovery_maps/
+temp/
+ui_shots/

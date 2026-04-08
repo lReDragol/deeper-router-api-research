@@ -152,7 +152,9 @@
       "assets__index.SMSNCy-w.js"
     ],
     "read_probe": null,
-    "notes": []
+    "notes": [
+      "Used by the remote SSH support flow to generate a support connection code."
+    ]
   },
   {
     "path": "/api/admin/consent",
@@ -201,6 +203,25 @@
     ],
     "read_probe": null,
     "notes": []
+  },
+  {
+    "path": "/api/admin/downloadLog",
+    "category": "admin",
+    "risk": "read",
+    "methods": {
+      "GET": {
+        "body_keys": [],
+        "arg2_types": [],
+        "arg_samples": []
+      }
+    },
+    "sources": [
+      "assets__index.SMSNCy-w.js"
+    ],
+    "read_probe": null,
+    "notes": [
+      "Frontend downloads support logs as an arraybuffer and saves them as a .dl file."
+    ]
   },
   {
     "path": "/api/admin/getDeviceId",
@@ -254,6 +275,36 @@
       "size": 18
     },
     "notes": []
+  },
+  {
+    "path": "/api/admin/language",
+    "category": "admin",
+    "risk": "write",
+    "methods": {
+      "GET": {
+        "body_keys": [],
+        "arg2_types": [],
+        "arg_samples": []
+      },
+      "POST": {
+        "body_keys": [
+          "val"
+        ],
+        "arg2_types": [
+          "object_literal"
+        ],
+        "arg_samples": [
+          "{val:a}"
+        ]
+      }
+    },
+    "sources": [
+      "assets__language.BP3LqOTW.js"
+    ],
+    "read_probe": null,
+    "notes": [
+      "Stores the device UI language, not just a browser-local preference."
+    ]
   },
   {
     "path": "/api/admin/logOut",
@@ -339,7 +390,9 @@
       "list_len": null,
       "size": 17
     },
-    "notes": []
+    "notes": [
+      "Used by the remote WEB support flow; UI warns users to share the code only with support and include the login password."
+    ]
   },
   {
     "path": "/api/admin/remoteWeb/start",
@@ -356,7 +409,9 @@
       "assets__index.SMSNCy-w.js"
     ],
     "read_probe": null,
-    "notes": []
+    "notes": [
+      "Starts a single-session remote WEB support code flow."
+    ]
   },
   {
     "path": "/api/admin/remoteWeb/stop",
@@ -373,7 +428,9 @@
       "assets__index.SMSNCy-w.js"
     ],
     "read_probe": null,
-    "notes": []
+    "notes": [
+      "Stops an active remote WEB support session."
+    ]
   },
   {
     "path": "/api/admin/reset",
@@ -893,6 +950,26 @@
     "notes": []
   },
   {
+    "path": "/api/notifications",
+    "category": "notifications",
+    "risk": "read",
+    "methods": {
+      "GET": {
+        "body_keys": [],
+        "arg2_types": [],
+        "arg_samples": []
+      }
+    },
+    "sources": [
+      "assets__index.DWWaWrVa.js"
+    ],
+    "read_probe": null,
+    "notes": [
+      "Frontend also calls this endpoint as /api/notifications?open=true on initial load.",
+      "Response data is grouped under DP and MP notification buckets."
+    ]
+  },
+  {
     "path": "/api/rustdesk/config",
     "category": "rustdesk",
     "risk": "read",
@@ -1101,6 +1178,56 @@
     "notes": []
   },
   {
+    "path": "/api/security/addToBlacklist",
+    "category": "security",
+    "risk": "write",
+    "methods": {
+      "POST": {
+        "body_keys": [
+          "domainName"
+        ],
+        "arg2_types": [
+          "object_literal"
+        ],
+        "arg_samples": [
+          "{domainName:a}"
+        ]
+      }
+    },
+    "sources": [
+      "assets__index.CrxL-7Kd.js"
+    ],
+    "read_probe": null,
+    "notes": [
+      "Adds a custom DNS/HTTPS blacklist rule."
+    ]
+  },
+  {
+    "path": "/api/security/addToWhitelist",
+    "category": "security",
+    "risk": "write",
+    "methods": {
+      "POST": {
+        "body_keys": [
+          "domainName"
+        ],
+        "arg2_types": [
+          "object_literal"
+        ],
+        "arg_samples": [
+          "{domainName:a}"
+        ]
+      }
+    },
+    "sources": [
+      "assets__index.CrxL-7Kd.js"
+    ],
+    "read_probe": null,
+    "notes": [
+      "Adds a custom DNS/HTTPS whitelist rule."
+    ]
+  },
+  {
     "path": "/api/security/blockedCounts",
     "category": "security",
     "risk": "read",
@@ -1132,6 +1259,192 @@
       "size": 90
     },
     "notes": []
+  },
+  {
+    "path": "/api/security/clearBlacklist",
+    "category": "security",
+    "risk": "write",
+    "methods": {
+      "POST": {
+        "body_keys": [
+          "password"
+        ],
+        "arg2_types": [
+          "object_literal"
+        ],
+        "arg_samples": [
+          "{password:<frontend-encrypted>}"
+        ]
+      }
+    },
+    "sources": [
+      "assets__index.CrxL-7Kd.js"
+    ],
+    "read_probe": null,
+    "notes": [
+      "Clears the custom blacklist after a password-confirmed action."
+    ]
+  },
+  {
+    "path": "/api/security/clearWhitelist",
+    "category": "security",
+    "risk": "write",
+    "methods": {
+      "POST": {
+        "body_keys": [
+          "password"
+        ],
+        "arg2_types": [
+          "object_literal"
+        ],
+        "arg_samples": [
+          "{password:<frontend-encrypted>}"
+        ]
+      }
+    },
+    "sources": [
+      "assets__index.CrxL-7Kd.js"
+    ],
+    "read_probe": null,
+    "notes": [
+      "Clears the custom whitelist after a password-confirmed action."
+    ]
+  },
+  {
+    "path": "/api/security/deleteFromBlacklist",
+    "category": "security",
+    "risk": "write",
+    "methods": {
+      "POST": {
+        "body_keys": [],
+        "arg2_types": [
+          "identifier:selected_rows"
+        ],
+        "arg_samples": [
+          "selected blacklist entries array"
+        ]
+      }
+    },
+    "sources": [
+      "assets__index.CrxL-7Kd.js"
+    ],
+    "read_probe": null,
+    "notes": [
+      "Deletes selected custom DNS/HTTPS blacklist rules."
+    ]
+  },
+  {
+    "path": "/api/security/deleteFromWhitelist",
+    "category": "security",
+    "risk": "write",
+    "methods": {
+      "POST": {
+        "body_keys": [],
+        "arg2_types": [
+          "identifier:selected_rows"
+        ],
+        "arg_samples": [
+          "selected whitelist entries array"
+        ]
+      }
+    },
+    "sources": [
+      "assets__index.CrxL-7Kd.js"
+    ],
+    "read_probe": null,
+    "notes": [
+      "Deletes selected custom DNS/HTTPS whitelist rules."
+    ]
+  },
+  {
+    "path": "/api/security/exportBlacklist",
+    "category": "security",
+    "risk": "read",
+    "methods": {
+      "POST": {
+        "body_keys": [],
+        "arg2_types": [],
+        "arg_samples": []
+      }
+    },
+    "sources": [
+      "assets__index.CrxL-7Kd.js"
+    ],
+    "read_probe": null,
+    "notes": [
+      "Downloads exported blacklist data."
+    ]
+  },
+  {
+    "path": "/api/security/exportWhitelist",
+    "category": "security",
+    "risk": "read",
+    "methods": {
+      "POST": {
+        "body_keys": [],
+        "arg2_types": [],
+        "arg_samples": []
+      }
+    },
+    "sources": [
+      "assets__index.CrxL-7Kd.js"
+    ],
+    "read_probe": null,
+    "notes": [
+      "Downloads exported whitelist data."
+    ]
+  },
+  {
+    "path": "/api/security/getFilterBlacklist",
+    "category": "security",
+    "risk": "read",
+    "methods": {
+      "GET": {
+        "body_keys": [
+          "pageNo",
+          "pageSize"
+        ],
+        "arg2_types": [
+          "object_literal"
+        ],
+        "arg_samples": [
+          "{params:{pageNo:e.pageIndex,pageSize:e.pageSize}}"
+        ]
+      }
+    },
+    "sources": [
+      "assets__index.CrxL-7Kd.js"
+    ],
+    "read_probe": null,
+    "notes": [
+      "Custom DNS/HTTPS blacklist list endpoint discovered via dynamically composed security paths."
+    ]
+  },
+  {
+    "path": "/api/security/getFilterWhitelist",
+    "category": "security",
+    "risk": "read",
+    "methods": {
+      "GET": {
+        "body_keys": [
+          "pageNo",
+          "pageSize"
+        ],
+        "arg2_types": [
+          "object_literal"
+        ],
+        "arg_samples": [
+          "{params:{pageNo:e.pageIndex,pageSize:e.pageSize}}"
+        ]
+      }
+    },
+    "sources": [
+      "assets__index.CrxL-7Kd.js"
+    ],
+    "read_probe": null,
+    "notes": [
+      "Custom DNS/HTTPS whitelist list endpoint discovered via dynamically composed security paths."
+    ]
   },
   {
     "path": "/api/security/getUrlFilterData",
@@ -1166,6 +1479,56 @@
       "size": 3051
     },
     "notes": []
+  },
+  {
+    "path": "/api/security/importBlacklist",
+    "category": "security",
+    "risk": "write",
+    "methods": {
+      "POST": {
+        "body_keys": [
+          "listFile"
+        ],
+        "arg2_types": [
+          "form_data"
+        ],
+        "arg_samples": [
+          "FormData(listFile=<uploaded file>)"
+        ]
+      }
+    },
+    "sources": [
+      "assets__index.CrxL-7Kd.js"
+    ],
+    "read_probe": null,
+    "notes": [
+      "Imports blacklist entries from an uploaded file."
+    ]
+  },
+  {
+    "path": "/api/security/importWhitelist",
+    "category": "security",
+    "risk": "write",
+    "methods": {
+      "POST": {
+        "body_keys": [
+          "listFile"
+        ],
+        "arg2_types": [
+          "form_data"
+        ],
+        "arg_samples": [
+          "FormData(listFile=<uploaded file>)"
+        ]
+      }
+    },
+    "sources": [
+      "assets__index.CrxL-7Kd.js"
+    ],
+    "read_probe": null,
+    "notes": [
+      "Imports whitelist entries from an uploaded file."
+    ]
   },
   {
     "path": "/api/security/setCategoryStates",
@@ -1521,7 +1884,28 @@
       "list_len": 0,
       "size": 2
     },
-    "notes": []
+    "notes": [
+      "Frontend also downloads /api/sharingSecurity/getList/1000?unmasked=Y as an arraybuffer export variant."
+    ]
+  },
+  {
+    "path": "/api/sharingSecurity/getList/{start}/{end}/{pageSize}/{offset}/{keyword}",
+    "category": "sharingSecurity",
+    "risk": "read",
+    "methods": {
+      "GET": {
+        "body_keys": [],
+        "arg2_types": [],
+        "arg_samples": []
+      }
+    },
+    "sources": [
+      "assets__index.DqIyz8Vy.js"
+    ],
+    "read_probe": null,
+    "notes": [
+      "Supports query variant ?unmasked=Y for downloadable plaintext/binary log export."
+    ]
   },
   {
     "path": "/api/sharingSecurity/getMode",
@@ -1548,6 +1932,25 @@
       "size": 19
     },
     "notes": []
+  },
+  {
+    "path": "/api/sharingSecurity/getTotal/{start}/{end}/{keyword}",
+    "category": "sharingSecurity",
+    "risk": "read",
+    "methods": {
+      "GET": {
+        "body_keys": [],
+        "arg2_types": [],
+        "arg_samples": []
+      }
+    },
+    "sources": [
+      "assets__index.DqIyz8Vy.js"
+    ],
+    "read_probe": null,
+    "notes": [
+      "Advanced sharing-log count query used before paginated retrieval."
+    ]
   },
   {
     "path": "/api/smartRoute/addToBlacklist/domain",
@@ -1800,6 +2203,82 @@
     ],
     "read_probe": null,
     "notes": []
+  },
+  {
+    "path": "/api/smartRoute/exportDirect/domain",
+    "category": "smartRoute",
+    "risk": "read",
+    "methods": {
+      "POST": {
+        "body_keys": [],
+        "arg2_types": [],
+        "arg_samples": []
+      }
+    },
+    "sources": [
+      "assets__index.BhYV-5Mr.js"
+    ],
+    "read_probe": null,
+    "notes": [
+      "Exports the direct-routing domain list."
+    ]
+  },
+  {
+    "path": "/api/smartRoute/exportDirect/ip",
+    "category": "smartRoute",
+    "risk": "read",
+    "methods": {
+      "POST": {
+        "body_keys": [],
+        "arg2_types": [],
+        "arg_samples": []
+      }
+    },
+    "sources": [
+      "assets__index.B0IPt6Tx.js"
+    ],
+    "read_probe": null,
+    "notes": [
+      "Exports the direct-routing IP list."
+    ]
+  },
+  {
+    "path": "/api/smartRoute/exportSmart/domain",
+    "category": "smartRoute",
+    "risk": "read",
+    "methods": {
+      "POST": {
+        "body_keys": [],
+        "arg2_types": [],
+        "arg_samples": []
+      }
+    },
+    "sources": [
+      "assets__index.BhYV-5Mr.js"
+    ],
+    "read_probe": null,
+    "notes": [
+      "Exports the smart-routing domain list."
+    ]
+  },
+  {
+    "path": "/api/smartRoute/exportSmart/ip",
+    "category": "smartRoute",
+    "risk": "read",
+    "methods": {
+      "POST": {
+        "body_keys": [],
+        "arg2_types": [],
+        "arg_samples": []
+      }
+    },
+    "sources": [
+      "assets__index.B0IPt6Tx.js"
+    ],
+    "read_probe": null,
+    "notes": [
+      "Exports the smart-routing IP list."
+    ]
   },
   {
     "path": "/api/smartRoute/getDpnMode",
@@ -2132,7 +2611,9 @@
       "list_len": null,
       "size": 15
     },
-    "notes": []
+    "notes": [
+      "UI strings describe Regular, Random, Domain-Aware, and Round-Robin node selection modes."
+    ]
   },
   {
     "path": "/api/smartRoute/refreshTunnel",
@@ -2523,7 +3004,28 @@
       "list_len": null,
       "size": 31
     },
-    "notes": []
+    "notes": [
+      "HTTPS filtering UI is paired with downloadable root CA installation guidance."
+    ]
+  },
+  {
+    "path": "/api/tproxy/rootCaCert",
+    "category": "tproxy",
+    "risk": "read",
+    "methods": {
+      "GET": {
+        "body_keys": [],
+        "arg2_types": [],
+        "arg_samples": []
+      }
+    },
+    "sources": [
+      "assets__actions.BcRzSJ0R.js"
+    ],
+    "read_probe": null,
+    "notes": [
+      "Downloads the root CA certificate used by HTTPS filtering flows."
+    ]
   },
   {
     "path": "/api/tproxy/rule",

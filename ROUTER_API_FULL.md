@@ -1,9 +1,9 @@
 # Deeper Router API Documentation (34.34.34.34)
 
-Generated: 2026-02-25 11:41 UTC
+Generated: 2026-04-08 14:05 UTC
 
 ## Scope and method
-- Source: router web frontend bundle (`assets/*.js`) + live authenticated probes.
+- Source: router web frontend bundle (`assets/*.js`) + live authenticated probes + second-pass review of dynamically composed paths.
 - Auth tested with credentials: `admin/admin`.
 - Safety: only read-only probes were executed automatically; write endpoints are documented but not invoked.
 
@@ -15,17 +15,19 @@ Generated: 2026-02-25 11:41 UTC
 
 ### Password encryption
 - Frontend uses Node/Web crypto equivalent: `crypto.publicEncrypt(publicKey, Buffer.from(password)).toString("base64")`.
-- Public key extracted from frontend bundle is included in `router_client.py`.
+- The public key is embedded in the shipped frontend bundle and can be extracted from the authentication code path.
 
 ## High-level stats
-- Endpoints discovered: **123**
-- Methods: `DELETE`=2, `GET`=63, `POST`=68
-- Read probes executed: **63** (`200`: 50, non-200: 13)
+- Endpoints discovered: **145**
+- Methods: `GET`=71, `POST`=83, `DELETE`=2
+- Read probes executed: **63** (`200`: 50, `400`: 5, `403`: 8)
 
 ## Important runtime findings
 - `/api/admin/getDeviceId` is accessible without login cookie (returns device id).
 - Wallet-related endpoints can return `403 {"walletLocked":true}` until wallet unlock.
 - Some list endpoints require query params and return `400` when missing, e.g. `/api/smartRoute/getRoutingWhitelist/domain` -> `{"paramError":"Page param missing"}`.
+- A second-pass bundle review uncovered extra endpoints hidden behind dynamic path composition, especially under `/api/security/*`.
+- Raw string extraction also contains a false positive: `/api/wifi/getAPConfig request filed` is a frontend error log string, not a real API path.
 
 ## Category: `accessControl`
 
@@ -44,8 +46,10 @@ Generated: 2026-02-25 11:41 UTC
 | `/api/admin/connect` | `POST` | `write` | `` |  |
 | `/api/admin/consent` | `POST` | `write` | `` | POST: privacyPolicy, termsOfUse |
 | `/api/admin/deeperLog` | `POST` | `write` | `` | POST: level, message |
+| `/api/admin/downloadLog` | `GET` | `read` | `` |  |
 | `/api/admin/getDeviceId` | `GET` | `read` | `200` |  |
 | `/api/admin/getMyCountry` | `GET` | `read` | `200` |  |
+| `/api/admin/language` | `GET, POST` | `write` | `` | POST: val |
 | `/api/admin/logOut` | `POST` | `write` | `` |  |
 | `/api/admin/login` | `POST` | `write` | `` | POST: password, username |
 | `/api/admin/reboot` | `POST` | `critical-write` | `` |  |
@@ -113,6 +117,12 @@ Generated: 2026-02-25 11:41 UTC
 |---|---|---|---|---|
 | `/api/microPayment/getDailyTraffic` | `GET` | `read` | `200` |  |
 
+## Category: `notifications`
+
+| Path | Methods | Risk | Probe | Request body keys (if known) |
+|---|---|---|---|---|
+| `/api/notifications` | `GET` | `read` | `` |  |
+
 ## Category: `rustdesk`
 
 | Path | Methods | Risk | Probe | Request body keys (if known) |
@@ -131,8 +141,20 @@ Generated: 2026-02-25 11:41 UTC
 
 | Path | Methods | Risk | Probe | Request body keys (if known) |
 |---|---|---|---|---|
+| `/api/security/addToBlacklist` | `POST` | `write` | `` | POST: domainName |
+| `/api/security/addToWhitelist` | `POST` | `write` | `` | POST: domainName |
 | `/api/security/blockedCounts` | `GET` | `read` | `200` |  |
+| `/api/security/clearBlacklist` | `POST` | `write` | `` | POST: password |
+| `/api/security/clearWhitelist` | `POST` | `write` | `` | POST: password |
+| `/api/security/deleteFromBlacklist` | `POST` | `write` | `` |  |
+| `/api/security/deleteFromWhitelist` | `POST` | `write` | `` |  |
+| `/api/security/exportBlacklist` | `POST` | `read` | `` |  |
+| `/api/security/exportWhitelist` | `POST` | `read` | `` |  |
+| `/api/security/getFilterBlacklist` | `GET` | `read` | `` | GET: pageNo, pageSize |
+| `/api/security/getFilterWhitelist` | `GET` | `read` | `` | GET: pageNo, pageSize |
 | `/api/security/getUrlFilterData` | `GET` | `read` | `200` |  |
+| `/api/security/importBlacklist` | `POST` | `write` | `` | POST: listFile |
+| `/api/security/importWhitelist` | `POST` | `write` | `` | POST: listFile |
 | `/api/security/setCategoryStates` | `POST` | `write` | `` |  |
 | `/api/security/wanIpAccess` | `GET, POST` | `write` | `200` |  |
 
@@ -140,7 +162,7 @@ Generated: 2026-02-25 11:41 UTC
 
 | Path | Methods | Risk | Probe | Request body keys (if known) |
 |---|---|---|---|---|
-| `/api/sharing/blacklist` | `DELETE, GET, POST` | `write` | `400` | DELETE: data; GET: pageNo, pageSize, params; POST: domain |
+| `/api/sharing/blacklist` | `GET, POST, DELETE` | `write` | `400` | GET: pageNo, pageSize, params; POST: domain; DELETE: data |
 | `/api/sharing/clearBlacklist` | `POST` | `write` | `` |  |
 | `/api/sharing/getSharingConfig` | `GET` | `read` | `200` |  |
 | `/api/sharing/getTrafficLimit` | `GET` | `read` | `200` |  |
@@ -156,7 +178,9 @@ Generated: 2026-02-25 11:41 UTC
 | Path | Methods | Risk | Probe | Request body keys (if known) |
 |---|---|---|---|---|
 | `/api/sharingSecurity/getList/1000` | `GET` | `read` | `200` |  |
+| `/api/sharingSecurity/getList/{start}/{end}/{pageSize}/{offset}/{keyword}` | `GET` | `read` | `` |  |
 | `/api/sharingSecurity/getMode` | `GET` | `read` | `200` |  |
+| `/api/sharingSecurity/getTotal/{start}/{end}/{keyword}` | `GET` | `read` | `` |  |
 
 ## Category: `smartRoute`
 
@@ -174,6 +198,10 @@ Generated: 2026-02-25 11:41 UTC
 | `/api/smartRoute/deleteTunnels` | `POST` | `write` | `` |  |
 | `/api/smartRoute/editWhiteEntry/domain` | `POST` | `write` | `` |  |
 | `/api/smartRoute/editWhiteEntry/ip` | `POST` | `write` | `` |  |
+| `/api/smartRoute/exportDirect/domain` | `POST` | `read` | `` |  |
+| `/api/smartRoute/exportDirect/ip` | `POST` | `read` | `` |  |
+| `/api/smartRoute/exportSmart/domain` | `POST` | `read` | `` |  |
+| `/api/smartRoute/exportSmart/ip` | `POST` | `read` | `` |  |
 | `/api/smartRoute/getDpnMode` | `GET` | `read` | `200` |  |
 | `/api/smartRoute/getRoutingBlacklist/domain` | `GET` | `read` | `400` | GET: pageNo, pageSize, params |
 | `/api/smartRoute/getRoutingBlacklist/ip` | `GET` | `read` | `400` | GET: pageNo, pageSize, params |
@@ -215,6 +243,7 @@ Generated: 2026-02-25 11:41 UTC
 | Path | Methods | Risk | Probe | Request body keys (if known) |
 |---|---|---|---|---|
 | `/api/tproxy/adsFilter` | `GET, POST` | `write` | `200` |  |
+| `/api/tproxy/rootCaCert` | `GET` | `read` | `` |  |
 | `/api/tproxy/rule` | `GET, POST` | `write` | `200` |  |
 | `/api/tproxy/sslBypass` | `GET, POST` | `write` | `200` |  |
 
@@ -263,5 +292,5 @@ Generated: 2026-02-25 11:41 UTC
 ## Files in this folder
 - `router_api_catalog.json` - full machine-readable catalog.
 - `router_api_openapi_like.json` - OpenAPI-like specification.
-- `router_client.py` - script/client for auth + API calls.
+- `router_api_calls_catalog.json` - extracted frontend call inventory.
 - `router_get_probe_results.json` - raw probe outputs for GET endpoints.
